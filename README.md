@@ -113,6 +113,13 @@ npx serve out
 
 详细数据格式请参考 [AGENTS.md](./AGENTS.md)。
 
+## 📋 Development Rules
+
+- 使用统一 Commit Message 规范
+- 历史内容更新使用 `Data`
+- 新功能使用 `Feat`
+- 详细规范见 [AGENTS.md](./AGENTS.md)
+
 ## 📁 项目结构
 
 ```
