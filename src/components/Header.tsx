@@ -35,12 +35,6 @@ export default function Header() {
             >
               🏙️ 城市时间线
             </Link>
-            <Link
-              href="/#landmarks"
-              className="text-sm text-gray-600 hover:text-gray-900 transition-colors"
-            >
-              🏛️ 世界地标
-            </Link>
             <a
               href="https://github.com/Rainiwalk/WhatHappenedHere"
               target="_blank"

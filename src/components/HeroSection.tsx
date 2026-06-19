@@ -3,13 +3,11 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import SearchBar from "./SearchBar";
 import CitySearchBar from "./CitySearchBar";
 import { getAllCities } from "@/lib/city-data";
 import { CitySummary } from "@/types";
 
 export default function HeroSection() {
-  const [activeTab, setActiveTab] = useState<"city" | "landmark">("city");
   const [cities, setCities] = useState<CitySummary[]>([]);
 
   useEffect(() => {
@@ -44,35 +42,6 @@ export default function HeroSection() {
           </p>
         </motion.div>
 
-        {/* Tab switcher */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.1 }}
-          className="mt-8 flex items-center justify-center gap-2"
-        >
-          <button
-            onClick={() => setActiveTab("city")}
-            className={`px-6 py-2 rounded-full text-sm font-medium transition-colors ${
-              activeTab === "city"
-                ? "bg-amber-500 text-white"
-                : "bg-white text-gray-600 hover:bg-gray-100"
-            }`}
-          >
-            🏙️ 城市时间线
-          </button>
-          <button
-            onClick={() => setActiveTab("landmark")}
-            className={`px-6 py-2 rounded-full text-sm font-medium transition-colors ${
-              activeTab === "landmark"
-                ? "bg-blue-500 text-white"
-                : "bg-white text-gray-600 hover:bg-gray-100"
-            }`}
-          >
-            🏛️ 世界地标
-          </button>
-        </motion.div>
-
         {/* Search */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -80,7 +49,7 @@ export default function HeroSection() {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="mt-8"
         >
-          {activeTab === "city" ? <CitySearchBar /> : <SearchBar />}
+          <CitySearchBar />
         </motion.div>
 
         {/* Quick links */}
@@ -90,41 +59,16 @@ export default function HeroSection() {
           transition={{ duration: 0.6, delay: 0.4 }}
           className="mt-8 flex flex-wrap items-center justify-center gap-3"
         >
-          <span className="text-sm text-gray-500">
-            {activeTab === "city" ? "所有城市:" : "热门地标:"}
-          </span>
-          {activeTab === "city" ? (
-            cities.map((city) => (
-              <Link
-                key={city.id}
-                href={`/city/${city.id}`}
-                className="px-4 py-2 bg-white rounded-full text-sm text-gray-700 hover:text-amber-600 hover:bg-amber-50 transition-colors border border-gray-200"
-              >
-                {city.nameLocal || city.name}
-              </Link>
-            ))
-          ) : (
-            <>
-              <Link
-                href="/location/tokyo-station"
-                className="px-4 py-2 bg-white rounded-full text-sm text-gray-700 hover:text-blue-600 hover:bg-blue-50 transition-colors border border-gray-200"
-              >
-                东京站
-              </Link>
-              <Link
-                href="/location/eiffel-tower"
-                className="px-4 py-2 bg-white rounded-full text-sm text-gray-700 hover:text-blue-600 hover:bg-blue-50 transition-colors border border-gray-200"
-              >
-                埃菲尔铁塔
-              </Link>
-              <Link
-                href="/location/forbidden-city"
-                className="px-4 py-2 bg-white rounded-full text-sm text-gray-700 hover:text-blue-600 hover:bg-blue-50 transition-colors border border-gray-200"
-              >
-                紫禁城
-              </Link>
-            </>
-          )}
+          <span className="text-sm text-gray-500">所有城市:</span>
+          {cities.map((city) => (
+            <Link
+              key={city.id}
+              href={`/city/${city.id}`}
+              className="px-4 py-2 bg-white rounded-full text-sm text-gray-700 hover:text-amber-600 hover:bg-amber-50 transition-colors border border-gray-200"
+            >
+              {city.nameLocal || city.name}
+            </Link>
+          ))}
         </motion.div>
       </div>
     </section>
