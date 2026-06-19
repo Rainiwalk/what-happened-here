@@ -147,6 +147,13 @@ what-happened-here/
 
 ## Key Implementation Details
 
+### City Navigation
+
+- City detail pages have left/right navigation arrows to switch between cities
+- Navigation follows the order in `cities-index.json` (circular: first ↔ last)
+- Only visible on medium screens and above (`hidden md:block`)
+- Uses `getAdjacentCities()` from `server-city-data.ts`
+
 ### Static Site Generation (SSG)
 
 - Uses `output: 'export'` in `next.config.ts`
