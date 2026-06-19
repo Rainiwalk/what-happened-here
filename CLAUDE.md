@@ -2,9 +2,14 @@
 
 ## Project Overview
 
-A static history exploration website where users discover historical events at famous landmarks through interactive timelines.
+**城市时间线档案馆** - A static history exploration website with two main features:
 
-**Core flow:** Select location → View timeline → Browse historical photos → See map position
+1. **城市时间线 (Primary)** - Help users understand how cities formed through interactive timelines
+2. **世界地标 (Secondary)** - Famous landmarks history
+
+**Core insight:** World-famous landmarks are well-documented everywhere, but local city history (like Tangshan, Baoding) is hard to find unless you visit a museum. This site fills that gap.
+
+**Core flow:** Search city → View timeline (ancient → modern) → Understand city formation
 
 ## Tech Stack
 
@@ -21,37 +26,49 @@ A static history exploration website where users discover historical events at f
 what-happened-here/
 ├── .github/workflows/deploy.yml   # GitHub Pages auto-deploy
 ├── public/
-│   ├── data/                      # Location JSON data files
-│   │   ├── locations.json         # Index of all locations
-│   │   ├── tokyo-station.json     # Individual location data
-│   │   ├── eiffel-tower.json
-│   │   └── forbidden-city.json
-│   └── images/                    # Historical photos
-│       ├── tokyo-station.jpg      # Cover images
-│       ├── tokyo-station-1914.jpg # Timeline event images
-│       └── ...
+│   ├── data/
+│   │   ├── cities-index.json      # Cities index
+│   │   ├── cities/                # City data files
+│   │   │   ├── tangshan.json
+│   │   │   ├── baoding.json
+│   │   │   └── tianjin.json
+│   │   ├── locations.json         # Landmarks index
+│   │   ├── tokyo-station.json     # Individual landmark data
+│   │   └── ...
+│   └── images/
+│       ├── cities/                # City cover images
+│       └── ...                    # Landmark images
 ├── src/
 │   ├── app/
-│   │   ├── layout.tsx             # Root layout with Header/Footer
-│   │   ├── page.tsx               # Homepage
-│   │   ├── not-found.tsx          # 404 page
-│   │   └── location/[id]/page.tsx # Location detail (SSG)
+│   │   ├── layout.tsx             # Root layout
+│   │   ├── page.tsx               # Homepage (cities + landmarks)
+│   │   ├── city/[id]/page.tsx     # City detail (SSG)
+│   │   ├── location/[id]/page.tsx # Landmark detail (SSG)
+│   │   └── not-found.tsx
 │   ├── components/
-│   │   ├── Header.tsx             # Fixed navigation bar
-│   │   ├── Footer.tsx             # Site footer
-│   │   ├── HeroSection.tsx        # Homepage hero with search
-│   │   ├── SearchBar.tsx          # Fuzzy search component
-│   │   ├── LocationCard.tsx       # Location preview card
-│   │   ├── FeaturedLocations.tsx  # Location grid section
-│   │   ├── LocationHero.tsx       # Location detail header
-│   │   ├── Timeline.tsx           # Historical timeline container
+│   │   ├── Header.tsx             # Navigation with city/landmark tabs
+│   │   ├── Footer.tsx
+│   │   ├── HeroSection.tsx        # Homepage hero with tab switcher
+│   │   ├── CitySearchBar.tsx      # City search
+│   │   ├── CityCard.tsx           # City preview card
+│   │   ├── FeaturedCities.tsx     # City grid section
+│   │   ├── CityHero.tsx           # City detail header
+│   │   ├── CityTimeline.tsx       # City timeline with era filter
+│   │   ├── RelatedCities.tsx      # Related cities
+│   │   ├── SearchBar.tsx          # Landmark search
+│   │   ├── LocationCard.tsx       # Landmark preview card
+│   │   ├── FeaturedLocations.tsx  # Landmark grid section
+│   │   ├── LocationHero.tsx       # Landmark detail header
+│   │   ├── Timeline.tsx           # Landmark timeline
 │   │   ├── TimelineEvent.tsx      # Single timeline entry
 │   │   ├── ImageGallery.tsx       # Photo gallery with lightbox
 │   │   ├── MapView.tsx            # Leaflet map component
 │   │   └── RelatedLocations.tsx   # Related locations section
 │   ├── lib/
-│   │   ├── data.ts                # Client-side data fetching
-│   │   └── server-data.ts         # Server-side data (for SSG)
+│   │   ├── city-data.ts           # Client-side city data fetching
+│   │   ├── server-city-data.ts    # Server-side city data (for SSG)
+│   │   ├── data.ts                # Client-side landmark data fetching
+│   │   └── server-data.ts         # Server-side landmark data (for SSG)
 │   └── types/
 │       └── index.ts               # TypeScript interfaces
 ├── next.config.ts                 # Static export config
@@ -61,7 +78,52 @@ what-happened-here/
 
 ## Data Format
 
-### Location Index (`public/data/locations.json`)
+### City Index (`public/data/cities-index.json`)
+
+```json
+[
+  {
+    "id": "tangshan",
+    "name": "Tangshan",
+    "nameLocal": "唐山",
+    "province": "河北",
+    "coverImage": "/images/cities/tangshan.jpg",
+    "summary": "Brief description..."
+  }
+]
+```
+
+### City Detail (`public/data/cities/{id}.json`)
+
+```json
+{
+  "id": "tangshan",
+  "name": "Tangshan",
+  "nameLocal": "唐山",
+  "province": "河北",
+  "lat": 39.6292,
+  "lng": 118.1802,
+  "summary": "Brief summary...",
+  "description": "Detailed description...",
+  "coverImage": "/images/cities/tangshan.jpg",
+  "timeline": [
+    {
+      "year": "645",
+      "era": "ancient",
+      "title": "唐太宗东征驻跸",
+      "description": "Detailed description...",
+      "image": "/images/cities/tangshan-645.jpg"
+    }
+  ],
+  "images": [...],
+  "relatedCities": ["baoding", "tianjin"],
+  "relatedLocations": ["forbidden-city"]
+}
+```
+
+**Era types:** `ancient` (古代), `modern` (近代 1800-1949), `contemporary` (现代 1949+)
+
+### Landmark Index (`public/data/locations.json`)
 
 ```json
 [
@@ -75,38 +137,6 @@ what-happened-here/
     "summary": "Brief description..."
   }
 ]
-```
-
-### Location Detail (`public/data/{id}.json`)
-
-```json
-{
-  "id": "tokyo-station",
-  "name": "Tokyo Station",
-  "nameLocal": "東京駅",
-  "country": "Japan",
-  "city": "Tokyo",
-  "lat": 35.681236,
-  "lng": 139.767125,
-  "summary": "Full description...",
-  "coverImage": "/images/tokyo-station.jpg",
-  "timeline": [
-    {
-      "year": "1914",
-      "title": "Station Opens",
-      "description": "Detailed event description...",
-      "image": "/images/tokyo-station-1914.jpg"
-    }
-  ],
-  "images": [
-    {
-      "url": "/images/tokyo-station-1914.jpg",
-      "year": "1914",
-      "caption": "Photo description..."
-    }
-  ],
-  "relatedLocations": ["forbidden-city", "big-ben"]
-}
 ```
 
 ## Key Implementation Details
@@ -137,7 +167,14 @@ what-happened-here/
 - Searches: name, nameLocal, country, city, summary
 - Debounced input (300ms)
 
-## Adding New Locations
+## Adding New Cities
+
+1. Create JSON file in `public/data/cities/{city-id}.json`
+2. Add entry to `public/data/cities-index.json`
+3. Add cover image to `public/images/cities/`
+4. Rebuild: `npm run build`
+
+## Adding New Landmarks
 
 1. Create JSON file in `public/data/{location-id}.json`
 2. Add entry to `public/data/locations.json`
@@ -152,7 +189,13 @@ npm run build    # Build static site to out/
 npm run lint     # Run ESLint
 ```
 
-## Current Locations (30 total)
+## Current Cities (3 total)
+
+- `tangshan` - 唐山, 河北 (30 events: ancient → modern)
+- `baoding` - 保定, 河北 (30 events: ancient → modern)
+- `tianjin` - 天津, 天津 (30 events: ancient → modern)
+
+## Current Landmarks (30 total)
 
 ### Asia (7)
 - `tokyo-station` - Tokyo Station, Japan (東京駅)

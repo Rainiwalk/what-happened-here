@@ -2,31 +2,31 @@
 
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
-import { getAllLocations } from "@/lib/data";
-import { LocationSummary } from "@/types";
-import LocationCard from "./LocationCard";
+import { getAllCities } from "@/lib/city-data";
+import { CitySummary } from "@/types";
+import CityCard from "./CityCard";
 
-export default function FeaturedLocations() {
-  const [locations, setLocations] = useState<LocationSummary[]>([]);
+export default function FeaturedCities() {
+  const [cities, setCities] = useState<CitySummary[]>([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const fetchLocations = async () => {
+    const fetchCities = async () => {
       try {
-        const data = await getAllLocations();
-        setLocations(data);
+        const data = await getAllCities();
+        setCities(data);
       } catch (error) {
-        console.error("Failed to fetch locations:", error);
+        console.error("Failed to fetch cities:", error);
       } finally {
         setLoading(false);
       }
     };
 
-    fetchLocations();
+    fetchCities();
   }, []);
 
   return (
-    <section id="landmarks" className="py-20 bg-gray-50">
+    <section id="cities" className="py-20 bg-gradient-to-b from-amber-50 to-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section header */}
         <motion.div
@@ -36,11 +36,14 @@ export default function FeaturedLocations() {
           transition={{ duration: 0.5 }}
           className="text-center mb-12"
         >
+          <span className="inline-block px-4 py-1 bg-amber-100 text-amber-700 rounded-full text-sm font-medium mb-4">
+            🏙️ 城市时间线
+          </span>
           <h2 className="text-3xl font-bold text-gray-900">
-            Featured Locations
+            探索城市的历史脉络
           </h2>
           <p className="mt-4 text-gray-600 max-w-2xl mx-auto">
-            探索世界各地的历史地标，了解它们背后的故事
+            每座城市都有自己的故事。用时间线了解一座城市是如何形成的。
           </p>
         </motion.div>
 
@@ -56,12 +59,8 @@ export default function FeaturedLocations() {
           </div>
         ) : (
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {locations.map((location, index) => (
-              <LocationCard
-                key={location.id}
-                location={location}
-                index={index}
-              />
+            {cities.map((city, index) => (
+              <CityCard key={city.id} city={city} index={index} />
             ))}
           </div>
         )}

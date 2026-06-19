@@ -27,13 +27,19 @@ export default function Header() {
               href="/"
               className="text-sm text-gray-600 hover:text-gray-900 transition-colors"
             >
-              Explore
+              首页
             </Link>
             <Link
-              href="/#featured"
+              href="/#cities"
+              className="text-sm text-amber-600 hover:text-amber-700 font-medium transition-colors"
+            >
+              🏙️ 城市时间线
+            </Link>
+            <Link
+              href="/#landmarks"
               className="text-sm text-gray-600 hover:text-gray-900 transition-colors"
             >
-              Featured
+              🏛️ 世界地标
             </Link>
             <a
               href="https://github.com"

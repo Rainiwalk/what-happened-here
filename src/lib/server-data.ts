@@ -27,6 +27,12 @@ export function getAllLocationIds(): string[] {
   const dataDir = join(process.cwd(), "public", "data");
   const files = readdirSync(dataDir);
   return files
-    .filter((file) => file.endsWith(".json") && file !== "locations.json")
+    .filter(
+      (file) =>
+        file.endsWith(".json") &&
+        file !== "locations.json" &&
+        file !== "cities-index.json" &&
+        !file.startsWith("cities")
+    )
     .map((file) => file.replace(".json", ""));
 }
