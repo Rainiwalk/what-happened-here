@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import { motion } from "framer-motion";
 
 interface MapViewProps {
@@ -11,10 +11,33 @@ interface MapViewProps {
 
 export default function MapView({ lat, lng, name }: MapViewProps) {
   const [MapComponent, setMapComponent] = useState<React.ComponentType | null>(null);
+  const [shouldLoad, setShouldLoad] = useState(false);
+  const containerRef = useRef<HTMLDivElement>(null);
 
+  // IntersectionObserver: 地图区域接近视口时才开始加载
   useEffect(() => {
-    // Dynamically import react-leaflet to avoid SSR issues
+    const el = containerRef.current;
+    if (!el) return;
+
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setShouldLoad(true);
+          observer.disconnect();
+        }
+      },
+      { rootMargin: "200px" }
+    );
+    observer.observe(el);
+    return () => observer.disconnect();
+  }, []);
+
+  // 加载 Leaflet 和 react-leaflet
+  useEffect(() => {
+    if (!shouldLoad) return;
+
     const loadMap = async () => {
+      await import("leaflet/dist/leaflet.css");
       const L = await import("leaflet");
       const { MapContainer, TileLayer, Marker, Popup } = await import("react-leaflet");
 
@@ -50,7 +73,7 @@ export default function MapView({ lat, lng, name }: MapViewProps) {
     };
 
     loadMap();
-  }, [lat, lng, name]);
+  }, [shouldLoad, lat, lng, name]);
 
   return (
     <section className="py-20 bg-white">
@@ -71,6 +94,7 @@ export default function MapView({ lat, lng, name }: MapViewProps) {
 
         {/* Map container */}
         <motion.div
+          ref={containerRef}
           initial={{ opacity: 0, scale: 0.95 }}
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
@@ -84,7 +108,9 @@ export default function MapView({ lat, lng, name }: MapViewProps) {
               <div className="w-full h-full bg-gradient-to-br from-blue-50 to-gray-100 flex items-center justify-center">
                 <div className="text-center">
                   <span className="text-6xl">🗺️</span>
-                  <p className="mt-4 text-gray-500">Loading map...</p>
+                  <p className="mt-4 text-gray-500">
+                    {shouldLoad ? "Loading map..." : `${lat.toFixed(4)}, ${lng.toFixed(4)}`}
+                  </p>
                 </div>
               </div>
             )}

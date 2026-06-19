@@ -7,7 +7,7 @@
   "lng": 115.4646,
   "summary": "保定，位于河北省中部，自古为京畿重地。其名取自\"保卫大都，安定天下\"之意，元代起便是拱卫北京的战略要冲。作为直隶总督驻地长达三百余年，保定在近代中国军事、政治史上占有重要地位。",
   "description": "保定地处华北平原，西依太行山，东临白洋淀，是连接北京与中原的重要通道。春秋战国时期属燕赵之地，文化底蕴深厚。元代取\"保卫大都，安定天下\"之意得名保定，此后一直作为畿辅重镇。明清两代，保定为直隶省会所在地，是北方政治、军事中心之一。保定陆军军官学校培养了大批近代军事人才，影响了中国近现代历史进程。古莲花池始建于元代，历经八百余年，是保定的文化象征。如今保定作为京津冀协同发展的重要节点城市，正迎来新的发展机遇。",
-  "coverImage": "/images/cities/baoding.jpg",
+  "coverImage": "/images/cities/baoding.webp",
   "timeline": [
     {
       "year": "-314",
@@ -198,52 +198,52 @@
   ],
   "images": [
     {
-      "url": "/images/cities/baoding-ancient.jpg",
+      "url": "/images/cities/baoding-ancient.webp",
       "year": "1213",
       "caption": "元代保定古城复原图"
     },
     {
-      "url": "/images/cities/baoding-lotus.jpg",
+      "url": "/images/cities/baoding-lotus.webp",
       "year": "1227",
       "caption": "古莲花池八百年历史遗迹"
     },
     {
-      "url": "/images/cities/baoding-governor.jpg",
+      "url": "/images/cities/baoding-governor.webp",
       "year": "1669",
       "caption": "直隶总督署旧址"
     },
     {
-      "url": "/images/cities/baoding-academy.jpg",
+      "url": "/images/cities/baoding-academy.webp",
       "year": "1903",
       "caption": "保定陆军军官学校校门"
     },
     {
-      "url": "/images/cities/baoding-baigandian.jpg",
+      "url": "/images/cities/baoding-baigandian.webp",
       "year": "1938",
       "caption": "白洋淀抗日根据地"
     },
     {
-      "url": "/images/cities/baoding-liberation.jpg",
+      "url": "/images/cities/baoding-liberation.webp",
       "year": "1948",
       "caption": "保定解放时的欢庆场景"
     },
     {
-      "url": "/images/cities/baoding-capital.jpg",
+      "url": "/images/cities/baoding-capital.webp",
       "year": "1949",
       "caption": "新中国成立初期的保定城"
     },
     {
-      "url": "/images/cities/baoding-solar.jpg",
+      "url": "/images/cities/baoding-solar.webp",
       "year": "2005",
       "caption": "保定中国电谷太阳能产业基地"
     },
     {
-      "url": "/images/cities/baoding-xiongan.jpg",
+      "url": "/images/cities/baoding-xiongan.webp",
       "year": "2017",
       "caption": "雄安新区规划示意图"
     },
     {
-      "url": "/images/cities/baoding-modern.jpg",
+      "url": "/images/cities/baoding-modern.webp",
       "year": "2025",
       "caption": "保定现代化城市新貌"
     }

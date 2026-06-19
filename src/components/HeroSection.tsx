@@ -1,19 +1,15 @@
 "use client";
 
-import { useState, useEffect } from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import CitySearchBar from "./CitySearchBar";
-import { getAllCities } from "@/lib/city-data";
 import { CitySummary } from "@/types";
 
-export default function HeroSection() {
-  const [cities, setCities] = useState<CitySummary[]>([]);
+interface HeroSectionProps {
+  cities: CitySummary[];
+}
 
-  useEffect(() => {
-    getAllCities().then(setCities).catch(console.error);
-  }, []);
-
+export default function HeroSection({ cities }: HeroSectionProps) {
   return (
     <section className="relative min-h-[85vh] flex items-end justify-center bg-gradient-to-br from-amber-50 via-white to-orange-50 pt-20 pb-16">
       {/* Background decoration */}

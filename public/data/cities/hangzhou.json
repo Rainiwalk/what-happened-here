@@ -7,7 +7,7 @@
   "lng": 120.1551,
   "summary": "杭州是南宋都城，西湖所在地，自古就有'上有天堂，下有苏杭'的美誉。马可·波罗称其为'世界上最美丽华贵之天城'，是中国最具诗意的城市之一。",
   "description": "杭州地处钱塘江下游，京杭大运河南端，西湖如明珠般镶嵌在城市之中。早在八千年前，跨湖桥文化就在此孕育。秦代设钱唐县，隋代始称杭州。唐代白居易主持疏浚西湖，留下'最爱湖东行不足'的名句。南宋定都临安，杭州一跃成为全国政治、经济、文化中心，人口超过百万，是当时世界上最繁华的城市。元代马可·波罗游历杭州，盛赞其为'天城'。西湖十景、灵隐寺、六和塔等文化遗产闻名遐迩。如今的杭州已发展成为长三角南翼中心城市，数字经济领先全国，是创新活力之城。",
-  "coverImage": "/images/cities/hangzhou.jpg",
+  "coverImage": "/images/cities/hangzhou.webp",
   "timeline": [
     {
       "year": "前5000",
@@ -180,47 +180,47 @@
   ],
   "images": [
     {
-      "url": "/images/cities/hangzhou-589.jpg",
+      "url": "/images/cities/hangzhou-589.webp",
       "year": "589",
       "caption": "隋代杭州"
     },
     {
-      "url": "/images/cities/hangzhou-781.jpg",
+      "url": "/images/cities/hangzhou-781.webp",
       "year": "781",
       "caption": "白居易治理西湖"
     },
     {
-      "url": "/images/cities/hangzhou-907.jpg",
+      "url": "/images/cities/hangzhou-907.webp",
       "year": "907",
       "caption": "吴越国杭州"
     },
     {
-      "url": "/images/cities/hangzhou-1127.jpg",
+      "url": "/images/cities/hangzhou-1127.webp",
       "year": "1127",
       "caption": "南宋临安"
     },
     {
-      "url": "/images/cities/hangzhou-1929.jpg",
+      "url": "/images/cities/hangzhou-1929.webp",
       "year": "1929",
       "caption": "西湖博览会"
     },
     {
-      "url": "/images/cities/hangzhou-2011.jpg",
+      "url": "/images/cities/hangzhou-2011.webp",
       "year": "2011",
       "caption": "西湖申遗成功"
     },
     {
-      "url": "/images/cities/hangzhou-2016.jpg",
+      "url": "/images/cities/hangzhou-2016.webp",
       "year": "2016",
       "caption": "G20峰会"
     },
     {
-      "url": "/images/cities/hangzhou-2022.jpg",
+      "url": "/images/cities/hangzhou-2022.webp",
       "year": "2022",
       "caption": "杭州亚运会"
     },
     {
-      "url": "/images/cities/hangzhou.jpg",
+      "url": "/images/cities/hangzhou.webp",
       "year": "2024",
       "caption": "现代杭州城市风貌"
     }

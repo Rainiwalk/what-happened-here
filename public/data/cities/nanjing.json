@@ -7,7 +7,7 @@
   "lng": 118.7969,
   "summary": "南京古称金陵、建康，是六朝古都、十朝都会，中国四大古都之一。这座城市见证了东吴、东晋、宋齐梁陈、明初、太平天国和民国的兴衰更替，承载着深厚的历史文化底蕴。",
   "description": "南京地处长江下游，北依长江天堑，钟山龙蟠，石头虎踞，自古为兵家必争之地。公元229年孙权定都建业，此后东晋、宋、齐、梁、陈相继在此建都，史称'六朝古都'。六朝时期的建康是世界上第一个人口超过百万的城市，文化繁荣，科技发达。明初朱元璋定都南京，修筑了世界最长的城墙。1853年太平天国定都于此，改称天京。1912年中华民国在南京建立，孙中山在此就任临时大总统。1927年国民政府定都南京，南京成为全国政治中心。南京的文化遗产丰富，明孝陵、中山陵、夫子庙、总统府等闻名遐迩，是兼具古典韵味与现代气息的历史文化名城。",
-  "coverImage": "/images/cities/nanjing.jpg",
+  "coverImage": "/images/cities/nanjing.webp",
   "timeline": [
     {
       "year": "前472",
@@ -186,47 +186,47 @@
   ],
   "images": [
     {
-      "url": "/images/cities/nanjing-229.jpg",
+      "url": "/images/cities/nanjing-229.webp",
       "year": "229",
       "caption": "孙权定都建业"
     },
     {
-      "url": "/images/cities/nanjing-1368.jpg",
+      "url": "/images/cities/nanjing-1368.webp",
       "year": "1368",
       "caption": "明代南京城墙"
     },
     {
-      "url": "/images/cities/nanjing-1405.jpg",
+      "url": "/images/cities/nanjing-1405.webp",
       "year": "1405",
       "caption": "郑和下西洋"
     },
     {
-      "url": "/images/cities/nanjing-1853.jpg",
+      "url": "/images/cities/nanjing-1853.webp",
       "year": "1853",
       "caption": "太平天国天京"
     },
     {
-      "url": "/images/cities/nanjing-1912.jpg",
+      "url": "/images/cities/nanjing-1912.webp",
       "year": "1912",
       "caption": "中华民国成立"
     },
     {
-      "url": "/images/cities/nanjing-1937.jpg",
+      "url": "/images/cities/nanjing-1937.webp",
       "year": "1937",
       "caption": "南京大屠杀"
     },
     {
-      "url": "/images/cities/nanjing-1968.jpg",
+      "url": "/images/cities/nanjing-1968.webp",
       "year": "1968",
       "caption": "南京长江大桥"
     },
     {
-      "url": "/images/cities/nanjing-2014.jpg",
+      "url": "/images/cities/nanjing-2014.webp",
       "year": "2014",
       "caption": "南京青奥会"
     },
     {
-      "url": "/images/cities/nanjing.jpg",
+      "url": "/images/cities/nanjing.webp",
       "year": "2024",
       "caption": "现代南京城市风貌"
     }

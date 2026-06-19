@@ -4,7 +4,7 @@
     "name": "Tangshan",
     "nameLocal": "唐山",
     "province": "河北",
-    "coverImage": "/images/cities/tangshan.jpg",
+    "coverImage": "/images/cities/tangshan.webp",
     "summary": "唐山因唐太宗东征高句丽驻跸而得名，是中国近代工业的摇篮，1976年大地震后重建，展现了不屈的城市精神。"
   },
   {
@@ -12,7 +12,7 @@
     "name": "Baoding",
     "nameLocal": "保定",
     "province": "河北",
-    "coverImage": "/images/cities/baoding.jpg",
+    "coverImage": "/images/cities/baoding.webp",
     "summary": "保定自古为畿辅重镇，\"保卫大都，安定天下\"之意，曾为直隶省会三百年，文化底蕴深厚。"
   },
   {
@@ -20,7 +20,7 @@
     "name": "Tianjin",
     "nameLocal": "天津",
     "province": "天津",
-    "coverImage": "/images/cities/tianjin.jpg",
+    "coverImage": "/images/cities/tianjin.webp",
     "summary": "天津因天子渡津而得名，近代开埠后成为九国租界，中西文化交融，是近代中国工业化的先驱城市。"
   },
   {
@@ -28,7 +28,7 @@
     "name": "Xi'an",
     "nameLocal": "西安",
     "province": "陕西",
-    "coverImage": "/images/cities/xian.jpg",
+    "coverImage": "/images/cities/xian.webp",
     "summary": "古称长安，十三朝古都，丝绸之路的起点，秦始皇兵马俑所在地，中华文明的重要发祥地。"
   },
   {
@@ -36,7 +36,7 @@
     "name": "Nanjing",
     "nameLocal": "南京",
     "province": "江苏",
-    "coverImage": "/images/cities/nanjing.jpg",
+    "coverImage": "/images/cities/nanjing.webp",
     "summary": "六朝古都、十朝都会，民国首都，见证了中国近现代历史的重大转折。"
   },
   {
@@ -44,7 +44,7 @@
     "name": "Chengdu",
     "nameLocal": "成都",
     "province": "四川",
-    "coverImage": "/images/cities/chengdu.jpg",
+    "coverImage": "/images/cities/chengdu.webp",
     "summary": "天府之国的核心，三国蜀汉都城，大熊猫故乡，联合国授予的'美食之都'。"
   },
   {
@@ -52,7 +52,7 @@
     "name": "Hangzhou",
     "nameLocal": "杭州",
     "province": "浙江",
-    "coverImage": "/images/cities/hangzhou.jpg",
+    "coverImage": "/images/cities/hangzhou.webp",
     "summary": "南宋都城，西湖所在地，'上有天堂，下有苏杭'，数字经济领先全国的创新之城。"
   },
   {
@@ -60,7 +60,7 @@
     "name": "Luoyang",
     "nameLocal": "洛阳",
     "province": "河南",
-    "coverImage": "/images/cities/luoyang.jpg",
+    "coverImage": "/images/cities/luoyang.webp",
     "summary": "十三朝古都，龙门石窟所在地，'洛阳牡丹甲天下'，中华文明的重要发祥地。"
   },
   {
@@ -68,7 +68,7 @@
     "name": "Beijing",
     "nameLocal": "北京",
     "province": "北京",
-    "coverImage": "/images/cities/beijing.jpg",
+    "coverImage": "/images/cities/beijing.webp",
     "summary": "中国的首都，三千年建城史、八百年建都史，政治文化中心，世界文化遗产最密集的城市之一。"
   },
   {
@@ -76,7 +76,7 @@
     "name": "Shanghai",
     "nameLocal": "上海",
     "province": "上海",
-    "coverImage": "/images/cities/shanghai.jpg",
+    "coverImage": "/images/cities/shanghai.webp",
     "summary": "中国最大的经济中心，近代开埠后发展为'东方巴黎'，如今是国际化大都市和全球金融中心。"
   },
   {
@@ -84,7 +84,7 @@
     "name": "Guangzhou",
     "nameLocal": "广州",
     "province": "广东",
-    "coverImage": "/images/cities/guangzhou.jpg",
+    "coverImage": "/images/cities/guangzhou.webp",
     "summary": "中国南方最大的城市，两千年不衰的通商港口，海上丝绸之路的起点，岭南文化的中心。"
   },
   {
@@ -92,7 +92,7 @@
     "name": "Shenzhen",
     "nameLocal": "深圳",
     "province": "广东",
-    "coverImage": "/images/cities/shenzhen.jpg",
+    "coverImage": "/images/cities/shenzhen.webp",
     "summary": "改革开放的窗口和试验田，从一个小渔村发展成为国际化创新之城，创造了世界城市化史上的奇迹。"
   },
   {
@@ -100,7 +100,7 @@
     "name": "Chongqing",
     "nameLocal": "重庆",
     "province": "重庆",
-    "coverImage": "/images/cities/chongqing.jpg",
+    "coverImage": "/images/cities/chongqing.webp",
     "summary": "中国最年轻的直辖市，山城、雾都、火锅之都，抗战时期的陪都，长江上游的经济中心。"
   },
   {
@@ -116,7 +116,7 @@
     "name": "Wuhan",
     "nameLocal": "武汉",
     "province": "湖北",
-    "coverImage": "/images/cities/wuhan.jpg",
+    "coverImage": "/images/cities/wuhan.webp",
     "summary": "九省通衢，辛亥首义之城，长江中游的千年重镇。武汉三镇合璧，黄鹤楼千古传唱，见证了中国近现代历史的重大转折。"
   },
   {
@@ -124,7 +124,7 @@
     "name": "Changsha",
     "nameLocal": "长沙",
     "province": "湖南",
-    "coverImage": "/images/cities/changsha.jpg",
+    "coverImage": "/images/cities/changsha.webp",
     "summary": "长沙是楚汉名城、湖湘文化之都，岳麓书院弦歌千年不绝，橘子洲头激扬文字，近代更以「敢为天下先」的精神书写了波澜壮阔的革命篇章。"
   },
   {
@@ -132,7 +132,7 @@
     "name": "Harbin",
     "nameLocal": "哈尔滨",
     "province": "黑龙江",
-    "coverImage": "/images/cities/harbin.jpg",
+    "coverImage": "/images/cities/harbin.webp",
     "summary": "哈尔滨被誉为「冰城」和「东方莫斯科」，融合了中西方文化，以其独特的冰雪文化、丰富的历史底蕴和多元的建筑风格闻名于世。"
   },
   {
@@ -140,7 +140,7 @@
     "name": "Kaifeng",
     "nameLocal": "开封",
     "province": "河南",
-    "coverImage": "/images/cities/kaifeng.jpg",
+    "coverImage": "/images/cities/kaifeng.webp",
     "summary": "八朝古都，北宋东京汴梁，曾是世界上最繁华的城市之一，因《清明上河图》名扬天下。"
   },
   {
@@ -148,7 +148,7 @@
     "name": "Quanzhou",
     "nameLocal": "泉州",
     "province": "福建",
-    "coverImage": "/images/cities/quanzhou.jpg",
+    "coverImage": "/images/cities/quanzhou.webp",
     "summary": "古代海上丝绸之路的起点，宋元时期被誉为「东方第一大港」，世界宗教博物馆，2021年列入世界文化遗产。"
   },
   {
@@ -164,7 +164,7 @@
     "name": "Qingdao",
     "nameLocal": "青岛",
     "province": "山东",
-    "coverImage": "/images/cities/qingdao.jpg",
+    "coverImage": "/images/cities/qingdao.webp",
     "summary": "因海而生、因港而兴，从齐国即墨重镇到近代欧韵港城，再到现代帆船之都与啤酒之城，海洋文明与时代浪潮交织的传奇城市。"
   },
   {
@@ -172,7 +172,7 @@
     "name": "Lhasa",
     "nameLocal": "拉萨",
     "province": "西藏",
-    "coverImage": "/images/cities/lasa.jpg",
+    "coverImage": "/images/cities/lasa.webp",
     "summary": "西藏自治区首府，被誉为「日光城」，藏传佛教圣地，拥有1300多年建城史，布达拉宫举世闻名。"
   },
   {
@@ -180,7 +180,7 @@
     "name": "Dunhuang",
     "nameLocal": "敦煌",
     "province": "甘肃",
-    "coverImage": "/images/cities/dunhuang.jpg",
+    "coverImage": "/images/cities/dunhuang.webp",
     "summary": "古称沙洲，丝绸之路上的璀璨明珠，以莫高窟壁画和飞天艺术享誉世界，自汉代设郡以来便是东西方文明交汇的重要枢纽。"
   },
   {
@@ -188,7 +188,7 @@
     "name": "Kunming",
     "nameLocal": "昆明",
     "province": "云南",
-    "coverImage": "/images/cities/kunming.jpg",
+    "coverImage": "/images/cities/kunming.webp",
     "summary": "四季如春的「春城」，滇池畔的千年古都，从古滇国到南诏大理，承载着云南多元文化的深厚底蕴。"
   },
   {
@@ -196,7 +196,7 @@
     "name": "Zhengzhou",
     "nameLocal": "郑州",
     "province": "河南",
-    "coverImage": "/images/cities/zhengzhou.jpg",
+    "coverImage": "/images/cities/zhengzhou.webp",
     "summary": "华夏文明的重要发祥地，商代早期都城所在地，地处中原腹地，是中国最重要的铁路枢纽城市。"
   },
   {
@@ -204,7 +204,7 @@
     "name": "Kashgar",
     "nameLocal": "喀什",
     "province": "新疆",
-    "coverImage": "/images/cities/kashi.jpg",
+    "coverImage": "/images/cities/kashi.webp",
     "summary": "古称疏勒，丝绸之路上的璀璨明珠，两千多年东西方文明交汇的重要枢纽，西域风情浓郁的历史文化名城。"
   },
   {
@@ -212,7 +212,7 @@
     "name": "Datong",
     "nameLocal": "大同",
     "province": "山西",
-    "coverImage": "/images/cities/datong.jpg",
+    "coverImage": "/images/cities/datong.webp",
     "summary": "北魏都城平城所在地，云冈石窟举世闻名，从煤都到文旅名城的转型传奇。"
   },
   {
@@ -220,7 +220,7 @@
     "name": "Jingdezhen",
     "nameLocal": "景德镇",
     "province": "江西",
-    "coverImage": "/images/cities/jingdezhen.jpg",
+    "coverImage": "/images/cities/jingdezhen.webp",
     "summary": "千年瓷都，以精湛的制瓷工艺闻名世界，御窑遗址见证了中国陶瓷艺术的辉煌历史。"
   },
   {
@@ -228,7 +228,7 @@
     "name": "Guilin",
     "nameLocal": "桂林",
     "province": "广西",
-    "coverImage": "/images/cities/guilin.jpg",
+    "coverImage": "/images/cities/guilin.webp",
     "summary": "「桂林山水甲天下」，以喀斯特地貌闻名于世，秦代灵渠沟通湘漓，抗战时期为文化名人聚集地。"
   },
   {
@@ -236,7 +236,7 @@
     "name": "Yan'an",
     "nameLocal": "延安",
     "province": "陕西",
-    "coverImage": "/images/cities/yanan.jpg",
+    "coverImage": "/images/cities/yanan.webp",
     "summary": "中国革命圣地，黄帝陵所在地，延安精神的发源地，从红色热土到现代化城市的蜕变。"
   }
 ]

@@ -7,7 +7,7 @@
   "lng": 112.4539,
   "summary": "洛阳是十三朝古都，中华文明的重要发祥地。从夏朝到后晋，先后有十三个朝代在此建都，是建都最早、历时最长、朝代最多的中国古都，有'千年帝都，牡丹花城'之称。",
   "description": "洛阳地处中原腹地，黄河中游南岸，伊洛盆地之中。北依邙山，南望伊阙，东控虎牢，西据崤函，自古为'天下之中'。夏朝太康迁都斟鄩，商汤灭夏后亦曾建都于此。东周平王东迁洛邑，洛阳首次成为统一王朝的都城。此后东汉、曹魏、西晋、北魏、隋、唐等朝代相继在此建都，历时千余年。洛阳是丝绸之路的东方起点之一，白马寺是中国第一座佛教寺院，龙门石窟是世界文化遗产。洛阳还是牡丹花城，'洛阳牡丹甲天下'之说流传千古。如今的洛阳是河南省副中心城市，老工业基地转型升级的典范。",
-  "coverImage": "/images/cities/luoyang.jpg",
+  "coverImage": "/images/cities/luoyang.webp",
   "timeline": [
     {
       "year": "前2070",
@@ -192,47 +192,47 @@
   ],
   "images": [
     {
-      "url": "/images/cities/luoyang-2070.jpg",
+      "url": "/images/cities/luoyang-2070.webp",
       "year": "2070",
       "caption": "夏朝二里头遗址"
     },
     {
-      "url": "/images/cities/luoyang-68.jpg",
+      "url": "/images/cities/luoyang-68.webp",
       "year": "68",
       "caption": "白马寺"
     },
     {
-      "url": "/images/cities/luoyang-493.jpg",
+      "url": "/images/cities/luoyang-493.webp",
       "year": "493",
       "caption": "北魏洛阳城"
     },
     {
-      "url": "/images/cities/luoyang-495.jpg",
+      "url": "/images/cities/luoyang-495.webp",
       "year": "495",
       "caption": "龙门石窟"
     },
     {
-      "url": "/images/cities/luoyang-690.jpg",
+      "url": "/images/cities/luoyang-690.webp",
       "year": "690",
       "caption": "武则天神都"
     },
     {
-      "url": "/images/cities/luoyang-1882.jpg",
+      "url": "/images/cities/luoyang-1882.webp",
       "year": "1882",
       "caption": "洛阳牡丹"
     },
     {
-      "url": "/images/cities/luoyang-2000.jpg",
+      "url": "/images/cities/luoyang-2000.webp",
       "year": "2000",
       "caption": "龙门石窟申遗成功"
     },
     {
-      "url": "/images/cities/luoyang-2023.jpg",
+      "url": "/images/cities/luoyang-2023.webp",
       "year": "2023",
       "caption": "洛阳汉服文化"
     },
     {
-      "url": "/images/cities/luoyang.jpg",
+      "url": "/images/cities/luoyang.webp",
       "year": "2024",
       "caption": "现代洛阳城市风貌"
     }

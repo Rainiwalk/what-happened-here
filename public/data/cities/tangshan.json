@@ -7,7 +7,7 @@
   "lng": 118.1802,
   "summary": "唐山位于河北省东部，是中国近代工业的摇篮，素有'北方瓷都'之称。这座城市因唐太宗李世民东征高句丽途经此地而得名，历经千年发展，成为中国重要的能源和重工业基地。1976年大地震几乎将城市夷为平地，但唐山人民以顽强的意志重建家园，创造了凤凰涅槃的奇迹。",
   "description": "唐山地处燕山南麓、渤海之滨，是一座具有百年历史的工业城市。早在数万年前就有人类在此繁衍生息，商代时期已形成聚落。唐代因唐太宗李世民东征途经此地而得名。明清时期，唐山逐渐发展为重要的手工业和商业中心。1878年，中国第一座近代煤矿——开平煤矿在此开办，标志着中国近代工业的开端。此后，中国第一条标准轨距铁路、第一台蒸汽机车、第一桶机制水泥均诞生于此，唐山被誉为'中国近代工业的摇篮'。1976年7月28日，一场7.8级大地震将唐山夷为平地，造成24万余人遇难。震后唐山在全国支援下迅速重建，从废墟中崛起，发展成为现代化的工业城市，展现了中华民族不屈不挠的奋斗精神。",
-  "coverImage": "/images/cities/tangshan.jpg",
+  "coverImage": "/images/cities/tangshan.webp",
   "timeline": [
     {
       "year": "前3000",
@@ -192,52 +192,52 @@
   ],
   "images": [
     {
-      "url": "/images/cities/tangshan-645.jpg",
+      "url": "/images/cities/tangshan-645.webp",
       "year": "645",
       "caption": "唐太宗东征途经唐山"
     },
     {
-      "url": "/images/cities/tangshan-1878.jpg",
+      "url": "/images/cities/tangshan-1878.webp",
       "year": "1878",
       "caption": "开平煤矿创办"
     },
     {
-      "url": "/images/cities/tangshan-1881.jpg",
+      "url": "/images/cities/tangshan-1881.webp",
       "year": "1881",
       "caption": "唐胥铁路通车"
     },
     {
-      "url": "/images/cities/tangshan-1889.jpg",
+      "url": "/images/cities/tangshan-1889.webp",
       "year": "1889",
       "caption": "启新洋灰公司"
     },
     {
-      "url": "/images/cities/tangshan-1912.jpg",
+      "url": "/images/cities/tangshan-1912.webp",
       "year": "1912",
       "caption": "开滦矿务局成立"
     },
     {
-      "url": "/images/cities/tangshan-1976.jpg",
+      "url": "/images/cities/tangshan-1976.webp",
       "year": "1976",
       "caption": "唐山大地震"
     },
     {
-      "url": "/images/cities/tangshan-1986.jpg",
+      "url": "/images/cities/tangshan-1986.webp",
       "year": "1986",
       "caption": "震后重建的唐山"
     },
     {
-      "url": "/images/cities/tangshan-1990.jpg",
+      "url": "/images/cities/tangshan-1990.webp",
       "year": "1990",
       "caption": "联合国人居荣誉奖"
     },
     {
-      "url": "/images/cities/tangshan-2016.jpg",
+      "url": "/images/cities/tangshan-2016.webp",
       "year": "2016",
       "caption": "唐山世园会"
     },
     {
-      "url": "/images/cities/tangshan.jpg",
+      "url": "/images/cities/tangshan.webp",
       "year": "2024",
       "caption": "现代化唐山城市风貌"
     }
