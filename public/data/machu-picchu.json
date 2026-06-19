@@ -7,7 +7,7 @@
   "lat": -13.1631,
   "lng": -72.5450,
   "summary": "马丘比丘是15世纪印加帝国建造的山地城堡，坐落在安第斯山脉海拔2430米的山脊上。这座失落的城市在西班牙殖民征服后被遗弃，直到1911年被美国探险家海勒姆·宾厄姆重新发现，现已成为南美洲最著名的考古遗址。",
-  "coverImage": "/WhatHappenedHere/images/machu-picchu.jpg",
+  "coverImage": "/images/machu-picchu.jpg",
   "timeline": [
     {
       "year": "1450",
@@ -42,22 +42,22 @@
   ],
   "images": [
     {
-      "url": "/WhatHappenedHere/images/machu-picchu-1911.jpg",
+      "url": "/images/machu-picchu-1911.jpg",
       "year": "1911",
       "caption": "宾厄姆探险队发现时被丛林覆盖的马丘比丘"
     },
     {
-      "url": "/WhatHappenedHere/images/machu-picchu-1915.jpg",
+      "url": "/images/machu-picchu-1915.jpg",
       "year": "1915",
       "caption": "初步清理后的马丘比丘遗址"
     },
     {
-      "url": "/WhatHappenedHere/images/machu-picchu-temple.jpg",
+      "url": "/images/machu-picchu-temple.jpg",
       "year": "1950",
       "caption": "修复后的太阳神殿石砌建筑"
     },
     {
-      "url": "/WhatHappenedHere/images/machu-picchu-aerial.jpg",
+      "url": "/images/machu-picchu-aerial.jpg",
       "year": "2020",
       "caption": "从空中俯瞰马丘比丘全景"
     }

@@ -7,7 +7,7 @@
   "lat": 35.681236,
   "lng": 139.767125,
   "summary": "东京站是日本最重要的铁路枢纽，建于1914年，由建筑师辰野金吾设计。这座红砖建筑见证了日本从大正时代到令和时代的百年变迁，是东京最具历史意义的地标之一。",
-  "coverImage": "/WhatHappenedHere/images/tokyo-station.jpg",
+  "coverImage": "/images/tokyo-station.jpg",
   "timeline": [
     {
       "year": "1914",
@@ -47,22 +47,22 @@
   ],
   "images": [
     {
-      "url": "/WhatHappenedHere/images/tokyo-station-1914.jpg",
+      "url": "/images/tokyo-station-1914.jpg",
       "year": "1914",
       "caption": "东京站开业时的丸之内站舍"
     },
     {
-      "url": "/WhatHappenedHere/images/tokyo-station-1945.jpg",
+      "url": "/images/tokyo-station-1945.jpg",
       "year": "1945",
       "caption": "战后受损的东京站"
     },
     {
-      "url": "/WhatHappenedHere/images/tokyo-station-1964.jpg",
+      "url": "/images/tokyo-station-1964.jpg",
       "year": "1964",
       "caption": "新干线开通仪式"
     },
     {
-      "url": "/WhatHappenedHere/images/tokyo-station-2012.jpg",
+      "url": "/images/tokyo-station-2012.jpg",
       "year": "2012",
       "caption": "修复后的丸之内站舍"
     }

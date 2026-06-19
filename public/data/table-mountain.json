@@ -7,7 +7,7 @@
   "lat": -33.9628,
   "lng": 18.4098,
   "summary": "Table Mountain is a flat-topped mountain overlooking Cape Town, formed over 600 million years ago. It is one of the oldest mountains on Earth and home to an extraordinary diversity of plant life, with over 1,470 species of fynbos. Designated as one of the New7Wonders of Nature in 2011, Table Mountain is South Africa's most photographed landmark.",
-  "coverImage": "/WhatHappenedHere/images/table-mountain.jpg",
+  "coverImage": "/images/table-mountain.jpg",
   "timeline": [
     {
       "year": "1503",
@@ -47,22 +47,22 @@
   ],
   "images": [
     {
-      "url": "/WhatHappenedHere/images/table-mountain-clouds.jpg",
+      "url": "/images/table-mountain-clouds.jpg",
       "year": "2019",
       "caption": "The famous 'tablecloth' of orographic clouds spilling over Table Mountain's summit plateau"
     },
     {
-      "url": "/WhatHappenedHere/images/table-mountain-cableway.jpg",
+      "url": "/images/table-mountain-cableway.jpg",
       "year": "1929",
       "caption": "The original Table Mountain Aerial Cableway car at the upper station shortly after its 1929 opening"
     },
     {
-      "url": "/WhatHappenedHere/images/table-mountain-cape-town.jpg",
+      "url": "/images/table-mountain-cape-town.jpg",
       "year": "2021",
       "caption": "View of Cape Town city bowl and Table Bay from the summit of Table Mountain at sunset"
     },
     {
-      "url": "/WhatHappenedHere/images/table-mountain-fynbos.jpg",
+      "url": "/images/table-mountain-fynbos.jpg",
       "year": "2020",
       "caption": "Protea flowers in bloom within the unique fynbos vegetation of Table Mountain National Park"
     }

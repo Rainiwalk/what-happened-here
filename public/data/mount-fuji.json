@@ -7,7 +7,7 @@
   "lat": 35.3606,
   "lng": 138.7274,
   "summary": "Mount Fuji is an active stratovolcano located on the border between Shizuoka and Yamanashi prefectures in Japan. Standing at 3,776 meters, it is the highest peak in Japan and one of the country's most iconic symbols. The mountain has been a sacred site for centuries and has inspired countless works of art and literature.",
-  "coverImage": "/WhatHappenedHere/images/mount-fuji.jpg",
+  "coverImage": "/images/mount-fuji.jpg",
   "timeline": [
     {"year": "781", "title": "First Recorded Eruption", "description": "The first historically recorded eruption of Mount Fuji occurred in 781 AD during the Nara period. This eruption marked the beginning of the mountain's documented volcanic activity and its significance in Japanese history."},
     {"year": "864", "title": "Jōgan Eruption", "description": "The devastating Jōgan eruption lasted for 10 days and created the Aokigahara forest on the northwest side of the mountain. The lava flows also formed the Fuji Five Lakes, which are now popular tourist destinations."},
@@ -18,10 +18,10 @@
     {"year": "2013", "title": "UNESCO World Heritage Site", "description": "Mount Fuji was inscribed as a UNESCO World Heritage Site under the category of 'Cultural Site' rather than 'Natural Site,' recognizing its profound influence on Japanese art, literature, and spiritual culture over centuries."}
   ],
   "images": [
-    {"url": "/WhatHappenedHere/images/mount-fuji-781.jpg", "year": "781", "caption": "Historical depiction of Mount Fuji's volcanic activity"},
-    {"url": "/WhatHappenedHere/images/mount-fuji-1707.jpg", "year": "1707", "caption": "The Hōei eruption with ash clouds rising from the summit"},
-    {"url": "/WhatHappenedHere/images/mount-fuji-1868.jpg", "year": "1868", "caption": "Early foreign visitors viewing Mount Fuji from the Tokaido Road"},
-    {"url": "/WhatHappenedHere/images/mount-fuji-2013.jpg", "year": "2013", "caption": "Mount Fuji with cherry blossoms, now a UNESCO World Heritage Site"}
+    {"url": "/images/mount-fuji-781.jpg", "year": "781", "caption": "Historical depiction of Mount Fuji's volcanic activity"},
+    {"url": "/images/mount-fuji-1707.jpg", "year": "1707", "caption": "The Hōei eruption with ash clouds rising from the summit"},
+    {"url": "/images/mount-fuji-1868.jpg", "year": "1868", "caption": "Early foreign visitors viewing Mount Fuji from the Tokaido Road"},
+    {"url": "/images/mount-fuji-2013.jpg", "year": "2013", "caption": "Mount Fuji with cherry blossoms, now a UNESCO World Heritage Site"}
   ],
   "relatedLocations": ["angkor-wat", "petronas-towers"]
 }

@@ -7,7 +7,7 @@
   "lat": 48.6361,
   "lng": -1.5115,
   "summary": "Mont Saint-Michel is a tidal island and mainland commune in Normandy, France, located approximately one kilometer off the country's northwestern coast. The island has been a strategic stronghold since ancient times and is the site of a medieval monastery dedicated to the Archangel Michael. Rising dramatically from the tidal flats, its Gothic spire crowned by a golden statue of St. Michael makes it one of the most recognizable landmarks in France, attracting over three million visitors annually.",
-  "coverImage": "/WhatHappenedHere/images/mont-saint-michel.jpg",
+  "coverImage": "/images/mont-saint-michel.jpg",
   "timeline": [
     {"year": "708", "title": "Aubert's Vision and First Chapel", "description": "According to legend, the Archangel Michael appears to Aubert, Bishop of Avranches, three times commanding him to build a church on the rocky island. Aubert constructs a small chapel on the mount, establishing the first religious site. A hole in the rock said to have been made by the angel's finger is still visible today."},
     {"year": "966", "title": "Benedictine Abbey Founded", "description": "Duke Richard I of Normandy installs a community of Benedictine monks on the island, establishing the Abbey of Mont Saint-Michel. The monks follow the Rule of St. Benedict and begin an ambitious building program, transforming the small chapel into a major monastic center that becomes one of the most important pilgrimage sites in Christendom."},
@@ -18,10 +18,10 @@
     {"year": "1979", "title": "UNESCO World Heritage Designation", "description": "Mont Saint-Michel is designated a UNESCO World Heritage Site for its architectural and historical significance. This triggers major conservation efforts and eventually leads to an ambitious 1.8 billion euro project to restore the maritime character of the mount by removing the causeway and replacing it with a bridge, allowing the tides to flow freely once again."}
   ],
   "images": [
-    {"url": "/WhatHappenedHere/images/mont-saint-michel-708.jpg", "year": "708", "caption": "Bishop Aubert's vision of the Archangel Michael commanding him to build a chapel on the rocky island"},
-    {"url": "/WhatHappenedHere/images/mont-saint-michel-1204.jpg", "year": "1204", "caption": "The construction of the Gothic 'La Merveille' following the fire that destroyed the Romanesque church"},
-    {"url": "/WhatHappenedHere/images/mont-saint-michel-1423.jpg", "year": "1423", "caption": "The mount withstanding the English siege during the Hundred Years War, its fortifications unbreached"},
-    {"url": "/WhatHappenedHere/images/mont-saint-michel-2015.jpg", "year": "2015", "caption": "The fully restored Mont Saint-Michel with the new bridge allowing tidal waters to surround the island once more"}
+    {"url": "/images/mont-saint-michel-708.jpg", "year": "708", "caption": "Bishop Aubert's vision of the Archangel Michael commanding him to build a chapel on the rocky island"},
+    {"url": "/images/mont-saint-michel-1204.jpg", "year": "1204", "caption": "The construction of the Gothic 'La Merveille' following the fire that destroyed the Romanesque church"},
+    {"url": "/images/mont-saint-michel-1423.jpg", "year": "1423", "caption": "The mount withstanding the English siege during the Hundred Years War, its fortifications unbreached"},
+    {"url": "/images/mont-saint-michel-2015.jpg", "year": "2015", "caption": "The fully restored Mont Saint-Michel with the new bridge allowing tidal waters to surround the island once more"}
   ],
   "relatedLocations": ["colosseum", "versailles", "acropolis"]
 }

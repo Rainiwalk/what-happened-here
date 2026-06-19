@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { CitySummary } from "@/types";
+import { getPath } from "@/lib/utils";
 
 interface CityCardProps {
   city: CitySummary;
@@ -23,7 +24,7 @@ export default function CityCard({ city, index }: CityCardProps) {
         {/* Image */}
         <div className="relative h-48 bg-gradient-to-br from-amber-50 to-orange-100 overflow-hidden">
           <img
-            src={city.coverImage}
+            src={getPath(city.coverImage)}
             alt={city.name}
             className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
             loading="lazy"

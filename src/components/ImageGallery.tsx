@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { HistoricalImage } from "@/types";
+import { getPath } from "@/lib/utils";
 
 interface ImageGalleryProps {
   images: HistoricalImage[];
@@ -63,7 +64,7 @@ export default function ImageGallery({ images }: ImageGalleryProps) {
               <div className="relative aspect-[4/3] bg-gradient-to-br from-gray-100 to-gray-200 rounded-xl overflow-hidden">
                 {/* Real image */}
                 <img
-                  src={image.url}
+                  src={getPath(image.url)}
                   alt={image.caption || `Historical photo from ${image.year}`}
                   className="w-full h-full object-cover"
                   loading="lazy"
@@ -190,7 +191,7 @@ export default function ImageGallery({ images }: ImageGalleryProps) {
                 onClick={(e) => e.stopPropagation()}
               >
                 <img
-                  src={images[selectedIndex].url}
+                  src={getPath(images[selectedIndex].url)}
                   alt={images[selectedIndex].caption || `Historical photo from ${images[selectedIndex].year}`}
                   className="w-full h-full object-contain max-h-[80vh]"
                 />

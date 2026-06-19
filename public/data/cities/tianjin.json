@@ -7,239 +7,239 @@
   "lng": 117.2010,
   "summary": "天津，中国四大直辖市之一，地处华北平原东北部，海河流域下游，东临渤海，北依燕山，是中国北方最大的沿海开放城市。天津因明朝永乐帝"天子渡津"而得名，自古便是京畿门户和军事重镇，近代更因开埠通商成为中国最早接触西方文明的城市之一。",
   "description": "天津是中国历史文化名城，拥有六百余年的建城史。隋朝大运河的开通使天津成为南北交通要冲；明代设卫筑城，奠定了城市格局；清代开埠后，九国租界并存，中西文化在此交融碰撞，形成了独特的天津城市风貌。天津是中国近代工业的发祥地之一，诞生了中国第一所现代大学、第一条标准轨距铁路、第一家近代邮政机构。如今，天津作为京津冀协同发展的重要节点城市，滨海新区的开发建设使其成为环渤海经济圈的核心引擎。天津的相声、杨柳青年画、泥人张彩塑等非物质文化遗产享誉全国，狗不理包子、耳朵眼炸糕、十八街麻花被誉为"天津三绝"。",
-  "coverImage": "/WhatHappenedHere/images/cities/tianjin.jpg",
+  "coverImage": "/images/cities/tianjin.jpg",
   "timeline": [
     {
       "year": "608",
       "era": "ancient",
       "title": "隋朝开凿永济渠途经天津",
       "description": "隋炀帝下令开凿永济渠，南起沁水入黄河处，北通涿郡（今北京），其中一段流经今天津地区。大运河的贯通使天津成为南北水运的重要节点，为日后天津的繁荣奠定了交通基础。",
-      "image": "/WhatHappenedHere/images/cities/tianjin-608.jpg"
+      "image": "/images/cities/tianjin-608.jpg"
     },
     {
       "year": "1153",
       "era": "ancient",
       "title": "金朝设直沽寨为军事要塞",
       "description": "金朝迁都中都（今北京）后，在今天津地区设置直沽寨，作为漕运中转站和军事防御据点。直沽是天津最早的名称之一，三岔河口地区因海河、南运河、北运河交汇，成为重要的水陆码头。",
-      "image": "/WhatHappenedHere/images/cities/tianjin-1153.jpg"
+      "image": "/images/cities/tianjin-1153.jpg"
     },
     {
       "year": "1293",
       "era": "ancient",
       "title": "元朝海运漕粮经直沽转运大都",
       "description": "元朝开辟海上漕运路线，南方粮食经海路运至直沽，再经内河转运至大都（北京）。为管理漕运，朝廷在直沽设立接运厅和粮仓，使天津成为全国漕运枢纽，城市规模初步形成。",
-      "image": "/WhatHappenedHere/images/cities/tianjin-1293.jpg"
+      "image": "/images/cities/tianjin-1293.jpg"
     },
     {
       "year": "1316",
       "era": "ancient",
       "title": "元朝改直沽为海津镇",
       "description": "元朝延祐三年，朝廷将直沽改名为海津镇，设镇抚司管理。海津镇作为军事要地和漕运枢纽的地位进一步提升，聚居人口逐渐增多，城镇雏形日趋完善。",
-      "image": "/WhatHappenedHere/images/cities/tianjin-1316.jpg"
+      "image": "/images/cities/tianjin-1316.jpg"
     },
     {
       "year": "1400",
       "era": "ancient",
       "title": "靖难之役燕王朱棣经三岔河口南下",
       "description": "建文二年，燕王朱棣发动"靖难之役"，率军从北平出发，经三岔河口渡河南下，绕过朝廷重兵防守的德州，最终攻入南京夺取皇位。此次渡河成为天津得名的直接渊源。",
-      "image": "/WhatHappenedHere/images/cities/tianjin-1400.jpg"
+      "image": "/images/cities/tianjin-1400.jpg"
     },
     {
       "year": "1404",
       "era": "ancient",
       "title": "永乐帝赐名天津设卫筑城",
       "description": "明永乐二年，朱棣为纪念在此渡河起兵之事，取"天子渡津"之意，将海津镇改名为天津，并设天津卫、天津左卫，开始修筑城墙。天津正式成为中国北方重要的军事卫所和水旱码头。",
-      "image": "/WhatHappenedHere/images/cities/tianjin-1404.jpg"
+      "image": "/images/cities/tianjin-1404.jpg"
     },
     {
       "year": "1554",
       "era": "ancient",
       "title": "明朝增筑天津城墙加强防御",
       "description": "明嘉靖年间，为抵御北方蒙古势力南侵和东南沿海倭寇骚扰，朝廷对天津城墙进行大规模加固修缮。城墙周长约九里十三步，设四门，城内布局更加规整，军事防御功能大为增强。",
-      "image": "/WhatHappenedHere/images/cities/tianjin-1554.jpg"
+      "image": "/images/cities/tianjin-1554.jpg"
     },
     {
       "year": "1652",
       "era": "ancient",
       "title": "清朝合并天津三卫为一卫",
       "description": "清顺治九年，朝廷将天津卫、天津左卫、天津右卫合并为天津卫。清朝入关后，天津卫的军事功能逐渐弱化，而作为商业贸易和漕运枢纽的功能日益突出。",
-      "image": "/WhatHappenedHere/images/cities/tianjin-1652.jpg"
+      "image": "/images/cities/tianjin-1652.jpg"
     },
     {
       "year": "1725",
       "era": "ancient",
       "title": "天津卫改为天津州",
       "description": "清雍正三年，天津由卫改为州，隶属河间府管辖。行政建制的提升反映了天津城市规模和经济地位的增长，商业贸易更加繁荣，盐业和漕运成为两大支柱产业。",
-      "image": "/WhatHappenedHere/images/cities/tianjin-1725.jpg"
+      "image": "/images/cities/tianjin-1725.jpg"
     },
     {
       "year": "1731",
       "era": "ancient",
       "title": "天津升格为府成为畿辅首邑",
       "description": "清雍正九年，天津州升格为天津府，下辖天津县及六县一州，成为直隶总督驻地附近的重要行政中心。天津作为京师门户和北方商埠的地位更加巩固，城市繁华一时。",
-      "image": "/WhatHappenedHere/images/cities/tianjin-1731.jpg"
+      "image": "/images/cities/tianjin-1731.jpg"
     },
     {
       "year": "1858",
       "era": "modern",
       "title": "《天津条约》签订开埠通商",
       "description": "第二次鸦片战争期间，英法联军攻占大沽炮台，清政府被迫与英、法、美、俄四国签订《天津条约》，增开牛庄、登州、台南、淡水、潮州、琼州、汉口、九江、南京、镇江为通商口岸。天津由此成为列强觊觎的目标。",
-      "image": "/WhatHappenedHere/images/cities/tianjin-1858.jpg"
+      "image": "/images/cities/tianjin-1858.jpg"
     },
     {
       "year": "1860",
       "era": "modern",
       "title": "天津正式开埠设立英法美租界",
       "description": "《北京条约》签订后，天津正式开埠通商，英、法、美三国率先在天津划定租界。此后至1902年间，先后共有九国在天津设立租界，天津成为中国租界最多的城市，中西文化在此激烈碰撞又深度融合。",
-      "image": "/WhatHappenedHere/images/cities/tianjin-1860.jpg"
+      "image": "/images/cities/tianjin-1860.jpg"
     },
     {
       "year": "1870",
       "era": "modern",
       "title": "天津教案震惊中外",
       "description": "同治九年，天津民众因不满法国天主教堂育婴堂虐婴传闻，数千人聚集望海楼教堂抗议，冲突中法国领事丰大业等人被杀，教堂被焚毁。事件引发中外震动，清政府被迫赔偿道歉，天津教案成为中国近代反洋教斗争的重要事件。",
-      "image": "/WhatHappenedHere/images/cities/tianjin-1870.jpg"
+      "image": "/images/cities/tianjin-1870.jpg"
     },
     {
       "year": "1875",
       "era": "modern",
       "title": "李鸿章在天津创办洋务企业",
       "description": "直隶总督李鸿章以天津为基地，大力推行洋务运动，先后创办轮船招商局天津分局、开平矿务局、天津机器局等近代企业。天津成为中国北方洋务运动的中心，近代工业由此起步。",
-      "image": "/WhatHappenedHere/images/cities/tianjin-1875.jpg"
+      "image": "/images/cities/tianjin-1875.jpg"
     },
     {
       "year": "1881",
       "era": "modern",
       "title": "中国第一条标准轨距铁路在天津建成",
       "description": "唐胥铁路（唐山至胥各庄）通车后延伸至天津，成为中国第一条标准轨距铁路。此后铁路不断向两端延伸，最终形成京奉铁路，天津成为中国北方铁路交通枢纽。",
-      "image": "/WhatHappenedHere/images/cities/tianjin-1881.jpg"
+      "image": "/images/cities/tianjin-1881.jpg"
     },
     {
       "year": "1895",
       "era": "modern",
       "title": "北洋大学堂在天津创办",
       "description": "甲午战败后，清政府在天津创办北洋大学堂（今天津大学前身），这是中国第一所现代大学。学校仿照美国大学模式设立，开设工程、矿务、法律等学科，开创了中国近代高等教育的先河。",
-      "image": "/WhatHappenedHere/images/cities/tianjin-1895.jpg"
+      "image": "/images/cities/tianjin-1895.jpg"
     },
     {
       "year": "1900",
       "era": "modern",
       "title": "八国联军攻占天津设立都统衙门",
       "description": "义和团运动期间，天津成为反帝斗争的前沿。八国联军攻占天津后，设立"天津都统衙门"对天津实行军事殖民统治长达两年。列强乘机扩大租界范围，天津九国租界格局最终形成，总面积超过当时天津城区的数倍。",
-      "image": "/WhatHappenedHere/images/cities/tianjin-1900.jpg"
+      "image": "/images/cities/tianjin-1900.jpg"
     },
     {
       "year": "1903",
       "era": "modern",
       "title": "袁世凯推行天津新政建设",
       "description": "直隶总督袁世凯以天津为基地推行新政，创办巡警制度、开设新式学堂、修建公园和马路、引进电灯电话。天津成为中国北方近代化程度最高的城市，市政管理水平领先全国。",
-      "image": "/WhatHappenedHere/images/cities/tianjin-1903.jpg"
+      "image": "/images/cities/tianjin-1903.jpg"
     },
     {
       "year": "1907",
       "era": "modern",
       "title": "天津成为中国话剧和京剧重镇",
       "description": "天津因毗邻北京、开埠通商，成为京剧演出的重要码头和中国话剧的发源地之一。南开学校的新剧活动培养了曹禺等戏剧人才，天津的戏曲文化繁荣发展，被誉为"戏曲大码头"。",
-      "image": "/WhatHappenedHere/images/cities/tianjin-1907.jpg"
+      "image": "/images/cities/tianjin-1907.jpg"
     },
     {
       "year": "1919",
       "era": "modern",
       "title": "五四运动中天津学生英勇斗争",
       "description": "五四运动爆发后，天津学生积极响应，周恩来、邓颖超等组织天津学生联合会，领导罢课、游行和抵制日货运动。觉悟社的成立标志着天津新文化运动走向深入，天津成为北方革命运动的重要阵地。",
-      "image": "/WhatHappenedHere/images/cities/tianjin-1919.jpg"
+      "image": "/images/cities/tianjin-1919.jpg"
     },
     {
       "year": "1928",
       "era": "modern",
       "title": "天津设为特别市开始近代市政建设",
       "description": "北伐战争胜利后，国民政府将天津设为特别市（后改为直辖市），开始大规模近代市政建设。这一时期天津经济繁荣，金融业发达，被称为"北方的上海"，拥有"北四行"等著名银行。",
-      "image": "/WhatHappenedHere/images/cities/tianjin-1928.jpg"
+      "image": "/images/cities/tianjin-1928.jpg"
     },
     {
       "year": "1937",
       "era": "modern",
       "title": "日军占领天津全面沦陷",
       "description": "七七事变后，日军迅速攻占天津，天津全面沦陷。日军在天津实行殖民统治，掠夺经济资源，推行奴化教育。天津人民进行了不屈不挠的抗日斗争，冀中抗日根据地的斗争尤为激烈。",
-      "image": "/WhatHappenedHere/images/cities/tianjin-1937.jpg"
+      "image": "/images/cities/tianjin-1937.jpg"
     },
     {
       "year": "1949",
       "era": "modern",
       "title": "天津解放获得新生",
       "description": "1949年1月15日，经过29小时的激烈战斗，中国人民解放军攻克天津，天津宣告解放。天津的解放为北平的和平解放创造了有利条件，天津从此进入人民当家作主的新时代。",
-      "image": "/WhatHappenedHere/images/cities/tianjin-1949.jpg"
+      "image": "/images/cities/tianjin-1949.jpg"
     },
     {
       "year": "1958",
       "era": "contemporary",
       "title": "天津并入河北省后恢复直辖市",
       "description": "1958年，天津并入河北省并成为河北省省会。1967年，天津恢复直辖市建制。这一时期天津大力发展工业，成为全国重要的工业基地，自行车、手表、缝纫机等"老三样"享誉全国。",
-      "image": "/WhatHappenedHere/images/cities/tianjin-1958.jpg"
+      "image": "/images/cities/tianjin-1958.jpg"
     },
     {
       "year": "1976",
       "era": "contemporary",
       "title": "唐山大地震波及天津造成严重损失",
       "description": "1976年7月28日，唐山发生7.8级大地震，天津受到严重波及，大量房屋倒塌，数万人伤亡。震后天津进行了大规模的城市重建和危陋房屋改造，城市面貌发生了深刻变化。",
-      "image": "/WhatHappenedHere/images/cities/tianjin-1976.jpg"
+      "image": "/images/cities/tianjin-1976.jpg"
     },
     {
       "year": "1984",
       "era": "contemporary",
       "title": "天津经济技术开发区奠基",
       "description": "1984年12月，天津经济技术开发区（TEDA）在塘沽盐场荒滩上奠基建设。这是中国首批国家级开发区之一，吸引了大量外资企业入驻，成为天津对外开放的窗口和经济增长的引擎。",
-      "image": "/WhatHappenedHere/images/cities/tianjin-1984.jpg"
+      "image": "/images/cities/tianjin-1984.jpg"
     },
     {
       "year": "1994",
       "era": "contemporary",
       "title": "滨海新区开发建设正式启动",
       "description": "天津市决定开发滨海新区，将塘沽、汉沽、大港三个行政区和天津经济技术开发区、天津港保税区整合为统一的经济新区。滨海新区的建设成为天津改革开放的新引擎。",
-      "image": "/WhatHappenedHere/images/cities/tianjin-1994.jpg"
+      "image": "/images/cities/tianjin-1994.jpg"
     },
     {
       "year": "2006",
       "era": "contemporary",
       "title": "滨海新区纳入国家发展战略",
       "description": "国务院批准天津滨海新区为全国综合配套改革试验区，滨海新区开发开放正式上升为国家发展战略。滨海新区定位为"中国经济增长第三极"，重点发展先进制造业和现代服务业。",
-      "image": "/WhatHappenedHere/images/cities/tianjin-2006.jpg"
+      "image": "/images/cities/tianjin-2006.jpg"
     },
     {
       "year": "2008",
       "era": "contemporary",
       "title": "京津城际高铁开通运行",
       "description": "2008年8月1日，中国第一条高速铁路——京津城际铁路正式开通运营，京津两地实现30分钟直达。这条铁路标志着中国高速铁路时代的到来，极大促进了京津冀地区的协同发展。",
-      "image": "/WhatHappenedHere/images/cities/tianjin-2008.jpg"
+      "image": "/images/cities/tianjin-2008.jpg"
     },
     {
       "year": "2015",
       "era": "contemporary",
       "title": "天津港"8·12"特大爆炸事故",
       "description": "2015年8月12日，天津滨海新区瑞海国际物流公司危险品仓库发生特大爆炸事故，造成165人遇难、798人受伤。事故引起全国震动，推动了危险化学品安全管理的全面改革和城市安全治理体系的完善。",
-      "image": "/WhatHappenedHere/images/cities/tianjin-2015.jpg"
+      "image": "/images/cities/tianjin-2015.jpg"
     },
     {
       "year": "2024",
       "era": "contemporary",
       "title": "京津冀协同发展深入推进",
       "description": "天津积极融入京津冀协同发展国家战略，承接北京非首都功能疏解，建设全国先进制造研发基地和北方国际航运核心区。天开高教科创园等创新平台建设，标志着天津向创新驱动发展转型的新征程。",
-      "image": "/WhatHappenedHere/images/cities/tianjin-2024.jpg"
+      "image": "/images/cities/tianjin-2024.jpg"
     }
   ],
   "images": [
-    {"url": "/WhatHappenedHere/images/cities/tianjin-608.jpg", "year": "608", "caption": "隋朝永济渠开凿，奠定天津水运枢纽地位"},
-    {"url": "/WhatHappenedHere/images/cities/tianjin-1153.jpg", "year": "1153", "caption": "金朝设置直沽寨，天津最早的军事建制"},
-    {"url": "/WhatHappenedHere/images/cities/tianjin-1404.jpg", "year": "1404", "caption": "永乐帝赐名天津，取"天子渡津"之意"},
-    {"url": "/WhatHappenedHere/images/cities/tianjin-1860.jpg", "year": "1860", "caption": "天津开埠通商，九国租界格局逐步形成"},
-    {"url": "/WhatHappenedHere/images/cities/tianjin-1870.jpg", "year": "1870", "caption": "天津教案，望海楼教堂事件震惊中外"},
-    {"url": "/WhatHappenedHere/images/cities/tianjin-1895.jpg", "year": "1895", "caption": "北洋大学堂创办，中国第一所现代大学"},
-    {"url": "/WhatHappenedHere/images/cities/tianjin-1900.jpg", "year": "1900", "caption": "八国联军占领天津，设立都统衙门"},
-    {"url": "/WhatHappenedHere/images/cities/tianjin-1949.jpg", "year": "1949", "caption": "天津解放，城市获得新生"},
-    {"url": "/WhatHappenedHere/images/cities/tianjin-1976.jpg", "year": "1976", "caption": "唐山大地震波及天津，城市重建"},
-    {"url": "/WhatHappenedHere/images/cities/tianjin-2008.jpg", "year": "2008", "caption": "京津城际高铁开通，中国高铁时代来临"},
-    {"url": "/WhatHappenedHere/images/cities/tianjin-2015.jpg", "year": "2015", "caption": "天津港"8·12"特大爆炸事故"},
-    {"url": "/WhatHappenedHere/images/cities/tianjin-2024.jpg", "year": "2024", "caption": "京津冀协同发展深入推进"}
+    {"url": "/images/cities/tianjin-608.jpg", "year": "608", "caption": "隋朝永济渠开凿，奠定天津水运枢纽地位"},
+    {"url": "/images/cities/tianjin-1153.jpg", "year": "1153", "caption": "金朝设置直沽寨，天津最早的军事建制"},
+    {"url": "/images/cities/tianjin-1404.jpg", "year": "1404", "caption": "永乐帝赐名天津，取"天子渡津"之意"},
+    {"url": "/images/cities/tianjin-1860.jpg", "year": "1860", "caption": "天津开埠通商，九国租界格局逐步形成"},
+    {"url": "/images/cities/tianjin-1870.jpg", "year": "1870", "caption": "天津教案，望海楼教堂事件震惊中外"},
+    {"url": "/images/cities/tianjin-1895.jpg", "year": "1895", "caption": "北洋大学堂创办，中国第一所现代大学"},
+    {"url": "/images/cities/tianjin-1900.jpg", "year": "1900", "caption": "八国联军占领天津，设立都统衙门"},
+    {"url": "/images/cities/tianjin-1949.jpg", "year": "1949", "caption": "天津解放，城市获得新生"},
+    {"url": "/images/cities/tianjin-1976.jpg", "year": "1976", "caption": "唐山大地震波及天津，城市重建"},
+    {"url": "/images/cities/tianjin-2008.jpg", "year": "2008", "caption": "京津城际高铁开通，中国高铁时代来临"},
+    {"url": "/images/cities/tianjin-2015.jpg", "year": "2015", "caption": "天津港"8·12"特大爆炸事故"},
+    {"url": "/images/cities/tianjin-2024.jpg", "year": "2024", "caption": "京津冀协同发展深入推进"}
   ],
   "relatedCities": ["tangshan", "baoding", "beijing", "shijiazhuang", "nanjing", "hangzhou"],
   "relatedLocations": ["forbidden-city", "temple-of-heaven", "great-wall"]

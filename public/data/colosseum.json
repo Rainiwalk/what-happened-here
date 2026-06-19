@@ -7,7 +7,7 @@
   "lat": 41.8902,
   "lng": 12.4922,
   "summary": "The Colosseum, also known as the Flavian Amphitheatre, is the largest ancient amphitheatre ever built. Constructed between 70-80 AD under the Flavian emperors, it could hold between 50,000 and 80,000 spectators for gladiatorial contests, public spectacles, and dramas. It remains an iconic symbol of Imperial Rome and is one of the New Seven Wonders of the World.",
-  "coverImage": "/WhatHappenedHere/images/colosseum.jpg",
+  "coverImage": "/images/colosseum.jpg",
   "timeline": [
     {"year": "72", "title": "Construction Begins Under Vespasian", "description": "Emperor Vespasian of the Flavian dynasty orders the construction of the Colosseum on the site of Nero's former palace lake, the Domus Aurea. The project is funded by spoils from the Siege of Jerusalem in 70 AD."},
     {"year": "80", "title": "Inauguration Under Titus", "description": "Emperor Titus inaugurates the Colosseum with 100 days of games including gladiatorial combats and wild animal fights. The amphitheatre seats approximately 50,000 to 80,000 spectators and features a complex system of underground tunnels called the hypogeum."},
@@ -18,10 +18,10 @@
     {"year": "1990", "title": "Major Restoration Campaign", "description": "Italy launches a comprehensive restoration campaign to clean and stabilize the Colosseum after decades of pollution damage. Modern techniques remove centuries of grime and reinforce weakened structural elements, transforming the monument's appearance."}
   ],
   "images": [
-    {"url": "/WhatHappenedHere/images/colosseum-80.jpg", "year": "80", "caption": "The Colosseum at its inauguration under Emperor Titus, gleaming white with travertine limestone"},
-    {"url": "/WhatHappenedHere/images/colosseum-500.jpg", "year": "500", "caption": "The Colosseum in late antiquity as gladiatorial games ceased and nature began reclaiming the structure"},
-    {"url": "/WhatHappenedHere/images/colosseum-1349.jpg", "year": "1349", "caption": "The aftermath of the 1349 earthquake showing the collapsed southern exterior wall"},
-    {"url": "/WhatHappenedHere/images/colosseum-2000.jpg", "year": "2000", "caption": "The fully restored Colosseum illuminated at night, one of the most visited monuments in the world"}
+    {"url": "/images/colosseum-80.jpg", "year": "80", "caption": "The Colosseum at its inauguration under Emperor Titus, gleaming white with travertine limestone"},
+    {"url": "/images/colosseum-500.jpg", "year": "500", "caption": "The Colosseum in late antiquity as gladiatorial games ceased and nature began reclaiming the structure"},
+    {"url": "/images/colosseum-1349.jpg", "year": "1349", "caption": "The aftermath of the 1349 earthquake showing the collapsed southern exterior wall"},
+    {"url": "/images/colosseum-2000.jpg", "year": "2000", "caption": "The fully restored Colosseum illuminated at night, one of the most visited monuments in the world"}
   ],
   "relatedLocations": ["acropolis", "versailles", "mont-saint-michel"]
 }

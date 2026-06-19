@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { TimelineEvent as TimelineEventType } from "@/types";
+import { getPath } from "@/lib/utils";
 
 interface TimelineEventProps {
   event: TimelineEventType;
@@ -53,7 +54,7 @@ export default function TimelineEvent({
           {event.image && (
             <div className="mt-4 rounded-lg overflow-hidden">
               <img
-                src={event.image}
+                src={getPath(event.image)}
                 alt={event.title}
                 className="w-full h-48 object-cover"
               />

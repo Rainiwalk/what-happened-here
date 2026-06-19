@@ -7,7 +7,7 @@
   "lng": 104.0668,
   "summary": "成都是天府之国的核心，三国蜀汉的都城，拥有四千多年的建城史。这座城市以大熊猫、川菜、茶馆和悠闲的生活方式闻名于世，是中国最具幸福感的城市之一。",
   "description": "成都地处四川盆地西部，成都平原腹地，岷江、沱江等河流穿境而过，气候温和，物产丰富，自古就有'天府之国'的美誉。早在四千多年前，古蜀先民就在此创造了灿烂的三星堆和金沙文明。战国时期秦国蜀郡太守李冰修建都江堰，使成都平原成为'水旱从人，不知饥馑'的富庶之地。三国时期刘备在此建立蜀汉政权，诸葛亮在此鞠躬尽瘁。唐代成都是全国最繁华的城市之一，'扬一益二'之说流传千古。杜甫草堂、武侯祠、青城山、都江堰等文化遗产举世闻名。如今的成都已发展成为国家中心城市，西部地区经济、科技、金融中心，同时也是世界著名的美食之都和大熊猫故乡。",
-  "coverImage": "/WhatHappenedHere/images/cities/chengdu.jpg",
+  "coverImage": "/images/cities/chengdu.jpg",
   "timeline": [
     {
       "year": "前2500",
@@ -191,15 +191,15 @@
     }
   ],
   "images": [
-    {"url": "/WhatHappenedHere/images/cities/chengdu-316.jpg", "year": "316", "caption": "秦国灭蜀"},
-    {"url": "/WhatHappenedHere/images/cities/chengdu-256.jpg", "year": "256", "caption": "都江堰"},
-    {"url": "/WhatHappenedHere/images/cities/chengdu-221.jpg", "year": "221", "caption": "蜀汉建立"},
-    {"url": "/WhatHappenedHere/images/cities/chengdu-759.jpg", "year": "759", "caption": "杜甫草堂"},
-    {"url": "/WhatHappenedHere/images/cities/chengdu-1023.jpg", "year": "1023", "caption": "交子诞生"},
-    {"url": "/WhatHappenedHere/images/cities/chengdu-1911.jpg", "year": "1911", "caption": "保路运动"},
-    {"url": "/WhatHappenedHere/images/cities/chengdu-2001.jpg", "year": "2001", "caption": "青城山—都江堰申遗成功"},
-    {"url": "/WhatHappenedHere/images/cities/chengdu-2010.jpg", "year": "2010", "caption": "联合国美食之都"},
-    {"url": "/WhatHappenedHere/images/cities/chengdu.jpg", "year": "2024", "caption": "现代成都城市风貌"}
+    {"url": "/images/cities/chengdu-316.jpg", "year": "316", "caption": "秦国灭蜀"},
+    {"url": "/images/cities/chengdu-256.jpg", "year": "256", "caption": "都江堰"},
+    {"url": "/images/cities/chengdu-221.jpg", "year": "221", "caption": "蜀汉建立"},
+    {"url": "/images/cities/chengdu-759.jpg", "year": "759", "caption": "杜甫草堂"},
+    {"url": "/images/cities/chengdu-1023.jpg", "year": "1023", "caption": "交子诞生"},
+    {"url": "/images/cities/chengdu-1911.jpg", "year": "1911", "caption": "保路运动"},
+    {"url": "/images/cities/chengdu-2001.jpg", "year": "2001", "caption": "青城山—都江堰申遗成功"},
+    {"url": "/images/cities/chengdu-2010.jpg", "year": "2010", "caption": "联合国美食之都"},
+    {"url": "/images/cities/chengdu.jpg", "year": "2024", "caption": "现代成都城市风貌"}
   ],
   "relatedCities": ["xian", "nanjing", "hangzhou", "luoyang", "tianjin"],
   "relatedLocations": ["great-wall", "forbidden-city"]

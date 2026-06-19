@@ -7,7 +7,7 @@
   "lat": 51.5007,
   "lng": -0.1246,
   "summary": "大本钟是伦敦最具标志性的钟楼，位于威斯敏斯特宫北端。钟楼高96米，钟重13.5吨，其钟声是英国最具辨识度的声音之一，已成为伦敦和英国的象征。",
-  "coverImage": "/WhatHappenedHere/images/big-ben.jpg",
+  "coverImage": "/images/big-ben.jpg",
   "timeline": [
     {
       "year": "1834",
@@ -47,22 +47,22 @@
   ],
   "images": [
     {
-      "url": "/WhatHappenedHere/images/big-ben.jpg",
+      "url": "/images/big-ben.jpg",
       "year": "1859",
       "caption": "大本钟首次敲响"
     },
     {
-      "url": "/WhatHappenedHere/images/big-ben.jpg",
+      "url": "/images/big-ben.jpg",
       "year": "1939",
       "caption": "二战期间的大本钟"
     },
     {
-      "url": "/WhatHappenedHere/images/big-ben.jpg",
+      "url": "/images/big-ben.jpg",
       "year": "2012",
       "caption": "更名为伊丽莎白塔"
     },
     {
-      "url": "/WhatHappenedHere/images/big-ben.jpg",
+      "url": "/images/big-ben.jpg",
       "year": "2020",
       "caption": "现代大本钟夜景"
     }

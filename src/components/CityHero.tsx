@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { City } from "@/types";
+import { getPath } from "@/lib/utils";
 
 interface CityHeroProps {
   city: City;
@@ -18,7 +19,7 @@ export default function CityHero({ city }: CityHeroProps) {
       {/* Background image */}
       <div className="absolute inset-0">
         <img
-          src={city.coverImage}
+          src={getPath(city.coverImage)}
           alt={city.name}
           className="w-full h-full object-cover"
         />

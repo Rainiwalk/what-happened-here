@@ -7,7 +7,7 @@
   "lat": 48.858370,
   "lng": 2.294481,
   "summary": "埃菲尔铁塔是为1889年巴黎世博会而建，由工程师古斯塔夫·埃菲尔设计。这座324米高的铁塔最初遭到巴黎市民的强烈反对，如今已成为法国最著名的象征。",
-  "coverImage": "/WhatHappenedHere/images/eiffel-tower.jpg",
+  "coverImage": "/images/eiffel-tower.jpg",
   "timeline": [
     {
       "year": "1887",
@@ -47,22 +47,22 @@
   ],
   "images": [
     {
-      "url": "/WhatHappenedHere/images/eiffel-tower-construction.jpg",
+      "url": "/images/eiffel-tower-construction.jpg",
       "year": "1888",
       "caption": "建设中的埃菲尔铁塔"
     },
     {
-      "url": "/WhatHappenedHere/images/eiffel-tower-1889.jpg",
+      "url": "/images/eiffel-tower-1889.jpg",
       "year": "1889",
       "caption": "1889年巴黎世博会期间的铁塔"
     },
     {
-      "url": "/WhatHappenedHere/images/eiffel-tower-1925.jpg",
+      "url": "/images/eiffel-tower-1925.jpg",
       "year": "1925",
       "caption": "Citroën广告灯光秀"
     },
     {
-      "url": "/WhatHappenedHere/images/eiffel-tower-modern.jpg",
+      "url": "/images/eiffel-tower-modern.jpg",
       "year": "2020",
       "caption": "现代的埃菲尔铁塔夜景"
     }

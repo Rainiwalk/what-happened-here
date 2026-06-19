@@ -7,7 +7,7 @@
   "lat": 37.8199,
   "lng": -122.4783,
   "summary": "金门大桥是横跨旧金山金门海峡的悬索桥，全长2737米，主跨1280米。这座标志性工程于1937年建成通车，以其独特的国际橘涂装和优美的 Art Deco 风格成为旧金山最著名的地标。",
-  "coverImage": "/WhatHappenedHere/images/golden-gate-bridge.jpg",
+  "coverImage": "/images/golden-gate-bridge.jpg",
   "timeline": [
     {
       "year": "1933",
@@ -42,22 +42,22 @@
   ],
   "images": [
     {
-      "url": "/WhatHappenedHere/images/golden-gate-bridge-1934.jpg",
+      "url": "/images/golden-gate-bridge-1934.jpg",
       "year": "1934",
       "caption": "建设中的金门大桥主塔"
     },
     {
-      "url": "/WhatHappenedHere/images/golden-gate-bridge-1937.jpg",
+      "url": "/images/golden-gate-bridge-1937.jpg",
       "year": "1937",
       "caption": "1937年通车典礼时的金门大桥"
     },
     {
-      "url": "/WhatHappenedHere/images/golden-gate-bridge-fog.jpg",
+      "url": "/images/golden-gate-bridge-fog.jpg",
       "year": "1970",
       "caption": "笼罩在旧金山浓雾中的金门大桥"
     },
     {
-      "url": "/WhatHappenedHere/images/golden-gate-bridge-sunset.jpg",
+      "url": "/images/golden-gate-bridge-sunset.jpg",
       "year": "2020",
       "caption": "夕阳下的金门大桥"
     }

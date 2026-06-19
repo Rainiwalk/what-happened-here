@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { Location } from "@/types";
+import { getPath } from "@/lib/utils";
 
 interface LocationHeroProps {
   location: Location;
@@ -13,7 +14,7 @@ export default function LocationHero({ location }: LocationHeroProps) {
       {/* Background image */}
       <div className="absolute inset-0">
         <img
-          src={location.coverImage}
+          src={getPath(location.coverImage)}
           alt={location.name}
           className="w-full h-full object-cover"
         />

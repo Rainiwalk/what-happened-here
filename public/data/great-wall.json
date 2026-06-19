@@ -7,7 +7,7 @@
   "lat": 40.4319,
   "lng": 116.5704,
   "summary": "The Great Wall of China is a series of fortifications made of stone, brick, tamped earth, and other materials, generally built along an east-to-west line across the historical northern borders of China. Stretching over 21,000 kilometers, it is one of the most impressive architectural feats in human history and a UNESCO World Heritage Site since 1987.",
-  "coverImage": "/WhatHappenedHere/images/great-wall.jpg",
+  "coverImage": "/images/great-wall.jpg",
   "timeline": [
     {"year": "700", "title": "Warring States Period Construction", "description": "Various Chinese states during the Warring States period (475-221 BC) began building walls to protect their borders from northern invaders and rival states. The states of Qi, Yan, and Zhao each constructed their own defensive walls."},
     {"year": "221", "title": "Qin Dynasty Unification", "description": "Emperor Qin Shi Huang unified China and ordered the connection and extension of existing walls to form a continuous defensive barrier against northern nomadic groups, particularly the Xiongnu. This marked the first 'Great Wall' as a unified structure."},
@@ -17,10 +17,10 @@
     {"year": "2007", "title": "New Seven Wonders of the World", "description": "The Great Wall was voted one of the New Seven Wonders of the World in a global poll organized by the New7Wonders Foundation, cementing its status as one of humanity's greatest achievements."}
   ],
   "images": [
-    {"url": "/WhatHappenedHere/images/great-wall-700.jpg", "year": "700", "caption": "Early wall construction during the Warring States period"},
-    {"url": "/WhatHappenedHere/images/great-wall-1368.jpg", "year": "1368", "caption": "Ming Dynasty brick and stone fortification at Badaling"},
-    {"url": "/WhatHappenedHere/images/great-wall-1644.jpg", "year": "1644", "caption": "Shanhai Pass where the Great Wall meets the Bohai Sea"},
-    {"url": "/WhatHappenedHere/images/great-wall-1987.jpg", "year": "1987", "caption": "The Great Wall winding through mountainous terrain near Beijing"}
+    {"url": "/images/great-wall-700.jpg", "year": "700", "caption": "Early wall construction during the Warring States period"},
+    {"url": "/images/great-wall-1368.jpg", "year": "1368", "caption": "Ming Dynasty brick and stone fortification at Badaling"},
+    {"url": "/images/great-wall-1644.jpg", "year": "1644", "caption": "Shanhai Pass where the Great Wall meets the Bohai Sea"},
+    {"url": "/images/great-wall-1987.jpg", "year": "1987", "caption": "The Great Wall winding through mountainous terrain near Beijing"}
   ],
   "relatedLocations": ["taj-mahal", "angkor-wat"]
 }

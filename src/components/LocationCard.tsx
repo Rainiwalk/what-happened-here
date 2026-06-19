@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { LocationSummary } from "@/types";
+import { getPath } from "@/lib/utils";
 
 interface LocationCardProps {
   location: LocationSummary;
@@ -23,7 +24,7 @@ export default function LocationCard({ location, index }: LocationCardProps) {
         {/* Image */}
         <div className="relative h-48 bg-gradient-to-br from-blue-100 to-purple-100 overflow-hidden">
           <img
-            src={location.coverImage}
+            src={getPath(location.coverImage)}
             alt={location.name}
             className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
             loading="lazy"

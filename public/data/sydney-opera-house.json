@@ -7,7 +7,7 @@
   "lat": -33.8568,
   "lng": 151.2153,
   "summary": "The Sydney Opera House is one of the most iconic buildings of the 20th century, designed by Danish architect Jorn Utzon and opened in 1973. Its distinctive sail-shaped roof shells, covered in over one million Swedish-made tiles, have made it the symbol of Sydney and one of the most photographed buildings on Earth. The venue hosts over 1,500 performances annually and welcomes more than 8 million visitors each year.",
-  "coverImage": "/WhatHappenedHere/images/sydney-opera-house.jpg",
+  "coverImage": "/images/sydney-opera-house.jpg",
   "timeline": [
     {
       "year": "1957",
@@ -47,22 +47,22 @@
   ],
   "images": [
     {
-      "url": "/WhatHappenedHere/images/sydney-opera-house-harbor.jpg",
+      "url": "/images/sydney-opera-house-harbor.jpg",
       "year": "2020",
       "caption": "The Sydney Opera House and Sydney Harbour Bridge at sunset, the most iconic view of the Australian city"
     },
     {
-      "url": "/WhatHappenedHere/images/sydney-opera-house-construction.jpg",
+      "url": "/images/sydney-opera-house-construction.jpg",
       "year": "1968",
       "caption": "The Sydney Opera House under construction, showing the roof shell structure being assembled on Bennelong Point"
     },
     {
-      "url": "/WhatHappenedHere/images/sydney-opera-house-tiles.jpg",
+      "url": "/images/sydney-opera-house-tiles.jpg",
       "year": "2019",
       "caption": "Close-up of the distinctive chevron-patterned ceramic tiles covering the Opera House roof shells"
     },
     {
-      "url": "/WhatHappenedHere/images/sydney-opera-house-interior.jpg",
+      "url": "/images/sydney-opera-house-interior.jpg",
       "year": "2022",
       "caption": "The Concert Hall interior after its 2022 renovation, featuring improved acoustics and the world's largest mechanical tracker action organ"
     }

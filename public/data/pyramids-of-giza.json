@@ -7,7 +7,7 @@
   "lat": 29.9792,
   "lng": 31.1342,
   "summary": "The Pyramids of Giza are the last surviving wonder of the ancient world, built during Egypt's Fourth Dynasty around 2560 BC. The Great Pyramid of Khufu stood as the tallest man-made structure on Earth for over 3,800 years. These monumental tombs continue to inspire awe as testaments to the engineering brilliance of ancient Egyptian civilization.",
-  "coverImage": "/WhatHappenedHere/images/pyramids-of-giza.jpg",
+  "coverImage": "/images/pyramids-of-giza.jpg",
   "timeline": [
     {
       "year": "2560 BC",
@@ -47,22 +47,22 @@
   ],
   "images": [
     {
-      "url": "/WhatHappenedHere/images/pyramids-of-giza-aerial.jpg",
+      "url": "/images/pyramids-of-giza-aerial.jpg",
       "year": "2020",
       "caption": "Aerial view of the three main pyramids of Giza against the backdrop of modern Cairo"
     },
     {
-      "url": "/WhatHappenedHere/images/pyramids-of-giza-sphinx.jpg",
+      "url": "/images/pyramids-of-giza-sphinx.jpg",
       "year": "2018",
       "caption": "The Great Sphinx of Giza with the Great Pyramid visible behind it at sunset"
     },
     {
-      "url": "/WhatHappenedHere/images/pyramids-of-giza-vyse.jpg",
+      "url": "/images/pyramids-of-giza-vyse.jpg",
       "year": "1837",
       "caption": "Howard Vyse's diagram of the upper chambers of the Great Pyramid discovered during his 1837 expedition"
     },
     {
-      "url": "/WhatHappenedHere/images/pyramids-of-giza-boat.jpg",
+      "url": "/images/pyramids-of-giza-boat.jpg",
       "year": "1982",
       "caption": "The reconstructed Khufu Ship on display in the purpose-built museum at the foot of the Great Pyramid"
     }

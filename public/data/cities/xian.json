@@ -7,7 +7,7 @@
   "lng": 108.9425,
   "summary": "西安古称长安，是中华文明的重要发祥地之一，十三朝古都，丝绸之路的起点。这座城市见证了周、秦、汉、隋、唐等王朝的辉煌，承载着三千多年的建城史，是世界四大古都之一。",
   "description": "西安地处关中平原中部，南依秦岭，北临渭河，是陕西省省会。自西周在此建都以来，先后有秦、西汉、新莽、东汉、西晋、前赵、前秦、后秦、西魏、北周、隋、唐等十三个王朝在此建都，历时千余年。西安是丝绸之路的东方起点，汉代张骞从这里出发，开辟了连接东西方文明的伟大商路。唐代长安城是当时世界上最大、最繁华的城市，人口超过百万，各国商贾、使节、学者云集于此。秦始皇兵马俑、大雁塔、城墙、碑林等文化遗产举世闻名。如今的西安是西北地区最大的城市，国家重要的科研、教育和工业基地，兼具深厚的历史底蕴和蓬勃的现代活力。",
-  "coverImage": "/WhatHappenedHere/images/cities/xian.jpg",
+  "coverImage": "/images/cities/xian.jpg",
   "timeline": [
     {
       "year": "前1100",
@@ -191,16 +191,16 @@
     }
   ],
   "images": [
-    {"url": "/WhatHappenedHere/images/cities/xian-221.jpg", "year": "221", "caption": "秦统一六国"},
-    {"url": "/WhatHappenedHere/images/cities/xian-138.jpg", "year": "138", "caption": "张骞出使西域"},
-    {"url": "/WhatHappenedHere/images/cities/xian-618.jpg", "year": "618", "caption": "唐代长安城"},
-    {"url": "/WhatHappenedHere/images/cities/xian-652.jpg", "year": "652", "caption": "大雁塔"},
-    {"url": "/WhatHappenedHere/images/cities/xian-712.jpg", "year": "712", "caption": "开元盛世长安"},
-    {"url": "/WhatHappenedHere/images/cities/xian-1369.jpg", "year": "1369", "caption": "明代西安城墙"},
-    {"url": "/WhatHappenedHere/images/cities/xian-1936.jpg", "year": "1936", "caption": "西安事变"},
-    {"url": "/WhatHappenedHere/images/cities/xian-1974.jpg", "year": "1974", "caption": "秦始皇兵马俑"},
-    {"url": "/WhatHappenedHere/images/cities/xian-2014.jpg", "year": "2014", "caption": "丝绸之路申遗成功"},
-    {"url": "/WhatHappenedHere/images/cities/xian.jpg", "year": "2024", "caption": "现代西安城市风貌"}
+    {"url": "/images/cities/xian-221.jpg", "year": "221", "caption": "秦统一六国"},
+    {"url": "/images/cities/xian-138.jpg", "year": "138", "caption": "张骞出使西域"},
+    {"url": "/images/cities/xian-618.jpg", "year": "618", "caption": "唐代长安城"},
+    {"url": "/images/cities/xian-652.jpg", "year": "652", "caption": "大雁塔"},
+    {"url": "/images/cities/xian-712.jpg", "year": "712", "caption": "开元盛世长安"},
+    {"url": "/images/cities/xian-1369.jpg", "year": "1369", "caption": "明代西安城墙"},
+    {"url": "/images/cities/xian-1936.jpg", "year": "1936", "caption": "西安事变"},
+    {"url": "/images/cities/xian-1974.jpg", "year": "1974", "caption": "秦始皇兵马俑"},
+    {"url": "/images/cities/xian-2014.jpg", "year": "2014", "caption": "丝绸之路申遗成功"},
+    {"url": "/images/cities/xian.jpg", "year": "2024", "caption": "现代西安城市风貌"}
   ],
   "relatedCities": ["nanjing", "luoyang", "hangzhou", "chengdu", "tangshan"],
   "relatedLocations": ["terracotta-warriors", "great-wall"]
