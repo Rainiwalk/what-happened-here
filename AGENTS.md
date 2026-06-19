@@ -8,9 +8,9 @@ This version has breaking changes — APIs, conventions, and file structure may 
 
 ## Project Overview
 
-**城市时间线档案馆** - A static history exploration website that helps users understand how cities formed through interactive timelines.
+**城市时间线档案馆** - 5分钟，了解一座城。
 
-**Core insight:** World-famous landmarks are well-documented everywhere, but local city history (like Tangshan, Baoding) is hard to find unless you visit a museum. This site fills that gap.
+**Core value:** 来到一座陌生城市，为什么这里叫这个名字？这座城市经历了什么才变成今天这样？用5分钟时间线看懂它的前世今生。
 
 **Core flow:** Search city → View timeline (ancient → modern) → Understand city formation
 

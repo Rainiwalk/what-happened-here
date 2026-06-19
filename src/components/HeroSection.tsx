@@ -29,16 +29,17 @@ export default function HeroSection() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
         >
-          <span className="inline-block px-4 py-1 bg-amber-100 text-amber-700 rounded-full text-sm font-medium mb-6">
-            城市时间线档案馆
-          </span>
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
-            这里发生了什么？
+            5分钟，了解一座城
           </h1>
-          <p className="mt-6 text-lg sm:text-xl text-gray-600 max-w-2xl mx-auto">
-            每座城市都有自己的故事。
+          <p className="mt-6 text-lg sm:text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed">
+            来到一座陌生城市，
             <br />
-            用时间线了解一座城市是如何形成的。
+            为什么这里叫这个名字？
+            <br />
+            这座城市经历了什么才变成今天这样？
+            <br />
+            <span className="text-amber-600 font-medium">用5分钟时间线，看懂一座城市的前世今生。</span>
           </p>
         </motion.div>
 
@@ -59,7 +60,7 @@ export default function HeroSection() {
           transition={{ duration: 0.6, delay: 0.4 }}
           className="mt-8 flex flex-wrap items-center justify-center gap-3"
         >
-          <span className="text-sm text-gray-500">所有城市:</span>
+          <span className="text-sm text-gray-500">快速体验:</span>
           {cities.map((city) => (
             <Link
               key={city.id}
