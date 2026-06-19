@@ -42,7 +42,7 @@ export default function Header() {
               🏛️ 世界地标
             </Link>
             <a
-              href="https://github.com"
+              href="https://github.com/Rainiwalk/WhatHappenedHere"
               target="_blank"
               rel="noopener noreferrer"
               className="text-sm text-gray-600 hover:text-gray-900 transition-colors"

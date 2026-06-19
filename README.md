@@ -38,7 +38,7 @@ npm install
 npm run dev
 ```
 
-打开 http://localhost:3000 即可访问。
+打开 http://localhost:3000 即可访问（开发模式下 basePath 为空，无需加子路径）。
 
 ## 📍 已收录城市
 
@@ -108,7 +108,7 @@ npx serve out
 3. 将封面图片放入 `public/images/cities/`
 4. 重新构建：`npm run build`
 
-详细数据格式请参考 [CLAUDE.md](./CLAUDE.md)。
+详细数据格式请参考 [AGENTS.md](./AGENTS.md)。
 
 ## ➕ 添加新地标
 
