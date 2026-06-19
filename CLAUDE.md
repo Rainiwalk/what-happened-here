@@ -152,13 +152,49 @@ npm run build    # Build static site to out/
 npm run lint     # Run ESLint
 ```
 
-## Current Locations
+## Current Locations (30 total)
 
-- `tokyo-station` - Tokyo Station, Japan
-- `eiffel-tower` - Eiffel Tower, France
-- `forbidden-city` - Forbidden City, China
-- `times-square` - Times Square, USA
-- `big-ben` - Big Ben, UK
+### Asia (7)
+- `tokyo-station` - Tokyo Station, Japan (東京駅)
+- `great-wall` - Great Wall of China, China (长城)
+- `taj-mahal` - Taj Mahal, India (泰姬陵)
+- `angkor-wat` - Angkor Wat, Cambodia (吴哥窟)
+- `mount-fuji` - Mount Fuji, Japan (富士山)
+- `petronas-towers` - Petronas Towers, Malaysia (双子塔)
+- `merlion` - Merlion Park, Singapore (鱼尾狮)
+
+### Europe (11)
+- `eiffel-tower` - Eiffel Tower, France (Tour Eiffel)
+- `forbidden-city` - Forbidden City, China (紫禁城) - *Note: Beijing is in Asia*
+- `big-ben` - Big Ben, UK (大本钟)
+- `colosseum` - Colosseum, Italy (罗马斗兽场)
+- `acropolis` - Acropolis, Greece (雅典卫城)
+- `brandenburg-gate` - Brandenburg Gate, Germany (勃兰登堡门)
+- `sagrada-familia` - Sagrada Familia, Spain (圣家堂)
+- `stonehenge` - Stonehenge, UK (巨石阵)
+- `tower-bridge` - Tower Bridge, UK (伦敦塔桥)
+- `versailles` - Palace of Versailles, France (凡尔赛宫)
+- `mont-saint-michel` - Mont Saint-Michel, France (圣米歇尔山)
+
+### Americas (6)
+- `times-square` - Times Square, USA (时代广场)
+- `statue-of-liberty` - Statue of Liberty, USA (自由女神像)
+- `machu-picchu` - Machu Picchu, Peru (马丘比丘)
+- `christ-redeemer` - Christ the Redeemer, Brazil (基督救世主雕像)
+- `golden-gate-bridge` - Golden Gate Bridge, USA (金门大桥)
+- `mount-rushmore` - Mount Rushmore, USA (拉什莫尔山)
+
+### Africa & Middle East (4)
+- `pyramids-of-giza` - Pyramids of Giza, Egypt (吉萨金字塔)
+- `table-mountain` - Table Mountain, South Africa (桌山)
+- `petra` - Petra, Jordan (佩特拉古城)
+- `burj-khalifa` - Burj Khalifa, UAE (哈利法塔)
+
+### Oceania (1)
+- `sydney-opera-house` - Sydney Opera House, Australia (悉尼歌剧院)
+
+### Special
+- `vesuvius` - Mount Vesuvius/Pompeii, Italy (维苏威火山/庞贝)
 
 ## Future Plans (from PDF)
 

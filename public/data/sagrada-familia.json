@@ -1,0 +1,27 @@
+{
+  "id": "sagrada-familia",
+  "name": "Sagrada Familia",
+  "nameLocal": "圣家堂",
+  "country": "Spain",
+  "city": "Barcelona",
+  "lat": 41.4036,
+  "lng": 2.1744,
+  "summary": "The Basílica de la Sagrada Família is a large unfinished Roman Catholic basilica in Barcelona, designed by the Catalan architect Antoni Gaudí. Construction began in 1882 and continues to this day, making it one of the longest-running architectural projects in history. Gaudí devoted the last 15 years of his life entirely to this project, and his radically innovative design blends Gothic and curvilinear Art Nouveau forms in a structure unlike any other church in the world.",
+  "coverImage": "/images/sagrada-familia.jpg",
+  "timeline": [
+    {"year": "1882", "title": "Construction Begins", "description": "Construction of the Sagrada Família begins on March 19, 1882, the feast of St. Joseph, under architect Francisco de Paula del Villar. The initial design follows a standard neo-Gothic plan, but disagreements quickly lead to a change in leadership."},
+    {"year": "1883", "title": "Gaudí Takes Over the Project", "description": "Antoni Gaudí, then just 31 years old, takes over as chief architect after Villar's resignation. He radically transforms the design, abandoning the neo-Gothic style in favor of his own organic, nature-inspired aesthetic. He will devote 43 years of his life to this single project."},
+    {"year": "1926", "title": "Death of Antoni Gaudí", "description": "On June 7, 1926, Antoni Gaudí is struck by a tram on his way to confession at the Church of Sant Felip Neri. Mistaken for a beggar due to his shabby appearance, he is initially refused treatment. He dies three days later at age 73, with only about 15-25% of the basilica completed. He is buried in the crypt of the Sagrada Família."},
+    {"year": "1936", "title": "Spanish Civil War Destruction", "description": "During the Spanish Civil War, anarchists break into Gaudí's workshop in the crypt and destroy many of his original plans, drawings, and plaster models. The crypt itself is set on fire. This devastating loss of documentation creates enormous challenges for future architects attempting to complete the basilica."},
+    {"year": "1954", "title": "Post-War Reconstruction Resumes", "description": "After the Spanish Civil War and World War II slow progress, construction resumes in earnest. Architects work to reconstruct Gaudí's lost models from fragments and photographs, using his innovative geometric methods and catenary arch principles to continue his vision."},
+    {"year": "2010", "title": "Pope Benedict XVI Consecrates the Basilica", "description": "Pope Benedict XVI visits Barcelona and consecrates the Sagrada Família as a minor basilica on November 7, 2010. The interior nave is now structurally complete, and the consecration marks a major milestone in the building's 128-year construction history."},
+    {"year": "2026", "title": "Centenary of Gaudí's Death", "description": "Construction continues toward the goal of completing the basilica by 2026, the centenary of Gaudí's death. The six remaining towers, including the central Tower of Jesus Christ that will rise to 172.5 meters, are under active construction using advanced computer-aided design techniques."}
+  ],
+  "images": [
+    {"url": "/images/sagrada-familia-1883.jpg", "year": "1883", "caption": "Gaudí's early design sketches for the revolutionary basilica replacing the neo-Gothic original plan"},
+    {"url": "/images/sagrada-familia-1926.jpg", "year": "1926", "caption": "The Sagrada Família at the time of Gaudí's death with the Nativity facade partially complete"},
+    {"url": "/images/sagrada-familia-1936.jpg", "year": "1936", "caption": "The destruction inside Gaudí's workshop during the Spanish Civil War"},
+    {"url": "/images/sagrada-familia-2020.jpg", "year": "2020", "caption": "The nearly complete basilica with its soaring towers rising above the Barcelona skyline"}
+  ],
+  "relatedLocations": ["colosseum", "versailles", "mont-saint-michel"]
+}

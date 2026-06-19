@@ -1,0 +1,66 @@
+{
+  "id": "christ-redeemer",
+  "name": "Christ the Redeemer",
+  "nameLocal": "基督救世主雕像",
+  "country": "Brazil",
+  "city": "Rio de Janeiro",
+  "lat": -22.9519,
+  "lng": -43.2105,
+  "summary": "基督救世主雕像是位于巴西里约热内卢科尔科瓦多山顶的巨型耶稣雕像，高38米，双臂展开宽28米。这座装饰艺术风格的雕像是巴西最著名的地标，于2007年被评为世界新七大奇迹之一。",
+  "coverImage": "/images/christ-redeemer.jpg",
+  "timeline": [
+    {
+      "year": "1921",
+      "title": "建设计划提出",
+      "description": "里约热内卢大主教区发起在科尔科瓦多山顶建造大型宗教纪念碑的计划，以纪念巴西独立一百周年。委员会向全国征集设计方案。"
+    },
+    {
+      "year": "1922",
+      "title": "设计方案确定",
+      "description": "法国工程师阿尔贝·科科和巴西建筑师席尔瓦·科斯塔的设计方案被选中。雕像采用张开双臂的姿态，象征着对世人的拥抱。"
+    },
+    {
+      "year": "1926",
+      "title": "正式开工建设",
+      "description": "雕像正式开工建设。工程由法国雕塑家保罗·兰多斯基主持，使用钢筋混凝土和肥皂石作为外层覆盖材料，总造价约25万美元。"
+    },
+    {
+      "year": "1931",
+      "title": "落成揭幕",
+      "description": "10月12日，基督救世主雕像正式落成揭幕。雕像高38米，其中基座高8米，矗立在海拔710米的科尔科瓦多山顶，俯瞰整个里约热内卢。"
+    },
+    {
+      "year": "1965",
+      "title": "教皇到访",
+      "description": "教皇保罗六世访问基督救世主雕像，为雕像举行了宗教祝福仪式。此后雕像成为天主教朝圣的重要目的地。"
+    },
+    {
+      "year": "2007",
+      "title": "世界新七大奇迹",
+      "description": "在瑞士人伯纳德·韦伯发起的全球投票中，基督救世主雕像被评选为世界新七大奇迹之一，与万里长城、马丘比丘等并列。"
+    }
+  ],
+  "images": [
+    {
+      "url": "/images/christ-redeemer-1931.jpg",
+      "year": "1931",
+      "caption": "1931年落成时的基督救世主雕像"
+    },
+    {
+      "url": "/images/christ-redeemer-construction.jpg",
+      "year": "1928",
+      "caption": "建设中的雕像头部和手臂"
+    },
+    {
+      "url": "/images/christ-redeemer-lightning.jpg",
+      "year": "2014",
+      "caption": "雷暴中的基督救世主雕像"
+    },
+    {
+      "url": "/images/christ-redeemer-aerial.jpg",
+      "year": "2021",
+      "caption": "从空中俯瞰科尔科瓦多山顶的雕像"
+    }
+  ],
+  "relatedLocations": ["machu-picchu", "statue-of-liberty"]
+}

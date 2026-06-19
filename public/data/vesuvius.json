@@ -1,0 +1,71 @@
+{
+  "id": "vesuvius",
+  "name": "Mount Vesuvius and Pompeii",
+  "nameLocal": "维苏威火山/庞贝",
+  "country": "Italy",
+  "city": "Naples",
+  "lat": 40.8224,
+  "lng": 14.4289,
+  "summary": "Mount Vesuvius is one of the world's most dangerous volcanoes, infamous for its catastrophic eruption in 79 AD that buried the Roman cities of Pompeii and Herculaneum under meters of volcanic ash and pumice. The eruption preserved these cities in extraordinary detail, creating the most important archaeological record of daily life in the Roman Empire. The volcano remains active and is closely monitored as a potential threat to the 3 million people living in the Naples metropolitan area.",
+  "coverImage": "/images/vesuvius.jpg",
+  "timeline": [
+    {
+      "year": "79 AD",
+      "title": "The Eruption That Buried Pompeii",
+      "description": "On August 24, 79 AD, Mount Vesuvius erupts with catastrophic force, releasing a column of volcanic ash and pumice approximately 33 kilometers into the atmosphere over two days. The eruption buries the prosperous Roman city of Pompeii under 4 to 6 meters of volcanic material, while Herculaneum is engulfed by pyroclastic surges reaching temperatures of 400 degrees Celsius. An estimated 16,000 people perish. Pliny the Younger, watching from across the Bay of Naples, provides the only surviving eyewitness account of the eruption."
+    },
+    {
+      "year": "1631",
+      "title": "Deadliest Eruption in Recorded History",
+      "description": "Mount Vesuvius erupts on December 16, 1631, producing massive pyroclastic flows that destroy numerous towns on the volcano's slopes and along the coast. An estimated 4,000 to 6,000 people are killed, making it the deadliest eruption in Vesuvius's recorded history. The eruption also generates tsunami waves in the Bay of Naples. This disaster leads to the permanent evacuation of several villages and establishes a pattern of reconstruction and resettlement that continues to this day."
+    },
+    {
+      "year": "1748",
+      "title": "Rediscovery of Pompeii",
+      "description": "Spanish military engineer Rocque Joaquin de Alcubierre begins systematic excavations at Pompeii, which had been accidentally rediscovered during the construction of a canal in 1738. Workers uncover remarkably preserved buildings, frescoes, mosaics, and artifacts frozen in time by the volcanic ash. The discovery of a city literally stopped in its tracks by the eruption fascinates Europe and sparks a wave of interest in classical antiquity that profoundly influences art, architecture, and culture."
+    },
+    {
+      "year": "1860",
+      "title": "Giuseppe Fiorelli's Systematic Excavations",
+      "description": "Italian archaeologist Giuseppe Fiorelli takes charge of the Pompeii excavations and introduces revolutionary techniques that transform the study of the site. Fiorelli develops the method of pouring plaster into the voids left by decomposed bodies in the volcanic ash, creating hauntingly detailed casts of the victims in their final moments. He also implements a systematic grid-based excavation method, carefully preserving and documenting each layer of the buried city."
+    },
+    {
+      "year": "1906",
+      "title": "Major Eruption Observed by Scientists",
+      "description": "Vesuvius erupts violently on April 7, 1906, producing lava flows and a massive ash column that rises over 13 kilometers. The eruption destroys several villages and kills over 100 people. Italian volcanologist Rittmann Matteucci provides one of the first detailed scientific observations of a Vesuvius eruption, marking the beginning of modern volcanology at the site. The 1906 eruption changes the mountain's profile and reduces its height by approximately 150 meters."
+    },
+    {
+      "year": "1944",
+      "title": "Last Major Eruption",
+      "description": "The most recent eruption of Mount Vesuvius occurs in March 1944, destroying the towns of San Sebastiano al Vesuvio and Massa di Somma, and partially destroying the town of Terzigno. The eruption, which produces lava flows reaching up to 3 kilometers, occurs while Allied forces are advancing through Italy during World War II. The US Army Air Force's 340th Bombardment Group, stationed at the Pompeii airfield, loses 78 to 88 B-25 bombers buried by volcanic ash and pumice."
+    },
+    {
+      "year": "1997",
+      "title": "UNESCO World Heritage Site for Archaeological Areas",
+      "description": "The archaeological areas of Pompeii, Herculaneum, and Torre Annunziata are inscribed as a UNESCO World Heritage Site, recognized for providing an exceptional and complete picture of Roman society and daily life at a specific moment in time. The site contains over 2,000 preserved buildings, including homes, shops, temples, theaters, and public baths, with original frescoes and mosaics still visible on the walls. Conservation remains an ongoing challenge due to exposure to weather and millions of annual visitors."
+    }
+  ],
+  "images": [
+    {
+      "url": "/images/vesuvius-pompeii-forum.jpg",
+      "year": "2019",
+      "caption": "The Forum of Pompeii with Mount Vesuvius looming in the background, much as it appeared before the 79 AD eruption"
+    },
+    {
+      "url": "/images/vesuvius-casts.jpg",
+      "year": "2020",
+      "caption": "Plaster casts of Pompeii victims, created using the technique pioneered by Giuseppe Fiorelli in the 1860s"
+    },
+    {
+      "url": "/images/vesuvius-eruption-1944.jpg",
+      "year": "1944",
+      "caption": "The 1944 eruption of Mount Vesuvius, with lava flows and ash clouds photographed by Allied soldiers during World War II"
+    },
+    {
+      "url": "/images/vesuvius-crater.jpg",
+      "year": "2021",
+      "caption": "The summit crater of Mount Vesuvius as seen from the rim, showing the steep inner walls of the volcanic cone"
+    }
+  ],
+  "relatedLocations": ["pyramids-of-giza", "sydney-opera-house"]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "golden-gate-bridge",
+  "name": "Golden Gate Bridge",
+  "nameLocal": "金门大桥",
+  "country": "United States",
+  "city": "San Francisco",
+  "lat": 37.8199,
+  "lng": -122.4783,
+  "summary": "金门大桥是横跨旧金山金门海峡的悬索桥，全长2737米，主跨1280米。这座标志性工程于1937年建成通车，以其独特的国际橘涂装和优美的 Art Deco 风格成为旧金山最著名的地标。",
+  "coverImage": "/images/golden-gate-bridge.jpg",
+  "timeline": [
+    {
+      "year": "1933",
+      "title": "正式开工建设",
+      "description": "1月5日，金门大桥正式开工建设。首席工程师约瑟夫·施特劳斯设计了创新的施工方案，工程耗资约3500万美元，相当于今天的近8亿美元。"
+    },
+    {
+      "year": "1935",
+      "title": "主缆架设完成",
+      "description": "大桥两座主塔之间的主缆架设完成。每根主缆由27572根钢丝组成，直径近1米，总长度可绕地球三圈多。"
+    },
+    {
+      "year": "1937",
+      "title": "建成通车",
+      "description": "5月27日，金门大桥向行人开放，约20万人步行通过大桥。次日正式通车，成为连接旧金山和马林县的重要通道，也是当时世界上最长的悬索桥。"
+    },
+    {
+      "year": "1951",
+      "title": "抵御强风考验",
+      "description": "大桥在一次强风暴中经受住了时速近110公里的强风考验，主梁摆动幅度达3米多，证明了施特劳斯工程设计的卓越性。"
+    },
+    {
+      "year": "1989",
+      "title": "经受大地震考验",
+      "description": "10月17日，旧金山发生里氏6.9级地震，金门大桥安然无恙，仅出现轻微结构变形。大桥随后进行了详细的结构检查和加固。"
+    },
+    {
+      "year": "2012",
+      "title": "75周年庆典",
+      "description": "金门大桥迎来75周年纪念，举行了盛大的庆祝活动，包括烟花表演和历史展览。大桥每年吸引超过1000万游客前来参观。"
+    }
+  ],
+  "images": [
+    {
+      "url": "/images/golden-gate-bridge-1934.jpg",
+      "year": "1934",
+      "caption": "建设中的金门大桥主塔"
+    },
+    {
+      "url": "/images/golden-gate-bridge-1937.jpg",
+      "year": "1937",
+      "caption": "1937年通车典礼时的金门大桥"
+    },
+    {
+      "url": "/images/golden-gate-bridge-fog.jpg",
+      "year": "1970",
+      "caption": "笼罩在旧金山浓雾中的金门大桥"
+    },
+    {
+      "url": "/images/golden-gate-bridge-sunset.jpg",
+      "year": "2020",
+      "caption": "夕阳下的金门大桥"
+    }
+  ],
+  "relatedLocations": ["statue-of-liberty", "mount-rushmore"]
+}
