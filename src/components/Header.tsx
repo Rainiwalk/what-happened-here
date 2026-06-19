@@ -36,7 +36,7 @@ export default function Header() {
               🏙️ 城市时间线
             </Link>
             <a
-              href="https://github.com/Rainiwalk/WhatHappenedHere"
+              href="https://github.com/Rainiwalk/what-happened-here"
               target="_blank"
               rel="noopener noreferrer"
               className="text-sm text-gray-600 hover:text-gray-900 transition-colors"

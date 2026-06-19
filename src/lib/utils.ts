@@ -3,7 +3,7 @@
  * 用于静态资源（图片、数据文件等）
  */
 export function getPath(path: string): string {
-  const basePath = process.env.NODE_ENV === "production" ? "/WhatHappenedHere" : "";
+  const basePath = process.env.NODE_ENV === "production" ? "/what-happened-here" : "";
   return `${basePath}${path}`;
 }
 
@@ -11,4 +11,4 @@ export function getPath(path: string): string {
  * Base path 常量
  * 用于客户端组件
  */
-export const BASE_PATH = process.env.NODE_ENV === "production" ? "/WhatHappenedHere" : "";
+export const BASE_PATH = process.env.NODE_ENV === "production" ? "/what-happened-here" : "";

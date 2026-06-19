@@ -84,7 +84,7 @@ npm run dev
 
 ### 前置条件
 
-1. 将代码推送到 GitHub 仓库 `WhatHappenedHere`
+1. 将代码推送到 GitHub 仓库 `what-happened-here`
 2. 进入仓库 Settings → Pages
 3. Source 选择 "GitHub Actions"
 
@@ -92,7 +92,7 @@ npm run dev
 
 推送代码到 `main` 分支后，GitHub Actions 会自动构建并部署。
 
-部署后访问：`https://your-username.github.io/WhatHappenedHere`
+部署后访问：`https://your-username.github.io/what-happened-here`
 
 ### 本地预览
 
