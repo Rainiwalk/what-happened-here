@@ -182,5 +182,61 @@
     "province": "甘肃",
     "coverImage": "/images/cities/dunhuang.jpg",
     "summary": "古称沙洲，丝绸之路上的璀璨明珠，以莫高窟壁画和飞天艺术享誉世界，自汉代设郡以来便是东西方文明交汇的重要枢纽。"
+  },
+  {
+    "id": "kunming",
+    "name": "Kunming",
+    "nameLocal": "昆明",
+    "province": "云南",
+    "coverImage": "/images/cities/kunming.jpg",
+    "summary": "四季如春的「春城」，滇池畔的千年古都，从古滇国到南诏大理，承载着云南多元文化的深厚底蕴。"
+  },
+  {
+    "id": "zhengzhou",
+    "name": "Zhengzhou",
+    "nameLocal": "郑州",
+    "province": "河南",
+    "coverImage": "/images/cities/zhengzhou.jpg",
+    "summary": "华夏文明的重要发祥地，商代早期都城所在地，地处中原腹地，是中国最重要的铁路枢纽城市。"
+  },
+  {
+    "id": "kashi",
+    "name": "Kashgar",
+    "nameLocal": "喀什",
+    "province": "新疆",
+    "coverImage": "/images/cities/kashi.jpg",
+    "summary": "古称疏勒，丝绸之路上的璀璨明珠，两千多年东西方文明交汇的重要枢纽，西域风情浓郁的历史文化名城。"
+  },
+  {
+    "id": "datong",
+    "name": "Datong",
+    "nameLocal": "大同",
+    "province": "山西",
+    "coverImage": "/images/cities/datong.jpg",
+    "summary": "北魏都城平城所在地，云冈石窟举世闻名，从煤都到文旅名城的转型传奇。"
+  },
+  {
+    "id": "jingdezhen",
+    "name": "Jingdezhen",
+    "nameLocal": "景德镇",
+    "province": "江西",
+    "coverImage": "/images/cities/jingdezhen.jpg",
+    "summary": "千年瓷都，以精湛的制瓷工艺闻名世界，御窑遗址见证了中国陶瓷艺术的辉煌历史。"
+  },
+  {
+    "id": "guilin",
+    "name": "Guilin",
+    "nameLocal": "桂林",
+    "province": "广西",
+    "coverImage": "/images/cities/guilin.jpg",
+    "summary": "「桂林山水甲天下」，以喀斯特地貌闻名于世，秦代灵渠沟通湘漓，抗战时期为文化名人聚集地。"
+  },
+  {
+    "id": "yanan",
+    "name": "Yan'an",
+    "nameLocal": "延安",
+    "province": "陕西",
+    "coverImage": "/images/cities/yanan.jpg",
+    "summary": "中国革命圣地，黄帝陵所在地，延安精神的发源地，从红色热土到现代化城市的蜕变。"
   }
 ]
