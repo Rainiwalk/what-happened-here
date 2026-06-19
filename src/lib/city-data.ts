@@ -1,4 +1,4 @@
-import { City, CitySummary, Route } from "@/types";
+import { City, CitySummary, Route, GeographicForce } from "@/types";
 import { getDataUrl } from "./fetch";
 
 // 客户端缓存
@@ -90,4 +90,19 @@ export async function getAllRoutes(): Promise<Route[]> {
 export async function getRoutesForCity(cityId: string): Promise<Route[]> {
   const routes = await getAllRoutes();
   return routes.filter((route) => route.cities.includes(cityId));
+}
+
+// 客户端地理力量缓存
+let clientForcesCache: { cities: Record<string, GeographicForce[]> } | null = null;
+
+/**
+ * 获取城市的地理力量（客户端使用）
+ */
+export async function getForcesForCity(cityId: string): Promise<GeographicForce[]> {
+  if (!clientForcesCache) {
+    const response = await fetch(getDataUrl("/data/geographical-forces.json"));
+    if (!response.ok) throw new Error("Failed to fetch geographical forces");
+    clientForcesCache = await response.json();
+  }
+  return clientForcesCache!.cities[cityId] || [];
 }

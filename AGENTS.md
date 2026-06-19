@@ -55,6 +55,7 @@ what-happened-here/
 │   │   ├── CityNavigation.tsx     # Left/right city navigation
 │   │   ├── RelatedCities.tsx      # Related cities
 │   │   ├── HistoricalRoutes.tsx   # Historical route visualization
+│   │   ├── ForcesSection.tsx      # Geographic forces that shaped the city
 │   │   ├── ImageGallery.tsx       # Photo gallery with lightbox
 │   │   └── MapView.tsx            # Leaflet map component
 │   ├── lib/
@@ -142,6 +143,28 @@ what-happened-here/
 | `tea-horse-road` | chengdu → kunming → lasa |
 | `yangtze-river` | chongqing → wuhan → nanjing → shanghai |
 
+### Geographic Forces (`public/data/geographical-forces.json`)
+
+```json
+{
+  "cities": {
+    "xian": [
+      {
+        "title": "关中平原",
+        "icon": "🌾",
+        "description": "渭河冲积形成的八百里秦川...",
+        "impact": "为多个统一王朝提供了稳定的财政与兵源基础。"
+      }
+    ]
+  }
+}
+```
+
+- Each city has 3~6 geographic forces
+- Each force has: `title`, `icon`, `description`, `impact`
+- Focus on long-term geographical conditions, not historical events
+- Data accessed via `getForcesForCity()` in both server and client data layers
+
 ## Key Implementation Details
 
 ### City Navigation
@@ -163,6 +186,17 @@ what-happened-here/
 - Data: `public/data/routes.json` defines routes, city JSON files have `routes` field
 - Server-side: `getRoutesForCity()` in `server-city-data.ts`
 - Client-side: `getRoutesForCity()` in `city-data.ts`
+
+### Geographic Forces
+
+- City detail pages show geographic forces that shaped the city
+- Displayed between CityHero and CityTimeline (first section after hero)
+- Card-based layout: 2 columns on desktop, 1 column on mobile
+- Each card shows: icon, title, description, impact
+- Forces are long-term geographical conditions, not historical events
+- Data: `public/data/geographical-forces.json`
+- Server-side: `getForcesForCity()` in `server-city-data.ts`
+- Client-side: `getForcesForCity()` in `city-data.ts`
 
 ### Static Site Generation (SSG)
 

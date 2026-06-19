@@ -1,4 +1,4 @@
-import { City, CitySummary, Route } from "@/types";
+import { City, CitySummary, Route, GeographicForce } from "@/types";
 import { readFileSync, readdirSync } from "fs";
 import { join } from "path";
 
@@ -76,4 +76,14 @@ export function getAllRoutesSync(): Route[] {
 export function getRoutesForCity(cityId: string): Route[] {
   const routes = getAllRoutesSync();
   return routes.filter((route) => route.cities.includes(cityId));
+}
+
+/**
+ * 获取城市的地理力量（服务端使用）
+ */
+export function getForcesForCity(cityId: string): GeographicForce[] {
+  const filePath = join(process.cwd(), "public", "data", "geographical-forces.json");
+  const content = readFileSync(filePath, "utf-8");
+  const data = JSON.parse(content);
+  return data.cities[cityId] || [];
 }

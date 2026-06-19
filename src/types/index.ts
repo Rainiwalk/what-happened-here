@@ -47,3 +47,11 @@ export interface Route {
   description: string;
   cities: string[];
 }
+
+// 地理力量相关类型
+export interface GeographicForce {
+  title: string;
+  icon: string;
+  description: string;
+  impact: string;
+}
