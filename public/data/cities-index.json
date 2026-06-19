@@ -62,5 +62,45 @@
     "province": "河南",
     "coverImage": "/images/cities/luoyang.jpg",
     "summary": "十三朝古都，龙门石窟所在地，'洛阳牡丹甲天下'，中华文明的重要发祥地。"
+  },
+  {
+    "id": "beijing",
+    "name": "Beijing",
+    "nameLocal": "北京",
+    "province": "北京",
+    "coverImage": "/images/cities/beijing.jpg",
+    "summary": "中国的首都，三千年建城史、八百年建都史，政治文化中心，世界文化遗产最密集的城市之一。"
+  },
+  {
+    "id": "shanghai",
+    "name": "Shanghai",
+    "nameLocal": "上海",
+    "province": "上海",
+    "coverImage": "/images/cities/shanghai.jpg",
+    "summary": "中国最大的经济中心，近代开埠后发展为'东方巴黎'，如今是国际化大都市和全球金融中心。"
+  },
+  {
+    "id": "guangzhou",
+    "name": "Guangzhou",
+    "nameLocal": "广州",
+    "province": "广东",
+    "coverImage": "/images/cities/guangzhou.jpg",
+    "summary": "中国南方最大的城市，两千年不衰的通商港口，海上丝绸之路的起点，岭南文化的中心。"
+  },
+  {
+    "id": "shenzhen",
+    "name": "Shenzhen",
+    "nameLocal": "深圳",
+    "province": "广东",
+    "coverImage": "/images/cities/shenzhen.jpg",
+    "summary": "改革开放的窗口和试验田，从一个小渔村发展成为国际化创新之城，创造了世界城市化史上的奇迹。"
+  },
+  {
+    "id": "chongqing",
+    "name": "Chongqing",
+    "nameLocal": "重庆",
+    "province": "重庆",
+    "coverImage": "/images/cities/chongqing.jpg",
+    "summary": "中国最年轻的直辖市，山城、雾都、火锅之都，抗战时期的陪都，长江上游的经济中心。"
   }
 ]
