@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 import { motion } from "framer-motion";
 import SearchBar from "./SearchBar";
 import CitySearchBar from "./CitySearchBar";
@@ -87,45 +88,45 @@ export default function HeroSection() {
           </span>
           {activeTab === "city" ? (
             <>
-              <a
+              <Link
                 href="/city/tangshan"
                 className="px-4 py-2 bg-white rounded-full text-sm text-gray-700 hover:text-amber-600 hover:bg-amber-50 transition-colors border border-gray-200"
               >
                 唐山
-              </a>
-              <a
+              </Link>
+              <Link
                 href="/city/baoding"
                 className="px-4 py-2 bg-white rounded-full text-sm text-gray-700 hover:text-amber-600 hover:bg-amber-50 transition-colors border border-gray-200"
               >
                 保定
-              </a>
-              <a
+              </Link>
+              <Link
                 href="/city/tianjin"
                 className="px-4 py-2 bg-white rounded-full text-sm text-gray-700 hover:text-amber-600 hover:bg-amber-50 transition-colors border border-gray-200"
               >
                 天津
-              </a>
+              </Link>
             </>
           ) : (
             <>
-              <a
+              <Link
                 href="/location/tokyo-station"
                 className="px-4 py-2 bg-white rounded-full text-sm text-gray-700 hover:text-blue-600 hover:bg-blue-50 transition-colors border border-gray-200"
               >
                 东京站
-              </a>
-              <a
+              </Link>
+              <Link
                 href="/location/eiffel-tower"
                 className="px-4 py-2 bg-white rounded-full text-sm text-gray-700 hover:text-blue-600 hover:bg-blue-50 transition-colors border border-gray-200"
               >
                 埃菲尔铁塔
-              </a>
-              <a
+              </Link>
+              <Link
                 href="/location/forbidden-city"
                 className="px-4 py-2 bg-white rounded-full text-sm text-gray-700 hover:text-blue-600 hover:bg-blue-50 transition-colors border border-gray-200"
               >
                 紫禁城
-              </a>
+              </Link>
             </>
           )}
         </motion.div>

@@ -7,7 +7,7 @@
   "lat": 27.1751,
   "lng": 78.0421,
   "summary": "The Taj Mahal is an ivory-white marble mausoleum on the right bank of the river Yamuna in Agra, India. Commissioned in 1632 by the Mughal emperor Shah Jahan to house the tomb of his favorite wife, Mumtaz Mahal, it is widely regarded as one of the most beautiful buildings in the world and a masterpiece of Mughal architecture.",
-  "coverImage": "/images/taj-mahal.jpg",
+  "coverImage": "/WhatHappenedHere/images/taj-mahal.jpg",
   "timeline": [
     {"year": "1632", "title": "Construction Begins", "description": "Mughal Emperor Shah Jahan commissioned the Taj Mahal after the death of his beloved wife Mumtaz Mahal during childbirth. Construction began with the foundation and the main tomb structure, employing over 20,000 artisans from across the empire."},
     {"year": "1643", "title": "Main Structure Completed", "description": "The main mausoleum structure was completed after 11 years of intensive construction. The iconic white marble dome and the four minarets were finished, showcasing the pinnacle of Mughal architectural achievement."},
@@ -17,10 +17,10 @@
     {"year": "1983", "title": "UNESCO World Heritage Site", "description": "The Taj Mahal was designated a UNESCO World Heritage Site, recognized as 'the jewel of Muslim art in India and one of the universally admired masterpieces of the world's heritage.'"}
   ],
   "images": [
-    {"url": "/images/taj-mahal-1632.jpg", "year": "1632", "caption": "Early construction phase with scaffolding around the main dome"},
-    {"url": "/images/taj-mahal-1653.jpg", "year": "1653", "caption": "The completed Taj Mahal reflecting in the Yamuna River"},
-    {"url": "/images/taj-mahal-1857.jpg", "year": "1857", "caption": "The Taj Mahal during the British colonial period"},
-    {"url": "/images/taj-mahal-1983.jpg", "year": "1983", "caption": "The Taj Mahal at sunset, now a UNESCO World Heritage Site"}
+    {"url": "/WhatHappenedHere/images/taj-mahal-1632.jpg", "year": "1632", "caption": "Early construction phase with scaffolding around the main dome"},
+    {"url": "/WhatHappenedHere/images/taj-mahal-1653.jpg", "year": "1653", "caption": "The completed Taj Mahal reflecting in the Yamuna River"},
+    {"url": "/WhatHappenedHere/images/taj-mahal-1857.jpg", "year": "1857", "caption": "The Taj Mahal during the British colonial period"},
+    {"url": "/WhatHappenedHere/images/taj-mahal-1983.jpg", "year": "1983", "caption": "The Taj Mahal at sunset, now a UNESCO World Heritage Site"}
   ],
   "relatedLocations": ["great-wall", "angkor-wat"]
 }

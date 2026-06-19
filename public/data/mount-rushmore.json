@@ -7,7 +7,7 @@
   "lat": 43.8791,
   "lng": -103.4591,
   "summary": "拉什莫尔山国家纪念公园位于南达科他州，山体上雕刻着四位美国总统的巨大头像：华盛顿、杰斐逊、老罗斯福和林肯。这座由雕塑家格曾·博格勒姆设计的巨型工程历时14年完成，是美国最具代表性的国家纪念碑之一。",
-  "coverImage": "/images/mount-rushmore.jpg",
+  "coverImage": "/WhatHappenedHere/images/mount-rushmore.jpg",
   "timeline": [
     {
       "year": "1927",
@@ -42,22 +42,22 @@
   ],
   "images": [
     {
-      "url": "/images/mount-rushmore-1927.jpg",
+      "url": "/WhatHappenedHere/images/mount-rushmore-1927.jpg",
       "year": "1927",
       "caption": "工程初期的拉什莫尔山"
     },
     {
-      "url": "/images/mount-rushmore-construction.jpg",
+      "url": "/WhatHappenedHere/images/mount-rushmore-construction.jpg",
       "year": "1932",
       "caption": "工人们在山体上雕刻华盛顿头像"
     },
     {
-      "url": "/images/mount-rushmore-1941.jpg",
+      "url": "/WhatHappenedHere/images/mount-rushmore-1941.jpg",
       "year": "1941",
       "caption": "完工后的拉什莫尔山四总统头像"
     },
     {
-      "url": "/images/mount-rushmore-modern.jpg",
+      "url": "/WhatHappenedHere/images/mount-rushmore-modern.jpg",
       "year": "2020",
       "caption": "现代的拉什莫尔山国家纪念公园"
     }

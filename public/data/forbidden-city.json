@@ -7,7 +7,7 @@
   "lat": 39.916345,
   "lng": 116.397155,
   "summary": "紫禁城是明清两代24位皇帝的皇家宫殿，始建于1406年，历时14年建成。占地72万平方米，拥有9000多间房间，是世界上现存规模最大、保存最完整的古代宫殿建筑群。",
-  "coverImage": "/images/forbidden-city.jpg",
+  "coverImage": "/WhatHappenedHere/images/forbidden-city.jpg",
   "timeline": [
     {
       "year": "1406",
@@ -52,22 +52,22 @@
   ],
   "images": [
     {
-      "url": "/images/forbidden-city-qing.jpg",
+      "url": "/WhatHappenedHere/images/forbidden-city-qing.jpg",
       "year": "1900",
       "caption": "清末的紫禁城太和殿"
     },
     {
-      "url": "/images/forbidden-city-1925.jpg",
+      "url": "/WhatHappenedHere/images/forbidden-city-1925.jpg",
       "year": "1925",
       "caption": "故宫博物院成立仪式"
     },
     {
-      "url": "/images/forbidden-city-aerial.jpg",
+      "url": "/WhatHappenedHere/images/forbidden-city-aerial.jpg",
       "year": "2000",
       "caption": "紫禁城航拍全景"
     },
     {
-      "url": "/images/forbidden-city-modern.jpg",
+      "url": "/WhatHappenedHere/images/forbidden-city-modern.jpg",
       "year": "2020",
       "caption": "现代故宫博物院"
     }

@@ -7,7 +7,7 @@
   "lat": 51.1789,
   "lng": -1.8262,
   "summary": "Stonehenge is a prehistoric monument consisting of a ring of standing stones, each around 13 feet high and weighing approximately 25 tons, set within a complex of earthworks on Salisbury Plain in Wiltshire. Constructed in several stages between approximately 3000 BC and 2000 BC, it remains one of the most mysterious and iconic ancient structures in the world. Its purpose, ranging from astronomical observatory to sacred burial ground, has been debated by scholars for centuries.",
-  "coverImage": "/images/stonehenge.jpg",
+  "coverImage": "/WhatHappenedHere/images/stonehenge.jpg",
   "timeline": [
     {"year": "-3000", "title": "First Earthwork Enclosure", "description": "The earliest construction phase at Stonehenge begins with the digging of a circular ditch and bank, creating the henge itself. Within this enclosure, 56 pits known as the Aubrey Holes are dug, believed to have held timber posts or stones and later used for cremation burials."},
     {"year": "-2500", "title": "Sarsen Stones and Bluestones Erected", "description": "The massive sarsen stones, transported from Marlborough Downs about 25 miles to the north, are erected in the iconic trilithon arrangement. The smaller bluestones, weighing up to 4 tons each, are brought from the Preseli Hills in Wales, an astonishing 150 miles away, a feat that remains one of the great engineering mysteries of prehistory."},
@@ -18,10 +18,10 @@
     {"year": "1986", "title": "UNESCO World Heritage Status", "description": "Stonehenge, along with Avebury and associated sites, is designated a UNESCO World Heritage Site, recognizing its outstanding universal value. This triggers major changes in site management, including the closure of the road running alongside the monument and the construction of a new visitor center."}
   ],
   "images": [
-    {"url": "/images/stonehenge-2500bc.jpg", "year": "-2500", "caption": "Stonehenge during the great stone erection phase, with workers transporting and raising the massive sarsen trilithons"},
-    {"url": "/images/stonehenge-1130.jpg", "year": "1130", "caption": "Medieval artistic depiction of Merlin magically raising the stones, inspired by Geoffrey of Monmouth's legend"},
-    {"url": "/images/stonehenge-1880.jpg", "year": "1880", "caption": "Victorian-era photograph showing Stonehenge before modern conservation, with visitors freely walking among the stones"},
-    {"url": "/images/stonehenge-2020.jpg", "year": "2020", "caption": "The restored Stonehenge with the modern visitor center and restricted access paths protecting the ancient monument"}
+    {"url": "/WhatHappenedHere/images/stonehenge-2500bc.jpg", "year": "-2500", "caption": "Stonehenge during the great stone erection phase, with workers transporting and raising the massive sarsen trilithons"},
+    {"url": "/WhatHappenedHere/images/stonehenge-1130.jpg", "year": "1130", "caption": "Medieval artistic depiction of Merlin magically raising the stones, inspired by Geoffrey of Monmouth's legend"},
+    {"url": "/WhatHappenedHere/images/stonehenge-1880.jpg", "year": "1880", "caption": "Victorian-era photograph showing Stonehenge before modern conservation, with visitors freely walking among the stones"},
+    {"url": "/WhatHappenedHere/images/stonehenge-2020.jpg", "year": "2020", "caption": "The restored Stonehenge with the modern visitor center and restricted access paths protecting the ancient monument"}
   ],
   "relatedLocations": ["acropolis", "tower-bridge", "mont-saint-michel"]
 }

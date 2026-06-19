@@ -4,7 +4,7 @@
     "name": "Tangshan",
     "nameLocal": "唐山",
     "province": "河北",
-    "coverImage": "/images/cities/tangshan.jpg",
+    "coverImage": "/WhatHappenedHere/images/cities/tangshan.jpg",
     "summary": "唐山因唐太宗东征高句丽驻跸而得名，是中国近代工业的摇篮，1976年大地震后重建，展现了不屈的城市精神。"
   },
   {
@@ -12,7 +12,7 @@
     "name": "Baoding",
     "nameLocal": "保定",
     "province": "河北",
-    "coverImage": "/images/cities/baoding.jpg",
+    "coverImage": "/WhatHappenedHere/images/cities/baoding.jpg",
     "summary": "保定自古为畿辅重镇，\"保卫大都，安定天下\"之意，曾为直隶省会三百年，文化底蕴深厚。"
   },
   {
@@ -20,7 +20,7 @@
     "name": "Tianjin",
     "nameLocal": "天津",
     "province": "天津",
-    "coverImage": "/images/cities/tianjin.jpg",
+    "coverImage": "/WhatHappenedHere/images/cities/tianjin.jpg",
     "summary": "天津因天子渡津而得名，近代开埠后成为九国租界，中西文化交融，是近代中国工业化的先驱城市。"
   }
 ]

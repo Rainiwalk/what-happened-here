@@ -7,7 +7,7 @@
   "lat": 30.3285,
   "lng": 35.4444,
   "summary": "Petra is an ancient city carved into rose-red sandstone cliffs in southern Jordan, established as the capital of the Nabataean Kingdom around 312 BC. The city's sophisticated water management system and monumental architecture made it one of the wealthiest trading hubs of the ancient world. Lost to the Western world for centuries, it was rediscovered in 1812 and is now Jordan's most visited tourist attraction.",
-  "coverImage": "/images/petra.jpg",
+  "coverImage": "/WhatHappenedHere/images/petra.jpg",
   "timeline": [
     {
       "year": "312 BC",
@@ -47,22 +47,22 @@
   ],
   "images": [
     {
-      "url": "/images/petra-treasury.jpg",
+      "url": "/WhatHappenedHere/images/petra-treasury.jpg",
       "year": "2019",
       "caption": "The Treasury (Al-Khazneh) emerging through the narrow Siq canyon, carved from rose-red sandstone"
     },
     {
-      "url": "/images/petra-siq.jpg",
+      "url": "/WhatHappenedHere/images/petra-siq.jpg",
       "year": "2020",
       "caption": "The Siq gorge, the narrow 1.2 kilometer canyon that serves as the main entrance to Petra"
     },
     {
-      "url": "/images/petra-theater.jpg",
+      "url": "/WhatHappenedHere/images/petra-theater.jpg",
       "year": "2018",
       "caption": "The Roman-style theater at Petra, originally carved by the Nabataeans and later expanded by the Romans to seat 8,500"
     },
     {
-      "url": "/images/petra-monastery.jpg",
+      "url": "/WhatHappenedHere/images/petra-monastery.jpg",
       "year": "2021",
       "caption": "Ad-Deir (the Monastery), one of Petra's largest monuments, standing 48 meters high and 47 meters wide"
     }

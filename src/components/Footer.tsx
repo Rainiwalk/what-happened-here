@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Footer() {
   return (
     <footer className="bg-gray-50 border-t border-gray-200">
@@ -9,48 +11,58 @@ export default function Footer() {
               What Happened Here?
             </h3>
             <p className="text-sm text-gray-600">
-              一个基于地点与时间的历史探索网站。探索世界各地重要地标的历史故事。
+              城市时间线档案馆 —— 用时间线了解一座城市是如何形成的。
             </p>
           </div>
 
-          {/* Links */}
+          {/* Cities */}
           <div>
-            <h3 className="font-semibold text-gray-900 mb-4">Explore</h3>
+            <h3 className="font-semibold text-gray-900 mb-4">🏙️ 城市时间线</h3>
             <ul className="space-y-2 text-sm text-gray-600">
               <li>
-                <a href="/location/tokyo-station" className="hover:text-gray-900 transition-colors">
-                  Tokyo Station
-                </a>
+                <Link href="/city/tangshan" className="hover:text-gray-900 transition-colors">
+                  唐山
+                </Link>
               </li>
               <li>
-                <a href="/location/eiffel-tower" className="hover:text-gray-900 transition-colors">
-                  Eiffel Tower
-                </a>
+                <Link href="/city/baoding" className="hover:text-gray-900 transition-colors">
+                  保定
+                </Link>
               </li>
               <li>
-                <a href="/location/forbidden-city" className="hover:text-gray-900 transition-colors">
-                  Forbidden City
-                </a>
+                <Link href="/city/tianjin" className="hover:text-gray-900 transition-colors">
+                  天津
+                </Link>
               </li>
             </ul>
           </div>
 
-          {/* Tech Stack */}
+          {/* Landmarks */}
           <div>
-            <h3 className="font-semibold text-gray-900 mb-4">Built With</h3>
+            <h3 className="font-semibold text-gray-900 mb-4">🏛️ 世界地标</h3>
             <ul className="space-y-2 text-sm text-gray-600">
-              <li>Next.js + TypeScript</li>
-              <li>Tailwind CSS</li>
-              <li>Framer Motion</li>
-              <li>Mapbox GL</li>
+              <li>
+                <Link href="/location/tokyo-station" className="hover:text-gray-900 transition-colors">
+                  东京站
+                </Link>
+              </li>
+              <li>
+                <Link href="/location/eiffel-tower" className="hover:text-gray-900 transition-colors">
+                  埃菲尔铁塔
+                </Link>
+              </li>
+              <li>
+                <Link href="/location/forbidden-city" className="hover:text-gray-900 transition-colors">
+                  紫禁城
+                </Link>
+              </li>
             </ul>
           </div>
         </div>
 
         <div className="mt-8 pt-8 border-t border-gray-200 text-center text-sm text-gray-500">
           <p>
-            © {new Date().getFullYear()} What Happened Here? — A portfolio
-            project
+            © {new Date().getFullYear()} What Happened Here? — 城市时间线档案馆
           </p>
         </div>
       </div>

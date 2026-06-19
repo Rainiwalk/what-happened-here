@@ -7,7 +7,7 @@
   "lat": 40.8224,
   "lng": 14.4289,
   "summary": "Mount Vesuvius is one of the world's most dangerous volcanoes, infamous for its catastrophic eruption in 79 AD that buried the Roman cities of Pompeii and Herculaneum under meters of volcanic ash and pumice. The eruption preserved these cities in extraordinary detail, creating the most important archaeological record of daily life in the Roman Empire. The volcano remains active and is closely monitored as a potential threat to the 3 million people living in the Naples metropolitan area.",
-  "coverImage": "/images/vesuvius.jpg",
+  "coverImage": "/WhatHappenedHere/images/vesuvius.jpg",
   "timeline": [
     {
       "year": "79 AD",
@@ -47,22 +47,22 @@
   ],
   "images": [
     {
-      "url": "/images/vesuvius-pompeii-forum.jpg",
+      "url": "/WhatHappenedHere/images/vesuvius-pompeii-forum.jpg",
       "year": "2019",
       "caption": "The Forum of Pompeii with Mount Vesuvius looming in the background, much as it appeared before the 79 AD eruption"
     },
     {
-      "url": "/images/vesuvius-casts.jpg",
+      "url": "/WhatHappenedHere/images/vesuvius-casts.jpg",
       "year": "2020",
       "caption": "Plaster casts of Pompeii victims, created using the technique pioneered by Giuseppe Fiorelli in the 1860s"
     },
     {
-      "url": "/images/vesuvius-eruption-1944.jpg",
+      "url": "/WhatHappenedHere/images/vesuvius-eruption-1944.jpg",
       "year": "1944",
       "caption": "The 1944 eruption of Mount Vesuvius, with lava flows and ash clouds photographed by Allied soldiers during World War II"
     },
     {
-      "url": "/images/vesuvius-crater.jpg",
+      "url": "/WhatHappenedHere/images/vesuvius-crater.jpg",
       "year": "2021",
       "caption": "The summit crater of Mount Vesuvius as seen from the rim, showing the steep inner walls of the volcanic cone"
     }

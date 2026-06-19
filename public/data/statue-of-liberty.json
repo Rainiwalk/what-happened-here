@@ -7,7 +7,7 @@
   "lat": 40.6892,
   "lng": -74.0445,
   "summary": "自由女神像是法国赠送给美国的礼物，象征着两国之间的友谊和自由理念。由法国雕塑家弗雷德里克·奥古斯特·巴托尔迪设计，钢铁结构由古斯塔夫·埃菲尔建造，于1886年落成，是美国最著名的地标之一。",
-  "coverImage": "/images/statue-of-liberty.jpg",
+  "coverImage": "/WhatHappenedHere/images/statue-of-liberty.jpg",
   "timeline": [
     {
       "year": "1875",
@@ -47,22 +47,22 @@
   ],
   "images": [
     {
-      "url": "/images/statue-of-liberty-construction.jpg",
+      "url": "/WhatHappenedHere/images/statue-of-liberty-construction.jpg",
       "year": "1882",
       "caption": "在巴黎建造中的自由女神像"
     },
     {
-      "url": "/images/statue-of-liberty-1886.jpg",
+      "url": "/WhatHappenedHere/images/statue-of-liberty-1886.jpg",
       "year": "1886",
       "caption": "1886年落成典礼时的自由女神像"
     },
     {
-      "url": "/images/statue-of-liberty-1903.jpg",
+      "url": "/WhatHappenedHere/images/statue-of-liberty-1903.jpg",
       "year": "1903",
       "caption": "安装拉扎勒斯诗歌铜牌后的基座内部"
     },
     {
-      "url": "/images/statue-of-liberty-modern.jpg",
+      "url": "/WhatHappenedHere/images/statue-of-liberty-modern.jpg",
       "year": "2019",
       "caption": "现代纽约港天际线前的自由女神像"
     }

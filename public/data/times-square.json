@@ -7,7 +7,7 @@
   "lat": 40.7580,
   "lng": -73.9855,
   "summary": "时代广场是纽约最繁华的十字路口，以霓虹灯和广告牌闻名，被称为世界的十字路口。每年有超过5000万游客到访，是全球最受欢迎的旅游目的地之一。",
-  "coverImage": "/images/times-square.jpg",
+  "coverImage": "/WhatHappenedHere/images/times-square.jpg",
   "timeline": [
     {
       "year": "1904",
@@ -47,22 +47,22 @@
   ],
   "images": [
     {
-      "url": "/images/times-square.jpg",
+      "url": "/WhatHappenedHere/images/times-square.jpg",
       "year": "1904",
       "caption": "早期的时代广场"
     },
     {
-      "url": "/images/times-square.jpg",
+      "url": "/WhatHappenedHere/images/times-square.jpg",
       "year": "1945",
       "caption": "二战胜利日庆祝"
     },
     {
-      "url": "/images/times-square.jpg",
+      "url": "/WhatHappenedHere/images/times-square.jpg",
       "year": "1990",
       "caption": "复兴前的时代广场"
     },
     {
-      "url": "/images/times-square.jpg",
+      "url": "/WhatHappenedHere/images/times-square.jpg",
       "year": "2020",
       "caption": "现代时代广场夜景"
     }

@@ -7,7 +7,7 @@
   "lat": 1.2868,
   "lng": 103.8545,
   "summary": "The Merlion is a mythical creature with the head of a lion and the body of a fish, and is an iconic symbol of Singapore. The original Merlion statue was designed in 1964 as a symbol for the Singapore Tourism Board and has since become one of the most recognizable landmarks in Southeast Asia. Merlion Park, located at One Fullerton, offers stunning views of Marina Bay.",
-  "coverImage": "/images/merlion.jpg",
+  "coverImage": "/WhatHappenedHere/images/merlion.jpg",
   "timeline": [
     {"year": "1964", "title": "Merlion Design Created", "description": "The Merlion was designed by Fraser Brunner, a member of the Singapore Tourism Board's Souvenir Committee. The creature combines Singapore's original name 'Singapura' (Lion City in Malay) with its origins as a fishing village, represented by the fish tail."},
     {"year": "1972", "title": "Original Statue Unveiled", "description": "The original Merlion statue was unveiled on September 15, 1972, by then-Prime Minister Lee Kuan Yew at the mouth of the Singapore River. The statue stood 8.6 meters tall and weighed 70 tonnes."},
@@ -17,10 +17,10 @@
     {"year": "2019", "title": "50th Anniversary Celebrations", "description": "The Merlion celebrated the 50th anniversary of its design creation with special light shows and cultural events at Merlion Park, reaffirming its status as Singapore's most iconic symbol."}
   ],
   "images": [
-    {"url": "/images/merlion-1964.jpg", "year": "1964", "caption": "Original design sketch of the Merlion by Fraser Brunner"},
-    {"url": "/images/merlion-1972.jpg", "year": "1972", "caption": "The original Merlion statue at the Singapore River mouth"},
-    {"url": "/images/merlion-2002.jpg", "year": "2002", "caption": "The Merlion in its new location at Merlion Park overlooking Marina Bay"},
-    {"url": "/images/merlion-2019.jpg", "year": "2019", "caption": "The illuminated Merlion during the 50th anniversary celebrations"}
+    {"url": "/WhatHappenedHere/images/merlion-1964.jpg", "year": "1964", "caption": "Original design sketch of the Merlion by Fraser Brunner"},
+    {"url": "/WhatHappenedHere/images/merlion-1972.jpg", "year": "1972", "caption": "The original Merlion statue at the Singapore River mouth"},
+    {"url": "/WhatHappenedHere/images/merlion-2002.jpg", "year": "2002", "caption": "The Merlion in its new location at Merlion Park overlooking Marina Bay"},
+    {"url": "/WhatHappenedHere/images/merlion-2019.jpg", "year": "2019", "caption": "The illuminated Merlion during the 50th anniversary celebrations"}
   ],
   "relatedLocations": ["petronas-towers", "angkor-wat"]
 }

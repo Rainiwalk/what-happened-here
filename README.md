@@ -79,10 +79,27 @@ npm run dev
 
 ## 📦 部署到 GitHub Pages
 
-1. 将代码推送到 GitHub 仓库
+### 前置条件
+
+1. 将代码推送到 GitHub 仓库 `WhatHappenedHere`
 2. 进入仓库 Settings → Pages
 3. Source 选择 "GitHub Actions"
-4. 推送代码后会自动部署
+
+### 自动部署
+
+推送代码到 `main` 分支后，GitHub Actions 会自动构建并部署。
+
+部署后访问：`https://your-username.github.io/WhatHappenedHere`
+
+### 本地预览
+
+```bash
+# 构建静态文件
+npm run build
+
+# 本地预览（使用 serve）
+npx serve out
+```
 
 ## ➕ 添加新城市
 

@@ -7,7 +7,7 @@
   "lat": 3.1578,
   "lng": 101.7116,
   "summary": "The Petronas Towers are twin skyscrapers in Kuala Lumpur, Malaysia, standing at 451.9 meters tall. They were the tallest buildings in the world from 1998 to 2004 and remain the tallest twin towers globally. Designed by Argentine architect Cesar Pelli, the towers symbolize Malaysia's rapid economic development and modernization.",
-  "coverImage": "/images/petronas-towers.jpg",
+  "coverImage": "/WhatHappenedHere/images/petronas-towers.jpg",
   "timeline": [
     {"year": "1992", "title": "Design Competition", "description": "Malaysian Prime Minister Mahathir Mohamad initiated the design competition for the towers as part of his vision to transform Kuala Lumpur into a global city. Argentine-American architect Cesar Pelli won the competition with his postmodern design inspired by Islamic geometric patterns."},
     {"year": "1993", "title": "Construction Begins", "description": "Construction of the Petronas Towers began with the foundation work. The towers required the world's deepest foundation at the time, with piles driven 120 meters into the ground due to the challenging soil conditions."},
@@ -17,10 +17,10 @@
     {"year": "2019", "title": "20th Anniversary", "description": "The Petronas Towers celebrated their 20th anniversary, having become an iconic symbol of Kuala Lumpur and Malaysia. The towers attract over 1.5 million visitors annually to their skybridge and observation deck."}
   ],
   "images": [
-    {"url": "/images/petronas-towers-1992.jpg", "year": "1992", "caption": "Architect Cesar Pelli's original design concept for the twin towers"},
-    {"url": "/images/petronas-towers-1996.jpg", "year": "1996", "caption": "The towers under construction with their distinctive Islamic-inspired facade"},
-    {"url": "/images/petronas-towers-1998.jpg", "year": "1998", "caption": "The completed towers illuminating the Kuala Lumpur skyline at night"},
-    {"url": "/images/petronas-towers-2019.jpg", "year": "2019", "caption": "The Petronas Towers and KLCC park, a symbol of modern Malaysia"}
+    {"url": "/WhatHappenedHere/images/petronas-towers-1992.jpg", "year": "1992", "caption": "Architect Cesar Pelli's original design concept for the twin towers"},
+    {"url": "/WhatHappenedHere/images/petronas-towers-1996.jpg", "year": "1996", "caption": "The towers under construction with their distinctive Islamic-inspired facade"},
+    {"url": "/WhatHappenedHere/images/petronas-towers-1998.jpg", "year": "1998", "caption": "The completed towers illuminating the Kuala Lumpur skyline at night"},
+    {"url": "/WhatHappenedHere/images/petronas-towers-2019.jpg", "year": "2019", "caption": "The Petronas Towers and KLCC park, a symbol of modern Malaysia"}
   ],
   "relatedLocations": ["mount-fuji", "merlion"]
 }

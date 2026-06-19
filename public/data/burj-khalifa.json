@@ -7,7 +7,7 @@
   "lat": 25.1972,
   "lng": 55.2744,
   "summary": "The Burj Khalifa is the world's tallest building at 828 meters, a super-tall skyscraper that dominates the Dubai skyline. Constructed between 2004 and 2010, it was designed by Adrian Smith of Skidmore, Owings & Merrill and features a Y-shaped floor plan inspired by the Hymenocallis desert flower. The tower holds multiple world records including tallest structure, highest occupied floor, and highest outdoor observation deck.",
-  "coverImage": "/images/burj-khalifa.jpg",
+  "coverImage": "/WhatHappenedHere/images/burj-khalifa.jpg",
   "timeline": [
     {
       "year": "2004",
@@ -47,22 +47,22 @@
   ],
   "images": [
     {
-      "url": "/images/burj-khalifa-skyline.jpg",
+      "url": "/WhatHappenedHere/images/burj-khalifa-skyline.jpg",
       "year": "2022",
       "caption": "The Burj Khalifa rising above the Dubai skyline at sunset, dominating the Downtown Dubai district"
     },
     {
-      "url": "/images/burj-khalifa-construction.jpg",
+      "url": "/WhatHappenedHere/images/burj-khalifa-construction.jpg",
       "year": "2008",
       "caption": "The Burj Khalifa under construction, reaching over 600 meters as it surpasses all existing records"
     },
     {
-      "url": "/images/burj-khalifa-opening.jpg",
+      "url": "/WhatHappenedHere/images/burj-khalifa-opening.jpg",
       "year": "2010",
       "caption": "The spectacular fireworks display during the Burj Khalifa's grand opening ceremony on January 4, 2010"
     },
     {
-      "url": "/images/burj-khalifa-fountain.jpg",
+      "url": "/WhatHappenedHere/images/burj-khalifa-fountain.jpg",
       "year": "2021",
       "caption": "The Dubai Fountain performing at the base of the Burj Khalifa, with the tower illuminated against the night sky"
     }

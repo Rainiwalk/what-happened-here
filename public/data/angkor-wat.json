@@ -7,7 +7,7 @@
   "lat": 13.4125,
   "lng": 103.8670,
   "summary": "Angkor Wat is a temple complex in Cambodia and the largest religious monument in the world. Originally constructed as a Hindu temple dedicated to Vishnu by the Khmer King Suryavarman II in the early 12th century, it gradually transformed into a Buddhist temple by the end of the century. The temple is a symbol of Cambodia and appears on the national flag.",
-  "coverImage": "/images/angkor-wat.jpg",
+  "coverImage": "/WhatHappenedHere/images/angkor-wat.jpg",
   "timeline": [
     {"year": "1113", "title": "Construction Begins", "description": "Khmer King Suryavarman II began construction of Angkor Wat as a state temple dedicated to the Hindu god Vishnu. The temple was designed to represent Mount Meru, the home of the gods in Hindu mythology, with its five central towers symbolizing the peaks of the sacred mountain."},
     {"year": "1150", "title": "Construction Completed", "description": "The main temple complex was completed after approximately 37 years of construction. Angkor Wat became the largest religious monument in the world, covering an area of 162.6 hectares with an outer moat measuring 3.6 kilometers."},
@@ -18,10 +18,10 @@
     {"year": "1992", "title": "UNESCO World Heritage Site", "description": "Angkor Wat and the entire Angkor archaeological park were designated a UNESCO World Heritage Site, recognizing the outstanding universal value of the Khmer architectural and artistic heritage."}
   ],
   "images": [
-    {"url": "/images/angkor-wat-1113.jpg", "year": "1113", "caption": "Early construction of the temple towers representing Mount Meru"},
-    {"url": "/images/angkor-wat-1150.jpg", "year": "1150", "caption": "The completed temple complex with its iconic lotus-bud towers"},
-    {"url": "/images/angkor-wat-1860.jpg", "year": "1860", "caption": "Angkor Wat being reclaimed by jungle before restoration"},
-    {"url": "/images/angkor-wat-1992.jpg", "year": "1992", "caption": "The restored temple reflecting in the moat at sunrise"}
+    {"url": "/WhatHappenedHere/images/angkor-wat-1113.jpg", "year": "1113", "caption": "Early construction of the temple towers representing Mount Meru"},
+    {"url": "/WhatHappenedHere/images/angkor-wat-1150.jpg", "year": "1150", "caption": "The completed temple complex with its iconic lotus-bud towers"},
+    {"url": "/WhatHappenedHere/images/angkor-wat-1860.jpg", "year": "1860", "caption": "Angkor Wat being reclaimed by jungle before restoration"},
+    {"url": "/WhatHappenedHere/images/angkor-wat-1992.jpg", "year": "1992", "caption": "The restored temple reflecting in the moat at sunrise"}
   ],
   "relatedLocations": ["great-wall", "taj-mahal"]
 }
