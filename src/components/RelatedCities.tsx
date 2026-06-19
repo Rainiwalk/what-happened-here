@@ -1,39 +1,21 @@
 "use client";
 
-import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
-import { getRelatedCities } from "@/lib/city-data";
 import { CitySummary } from "@/types";
 import CityCard from "./CityCard";
 
 interface RelatedCitiesProps {
   currentId: string;
   province: string;
+  cities: CitySummary[];
 }
 
 export default function RelatedCities({
   currentId,
   province,
+  cities,
 }: RelatedCitiesProps) {
-  const [cities, setCities] = useState<CitySummary[]>([]);
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    const fetchRelated = async () => {
-      try {
-        const data = await getRelatedCities(currentId, province);
-        setCities(data);
-      } catch (error) {
-        console.error("Failed to fetch related cities:", error);
-      } finally {
-        setLoading(false);
-      }
-    };
-
-    fetchRelated();
-  }, [currentId, province]);
-
-  if (loading || cities.length === 0) {
+  if (cities.length === 0) {
     return null;
   }
 

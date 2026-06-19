@@ -4,28 +4,22 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import { Route, CitySummary } from "@/types";
 import { getPath } from "@/lib/utils";
-import { useEffect, useState } from "react";
-import { getAllCities } from "@/lib/city-data";
 
 interface HistoricalRoutesProps {
   currentCityId: string;
   routes: Route[];
+  allCities: CitySummary[];
 }
 
 export default function HistoricalRoutes({
   currentCityId,
   routes,
+  allCities,
 }: HistoricalRoutesProps) {
-  const [cities, setCities] = useState<CitySummary[]>([]);
-
-  useEffect(() => {
-    getAllCities().then(setCities).catch(console.error);
-  }, []);
-
   if (routes.length === 0) return null;
 
   const getCityInfo = (cityId: string) =>
-    cities.find((c) => c.id === cityId);
+    allCities.find((c) => c.id === cityId);
 
   return (
     <section className="py-20 bg-gradient-to-b from-white to-amber-50">
@@ -94,6 +88,7 @@ export default function HistoricalRoutes({
                                     src={getPath(cityInfo.coverImage)}
                                     alt={cityInfo.name}
                                     className="w-full h-full object-cover"
+                                    loading="lazy"
                                   />
                                 ) : (
                                   <div className="w-full h-full bg-amber-100 flex items-center justify-center text-lg font-bold text-amber-700">
@@ -166,6 +161,7 @@ export default function HistoricalRoutes({
                                     src={getPath(cityInfo.coverImage)}
                                     alt={cityInfo.name}
                                     className="w-full h-full object-cover"
+                                    loading="lazy"
                                   />
                                 ) : (
                                   <div className="w-full h-full bg-amber-100 flex items-center justify-center text-lg font-bold text-amber-700">

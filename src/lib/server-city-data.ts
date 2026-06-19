@@ -87,3 +87,18 @@ export function getForcesForCity(cityId: string): GeographicForce[] {
   const data = JSON.parse(content);
   return data.cities[cityId] || [];
 }
+
+/**
+ * 获取相关城市（服务端使用）
+ */
+export function getRelatedCitiesSync(currentId: string, province: string): CitySummary[] {
+  const cities = getAllCitiesSync();
+  return cities
+    .filter((city) => city.id !== currentId)
+    .sort((a, b) => {
+      if (a.province === province && b.province !== province) return -1;
+      if (a.province !== province && b.province === province) return 1;
+      return 0;
+    })
+    .slice(0, 3);
+}
