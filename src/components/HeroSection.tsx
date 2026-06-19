@@ -15,7 +15,7 @@ export default function HeroSection() {
   }, []);
 
   return (
-    <section className="relative min-h-[70vh] flex items-center justify-center bg-gradient-to-br from-amber-50 via-white to-orange-50">
+    <section className="relative min-h-[85vh] flex items-end justify-center bg-gradient-to-br from-amber-50 via-white to-orange-50 pt-20 pb-16">
       {/* Background decoration */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute -top-40 -right-40 w-80 h-80 bg-amber-100 rounded-full blur-3xl opacity-50" />
