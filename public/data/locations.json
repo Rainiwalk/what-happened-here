@@ -1,0 +1,46 @@
+[
+  {
+    "id": "tokyo-station",
+    "name": "Tokyo Station",
+    "nameLocal": "東京駅",
+    "country": "Japan",
+    "city": "Tokyo",
+    "coverImage": "/images/tokyo-station.jpg",
+    "summary": "东京站是日本最重要的铁路枢纽，建于1914年，见证了日本现代化的整个历程。"
+  },
+  {
+    "id": "eiffel-tower",
+    "name": "Eiffel Tower",
+    "nameLocal": "Tour Eiffel",
+    "country": "France",
+    "city": "Paris",
+    "coverImage": "/images/eiffel-tower.jpg",
+    "summary": "埃菲尔铁塔建于1889年，是巴黎的象征，也是世界上最知名的建筑之一。"
+  },
+  {
+    "id": "forbidden-city",
+    "name": "Forbidden City",
+    "nameLocal": "紫禁城",
+    "country": "China",
+    "city": "Beijing",
+    "coverImage": "/images/forbidden-city.jpg",
+    "summary": "紫禁城是明清两代的皇家宫殿，拥有近600年的历史，是世界上最大的古代宫殿建筑群。"
+  },
+  {
+    "id": "times-square",
+    "name": "Times Square",
+    "country": "USA",
+    "city": "New York",
+    "coverImage": "/images/times-square.jpg",
+    "summary": "时代广场是纽约最繁华的十字路口，以霓虹灯和广告牌闻名，被称为世界的十字路口。"
+  },
+  {
+    "id": "big-ben",
+    "name": "Big Ben",
+    "nameLocal": "Elizabeth Tower",
+    "country": "UK",
+    "city": "London",
+    "coverImage": "/images/big-ben.jpg",
+    "summary": "大本钟是伦敦的标志性建筑，建于1859年，其钟声是英国最具辨识度的声音之一。"
+  }
+]
