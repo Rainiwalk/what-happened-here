@@ -1,4 +1,5 @@
 import { City, CitySummary } from "@/types";
+import { getDataUrl } from "./fetch";
 
 // 客户端缓存
 let clientCitiesCache: CitySummary[] | null = null;
@@ -11,7 +12,7 @@ export async function getAllCities(): Promise<CitySummary[]> {
     return clientCitiesCache;
   }
 
-  const response = await fetch("/data/cities-index.json");
+  const response = await fetch(getDataUrl("/data/cities-index.json"));
   if (!response.ok) {
     throw new Error("Failed to fetch cities index");
   }
@@ -24,7 +25,7 @@ export async function getAllCities(): Promise<CitySummary[]> {
  * 根据 ID 获取城市详情（客户端使用）
  */
 export async function getCityById(id: string): Promise<City> {
-  const response = await fetch(`/data/cities/${id}.json`);
+  const response = await fetch(getDataUrl(`/data/cities/${id}.json`));
   if (!response.ok) {
     throw new Error(`City not found: ${id}`);
   }

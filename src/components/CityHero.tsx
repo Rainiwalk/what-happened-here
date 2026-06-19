@@ -15,12 +15,14 @@ export default function CityHero({ city }: CityHeroProps) {
 
   return (
     <section className="relative min-h-[70vh] flex items-end overflow-hidden">
-      {/* Background */}
-      <div className="absolute inset-0 bg-gradient-to-br from-amber-50 via-orange-50 to-red-50">
-        <div className="absolute inset-0 flex items-center justify-center text-[300px] opacity-10">
-          🏙️
-        </div>
-        <div className="absolute inset-0 bg-gradient-to-t from-white via-white/60 to-transparent z-10" />
+      {/* Background image */}
+      <div className="absolute inset-0">
+        <img
+          src={city.coverImage}
+          alt={city.name}
+          className="w-full h-full object-cover"
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-white via-white/70 to-white/30 z-10" />
       </div>
 
       <div className="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16 pt-32 w-full">

@@ -1,16 +1,23 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import SearchBar from "./SearchBar";
 import CitySearchBar from "./CitySearchBar";
+import { getAllCities } from "@/lib/city-data";
+import { CitySummary } from "@/types";
 
 export default function HeroSection() {
   const [activeTab, setActiveTab] = useState<"city" | "landmark">("city");
+  const [cities, setCities] = useState<CitySummary[]>([]);
+
+  useEffect(() => {
+    getAllCities().then(setCities).catch(console.error);
+  }, []);
 
   return (
-    <section className="relative min-h-[85vh] flex items-center justify-center bg-gradient-to-br from-amber-50 via-white to-orange-50">
+    <section className="relative min-h-[70vh] flex items-center justify-center bg-gradient-to-br from-amber-50 via-white to-orange-50">
       {/* Background decoration */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute -top-40 -right-40 w-80 h-80 bg-amber-100 rounded-full blur-3xl opacity-50" />
@@ -84,29 +91,18 @@ export default function HeroSection() {
           className="mt-8 flex flex-wrap items-center justify-center gap-3"
         >
           <span className="text-sm text-gray-500">
-            {activeTab === "city" ? "热门城市:" : "热门地标:"}
+            {activeTab === "city" ? "所有城市:" : "热门地标:"}
           </span>
           {activeTab === "city" ? (
-            <>
+            cities.map((city) => (
               <Link
-                href="/city/tangshan"
+                key={city.id}
+                href={`/city/${city.id}`}
                 className="px-4 py-2 bg-white rounded-full text-sm text-gray-700 hover:text-amber-600 hover:bg-amber-50 transition-colors border border-gray-200"
               >
-                唐山
+                {city.nameLocal || city.name}
               </Link>
-              <Link
-                href="/city/baoding"
-                className="px-4 py-2 bg-white rounded-full text-sm text-gray-700 hover:text-amber-600 hover:bg-amber-50 transition-colors border border-gray-200"
-              >
-                保定
-              </Link>
-              <Link
-                href="/city/tianjin"
-                className="px-4 py-2 bg-white rounded-full text-sm text-gray-700 hover:text-amber-600 hover:bg-amber-50 transition-colors border border-gray-200"
-              >
-                天津
-              </Link>
-            </>
+            ))
           ) : (
             <>
               <Link

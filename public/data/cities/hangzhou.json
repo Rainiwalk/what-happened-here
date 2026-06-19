@@ -1,0 +1,194 @@
+{
+  "id": "hangzhou",
+  "name": "Hangzhou",
+  "nameLocal": "杭州",
+  "province": "Zhejiang",
+  "lat": 30.2741,
+  "lng": 120.1551,
+  "summary": "杭州是南宋都城，西湖所在地，自古就有'上有天堂，下有苏杭'的美誉。马可·波罗称其为'世界上最美丽华贵之天城'，是中国最具诗意的城市之一。",
+  "description": "杭州地处钱塘江下游，京杭大运河南端，西湖如明珠般镶嵌在城市之中。早在八千年前，跨湖桥文化就在此孕育。秦代设钱唐县，隋代始称杭州。唐代白居易主持疏浚西湖，留下'最爱湖东行不足'的名句。南宋定都临安，杭州一跃成为全国政治、经济、文化中心，人口超过百万，是当时世界上最繁华的城市。元代马可·波罗游历杭州，盛赞其为'天城'。西湖十景、灵隐寺、六和塔等文化遗产闻名遐迩。如今的杭州已发展成为长三角南翼中心城市，数字经济领先全国，是创新活力之城。",
+  "coverImage": "/WhatHappenedHere/images/cities/hangzhou.jpg",
+  "timeline": [
+    {
+      "year": "前5000",
+      "era": "ancient",
+      "title": "跨湖桥文化",
+      "description": "距今约8000年前，杭州萧山跨湖桥出现了新石器时代文化。出土的独木舟是世界上最早的船之一，证明杭州地区是中华文明的重要发源地之一。"
+    },
+    {
+      "year": "前222",
+      "era": "ancient",
+      "title": "秦设钱唐县",
+      "description": "秦始皇统一六国后，在今杭州地区设置钱唐县，隶属会稽郡。这是杭州建县之始，秦始皇南巡时曾至此，留下秦望山的传说。"
+    },
+    {
+      "year": "589",
+      "era": "ancient",
+      "title": "隋代始称杭州",
+      "description": "隋文帝开皇九年（589年），废钱唐郡，设杭州，杭州之名由此而来。隋代开凿大运河，杭州成为大运河南端的起点，商业贸易开始繁荣。"
+    },
+    {
+      "year": "781",
+      "era": "ancient",
+      "title": "白居易任杭州刺史",
+      "description": "唐代诗人白居易出任杭州刺史，主持疏浚西湖，修筑白堤，留下了'最爱湖东行不足，绿杨阴里白沙堤'等名篇。白居易的治理使西湖美景名扬天下。"
+    },
+    {
+      "year": "907",
+      "era": "ancient",
+      "title": "吴越国建都杭州",
+      "description": "五代十国时期，钱镠建立吴越国，定都杭州。钱镠奉行'保境安民'政策，发展经济，修筑海塘，疏浚西湖，使杭州成为东南地区最繁华的城市。"
+    },
+    {
+      "year": "1127",
+      "era": "ancient",
+      "title": "南宋定都临安",
+      "description": "靖康之变后，宋高宗赵构南渡，定都临安（今杭州）。南宋时期的杭州是全国政治、经济、文化中心，人口超过百万，商业繁荣，文化昌盛，是当时世界上最繁华的城市。"
+    },
+    {
+      "year": "1138",
+      "era": "ancient",
+      "title": "南宋临安极盛",
+      "description": "南宋正式定都临安后，杭州进入极盛时期。城内商铺林立，夜市繁华，瓦舍勾栏遍布，市民文化空前繁荣。杭州成为世界第一个人口超百万的大都市。"
+    },
+    {
+      "year": "1276",
+      "era": "ancient",
+      "title": "元军攻占临安",
+      "description": "元军南下攻占临安，南宋灭亡。元代杭州改称杭州路，虽然失去首都地位，但仍保持东南地区经济中心的地位，马可·波罗盛赞其为'天城'。"
+    },
+    {
+      "year": "1400",
+      "era": "ancient",
+      "title": "明代杭州丝绸业兴盛",
+      "description": "明代杭州丝绸业进入鼎盛期，成为全国最大的丝绸生产和贸易中心。杭州丝绸远销海外，通过海上丝绸之路传播到世界各地。"
+    },
+    {
+      "year": "1727",
+      "era": "ancient",
+      "title": "清代西湖十景定型",
+      "description": "清代康熙、乾隆两帝多次南巡杭州，为西湖十景题词立碑。'苏堤春晓、曲院风荷、平湖秋月、断桥残雪'等十景定型，成为西湖文化的核心符号。"
+    },
+    {
+      "year": "1896",
+      "era": "modern",
+      "title": "杭州开埠通商",
+      "description": "根据《马关条约》，杭州被开辟为通商口岸。日本、英国等国在杭州设立租界和领事馆，西方文化和商业开始进入杭州。"
+    },
+    {
+      "year": "1909",
+      "era": "modern",
+      "title": "沪杭铁路通车",
+      "description": "沪杭铁路全线通车，连接上海和杭州。铁路的开通极大地促进了杭州的经济发展和对外交流，杭州开始近代化进程。"
+    },
+    {
+      "year": "1929",
+      "era": "modern",
+      "title": "西湖博览会举办",
+      "description": "1929年，首届西湖博览会在杭州举办，展期长达四个月。博览会展示了中国民族工商业的发展成就，提升了杭州的城市知名度。"
+    },
+    {
+      "year": "1937",
+      "era": "modern",
+      "title": "日军侵占杭州",
+      "description": "抗日战争期间，杭州被日军侵占。日军在杭州犯下滔天罪行，西湖周边许多古建筑遭到破坏，杭州人民遭受了深重的苦难。"
+    },
+    {
+      "year": "1949",
+      "era": "modern",
+      "title": "杭州解放",
+      "description": "1949年5月3日，中国人民解放军和平解放杭州。杭州完整地回到人民手中，西湖等文化遗产得到保护，开启了古都发展的新篇章。"
+    },
+    {
+      "year": "1953",
+      "era": "contemporary",
+      "title": "杭州成为浙江省省会",
+      "description": "新中国成立后，杭州被确定为浙江省省会。杭州开始大规模城市建设，发展工业和旅游业，西湖风景区得到系统保护和整治。"
+    },
+    {
+      "year": "1960",
+      "era": "contemporary",
+      "title": "西湖疏浚工程",
+      "description": "新中国成立后对西湖进行大规模疏浚工程，清除了大量淤泥，恢复了西湖的深度和水质。疏浚出的淤泥堆积成湖中小岛，美化了西湖景观。"
+    },
+    {
+      "year": "1982",
+      "era": "contemporary",
+      "title": "西湖入选首批国家重点风景名胜区",
+      "description": "西湖被列为第一批国家重点风景名胜区。杭州开始系统保护西湖及其周边历史文化遗产，发展旅游业，西湖成为杭州的城市名片。"
+    },
+    {
+      "year": "1996",
+      "era": "contemporary",
+      "title": "杭州获'国家历史文化名城'称号",
+      "description": "杭州被国务院列为国家历史文化名城。灵隐寺、六和塔、胡雪岩故居等文化遗产得到系统保护，杭州的历史文化底蕴得到国家认可。"
+    },
+    {
+      "year": "2001",
+      "era": "contemporary",
+      "title": "西湖综合保护工程启动",
+      "description": "西湖综合保护工程全面启动，搬迁了大量占用西湖周边的单位和建筑，恢复了西湖的历史风貌。环湖全线贯通，西湖重新成为市民共享的公共空间。"
+    },
+    {
+      "year": "2003",
+      "era": "contemporary",
+      "title": "阿里巴巴总部迁入杭州",
+      "description": "阿里巴巴集团将总部迁至杭州。此后杭州成为中国电子商务和数字经济的中心，互联网产业蓬勃发展，被称为'中国硅谷'。"
+    },
+    {
+      "year": "2007",
+      "era": "contemporary",
+      "title": "京杭大运河杭州段整治",
+      "description": "京杭大运河杭州段进行综合整治，恢复了运河的历史风貌。运河两岸成为市民休闲的好去处，运河文化得到传承和发扬。"
+    },
+    {
+      "year": "2011",
+      "era": "contemporary",
+      "title": "西湖列入世界文化遗产",
+      "description": "西湖文化景观被联合国教科文组织列入世界文化遗产名录。西湖以'文化景观'类型入选，是中国湖泊类文化遗产的杰出代表。"
+    },
+    {
+      "year": "2015",
+      "era": "contemporary",
+      "title": "杭州成为跨境电商综合试验区",
+      "description": "杭州获批设立中国（杭州）跨境电子商务综合试验区。杭州在数字经济和跨境电商领域走在全国前列，推动了国际贸易模式的创新。"
+    },
+    {
+      "year": "2016",
+      "era": "contemporary",
+      "title": "G20峰会在杭州举办",
+      "description": "2016年G20峰会在杭州成功举办，这是中国首次举办G20峰会。杭州向世界展示了古典与现代交融的城市魅力，国际知名度大幅提升。"
+    },
+    {
+      "year": "2018",
+      "era": "contemporary",
+      "title": "杭州数字经济领跑全国",
+      "description": "杭州数字经济核心产业增加值占GDP比重超过25%，位居全国城市前列。以阿里巴巴为代表的互联网企业群推动杭州成为全球数字经济高地。"
+    },
+    {
+      "year": "2020",
+      "era": "contemporary",
+      "title": "杭州亚运村建设启动",
+      "description": "杭州亚运会亚运村建设全面启动。杭州投入巨资建设体育场馆和配套设施，全面提升城市基础设施水平，为举办世界级体育盛会做准备。"
+    },
+    {
+      "year": "2022",
+      "era": "contemporary",
+      "title": "杭州亚运会举办",
+      "description": "2023年杭州第19届亚洲运动会成功举办。杭州向世界展示了数字之城、创新之城的风采，亚运场馆和基础设施成为城市发展新动力。"
+    }
+  ],
+  "images": [
+    {"url": "/WhatHappenedHere/images/cities/hangzhou-589.jpg", "year": "589", "caption": "隋代杭州"},
+    {"url": "/WhatHappenedHere/images/cities/hangzhou-781.jpg", "year": "781", "caption": "白居易治理西湖"},
+    {"url": "/WhatHappenedHere/images/cities/hangzhou-907.jpg", "year": "907", "caption": "吴越国杭州"},
+    {"url": "/WhatHappenedHere/images/cities/hangzhou-1127.jpg", "year": "1127", "caption": "南宋临安"},
+    {"url": "/WhatHappenedHere/images/cities/hangzhou-1929.jpg", "year": "1929", "caption": "西湖博览会"},
+    {"url": "/WhatHappenedHere/images/cities/hangzhou-2011.jpg", "year": "2011", "caption": "西湖申遗成功"},
+    {"url": "/WhatHappenedHere/images/cities/hangzhou-2016.jpg", "year": "2016", "caption": "G20峰会"},
+    {"url": "/WhatHappenedHere/images/cities/hangzhou-2022.jpg", "year": "2022", "caption": "杭州亚运会"},
+    {"url": "/WhatHappenedHere/images/cities/hangzhou.jpg", "year": "2024", "caption": "现代杭州城市风貌"}
+  ],
+  "relatedCities": ["nanjing", "xian", "chengdu", "luoyang", "tianjin"],
+  "relatedLocations": ["west-lake", "forbidden-city"]
+}

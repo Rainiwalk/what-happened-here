@@ -1,4 +1,5 @@
 import { Location, LocationSummary } from "@/types";
+import { getDataUrl } from "./fetch";
 
 // 地点索引缓存（客户端使用）
 let clientLocationsCache: LocationSummary[] | null = null;
@@ -11,7 +12,7 @@ export async function getAllLocations(): Promise<LocationSummary[]> {
     return clientLocationsCache;
   }
 
-  const response = await fetch("/data/locations.json");
+  const response = await fetch(getDataUrl("/data/locations.json"));
   if (!response.ok) {
     throw new Error("Failed to fetch locations");
   }
@@ -24,7 +25,7 @@ export async function getAllLocations(): Promise<LocationSummary[]> {
  * 根据 ID 获取地点详情（客户端使用）
  */
 export async function getLocationById(id: string): Promise<Location> {
-  const response = await fetch(`/data/${id}.json`);
+  const response = await fetch(getDataUrl(`/data/${id}.json`));
   if (!response.ok) {
     throw new Error(`Location not found: ${id}`);
   }

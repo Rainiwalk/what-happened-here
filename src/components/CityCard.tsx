@@ -22,9 +22,12 @@ export default function CityCard({ city, index }: CityCardProps) {
       >
         {/* Image */}
         <div className="relative h-48 bg-gradient-to-br from-amber-50 to-orange-100 overflow-hidden">
-          <div className="absolute inset-0 flex items-center justify-center">
-            <span className="text-7xl group-hover:scale-110 transition-transform duration-300">🏙️</span>
-          </div>
+          <img
+            src={city.coverImage}
+            alt={city.name}
+            className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+            loading="lazy"
+          />
           <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent z-10" />
           {/* Province badge */}
           <div className="absolute top-3 left-3 z-20 bg-white/90 backdrop-blur-sm px-3 py-1 rounded-full text-xs font-medium text-gray-700">

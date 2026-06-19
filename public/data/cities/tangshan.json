@@ -202,6 +202,6 @@
     {"url": "/WhatHappenedHere/images/cities/tangshan-2016.jpg", "year": "2016", "caption": "唐山世园会"},
     {"url": "/WhatHappenedHere/images/cities/tangshan.jpg", "year": "2024", "caption": "现代化唐山城市风貌"}
   ],
-  "relatedCities": ["baoding", "tianjin", "qinhuangdao", "shijiazhuang"],
+  "relatedCities": ["baoding", "tianjin", "qinhuangdao", "shijiazhuang", "xian", "nanjing"],
   "relatedLocations": ["forbidden-city", "great-wall"]
 }

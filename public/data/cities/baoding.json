@@ -208,6 +208,6 @@
     {"url": "/WhatHappenedHere/images/cities/baoding-xiongan.jpg", "year": "2017", "caption": "雄安新区规划示意图"},
     {"url": "/WhatHappenedHere/images/cities/baoding-modern.jpg", "year": "2025", "caption": "保定现代化城市新貌"}
   ],
-  "relatedCities": ["tangshan", "tianjin", "shijiazhuang", "beijing"],
+  "relatedCities": ["tangshan", "tianjin", "shijiazhuang", "beijing", "luoyang", "xian"],
   "relatedLocations": ["forbidden-city", "xiongan-new-area"]
 }

@@ -241,6 +241,6 @@
     {"url": "/WhatHappenedHere/images/cities/tianjin-2015.jpg", "year": "2015", "caption": "天津港"8·12"特大爆炸事故"},
     {"url": "/WhatHappenedHere/images/cities/tianjin-2024.jpg", "year": "2024", "caption": "京津冀协同发展深入推进"}
   ],
-  "relatedCities": ["tangshan", "baoding", "beijing", "shijiazhuang"],
+  "relatedCities": ["tangshan", "baoding", "beijing", "shijiazhuang", "nanjing", "hangzhou"],
   "relatedLocations": ["forbidden-city", "temple-of-heaven", "great-wall"]
 }
