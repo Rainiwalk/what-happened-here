@@ -185,16 +185,65 @@
     }
   ],
   "images": [
-    {"url": "/images/cities/nanjing-229.jpg", "year": "229", "caption": "孙权定都建业"},
-    {"url": "/images/cities/nanjing-1368.jpg", "year": "1368", "caption": "明代南京城墙"},
-    {"url": "/images/cities/nanjing-1405.jpg", "year": "1405", "caption": "郑和下西洋"},
-    {"url": "/images/cities/nanjing-1853.jpg", "year": "1853", "caption": "太平天国天京"},
-    {"url": "/images/cities/nanjing-1912.jpg", "year": "1912", "caption": "中华民国成立"},
-    {"url": "/images/cities/nanjing-1937.jpg", "year": "1937", "caption": "南京大屠杀"},
-    {"url": "/images/cities/nanjing-1968.jpg", "year": "1968", "caption": "南京长江大桥"},
-    {"url": "/images/cities/nanjing-2014.jpg", "year": "2014", "caption": "南京青奥会"},
-    {"url": "/images/cities/nanjing.jpg", "year": "2024", "caption": "现代南京城市风貌"}
+    {
+      "url": "/images/cities/nanjing-229.jpg",
+      "year": "229",
+      "caption": "孙权定都建业"
+    },
+    {
+      "url": "/images/cities/nanjing-1368.jpg",
+      "year": "1368",
+      "caption": "明代南京城墙"
+    },
+    {
+      "url": "/images/cities/nanjing-1405.jpg",
+      "year": "1405",
+      "caption": "郑和下西洋"
+    },
+    {
+      "url": "/images/cities/nanjing-1853.jpg",
+      "year": "1853",
+      "caption": "太平天国天京"
+    },
+    {
+      "url": "/images/cities/nanjing-1912.jpg",
+      "year": "1912",
+      "caption": "中华民国成立"
+    },
+    {
+      "url": "/images/cities/nanjing-1937.jpg",
+      "year": "1937",
+      "caption": "南京大屠杀"
+    },
+    {
+      "url": "/images/cities/nanjing-1968.jpg",
+      "year": "1968",
+      "caption": "南京长江大桥"
+    },
+    {
+      "url": "/images/cities/nanjing-2014.jpg",
+      "year": "2014",
+      "caption": "南京青奥会"
+    },
+    {
+      "url": "/images/cities/nanjing.jpg",
+      "year": "2024",
+      "caption": "现代南京城市风貌"
+    }
   ],
-  "relatedCities": ["xian", "hangzhou", "luoyang", "chengdu", "tangshan"],
-  "relatedLocations": ["forbidden-city", "sun-yat-sen-mausoleum"]
+  "relatedCities": [
+    "xian",
+    "hangzhou",
+    "luoyang",
+    "chengdu",
+    "tangshan"
+  ],
+  "relatedLocations": [
+    "forbidden-city",
+    "sun-yat-sen-mausoleum"
+  ],
+  "routes": [
+    "capital-migration",
+    "yangtze-river"
+  ]
 }

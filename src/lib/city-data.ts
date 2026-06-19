@@ -1,4 +1,4 @@
-import { City, CitySummary } from "@/types";
+import { City, CitySummary, Route } from "@/types";
 import { getDataUrl } from "./fetch";
 
 // 客户端缓存
@@ -66,4 +66,28 @@ export async function getRelatedCities(
       return 0;
     })
     .slice(0, 3);
+}
+
+// 客户端路由缓存
+let clientRoutesCache: Route[] | null = null;
+
+/**
+ * 获取所有历史通道（客户端使用）
+ */
+export async function getAllRoutes(): Promise<Route[]> {
+  if (clientRoutesCache) return clientRoutesCache;
+
+  const response = await fetch(getDataUrl("/data/routes.json"));
+  if (!response.ok) throw new Error("Failed to fetch routes");
+
+  clientRoutesCache = await response.json();
+  return clientRoutesCache!;
+}
+
+/**
+ * 获取城市所属的历史通道（客户端使用）
+ */
+export async function getRoutesForCity(cityId: string): Promise<Route[]> {
+  const routes = await getAllRoutes();
+  return routes.filter((route) => route.cities.includes(cityId));
 }

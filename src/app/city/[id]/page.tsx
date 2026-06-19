@@ -1,8 +1,9 @@
 import { notFound } from "next/navigation";
-import { getCityByIdSync, getAllCityIds, getAdjacentCities } from "@/lib/server-city-data";
+import { getCityByIdSync, getAllCityIds, getAdjacentCities, getRoutesForCity } from "@/lib/server-city-data";
 import CityHero from "@/components/CityHero";
 import CityTimeline from "@/components/CityTimeline";
 import MapView from "@/components/MapView";
+import HistoricalRoutes from "@/components/HistoricalRoutes";
 import RelatedCities from "@/components/RelatedCities";
 import CityNavigation from "@/components/CityNavigation";
 
@@ -31,12 +32,14 @@ export default async function CityPage({ params }: CityPageProps) {
   }
 
   const { prev, next } = getAdjacentCities(id);
+  const routes = getRoutesForCity(id);
 
   return (
     <>
       <CityHero city={city} />
       <CityTimeline events={city.timeline} />
       <MapView lat={city.lat} lng={city.lng} name={city.name} />
+      <HistoricalRoutes currentCityId={id} routes={routes} />
       <RelatedCities currentId={city.id} province={city.province} />
       <CityNavigation prev={prev} next={next} />
     </>

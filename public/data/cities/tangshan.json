@@ -191,17 +191,68 @@
     }
   ],
   "images": [
-    {"url": "/images/cities/tangshan-645.jpg", "year": "645", "caption": "唐太宗东征途经唐山"},
-    {"url": "/images/cities/tangshan-1878.jpg", "year": "1878", "caption": "开平煤矿创办"},
-    {"url": "/images/cities/tangshan-1881.jpg", "year": "1881", "caption": "唐胥铁路通车"},
-    {"url": "/images/cities/tangshan-1889.jpg", "year": "1889", "caption": "启新洋灰公司"},
-    {"url": "/images/cities/tangshan-1912.jpg", "year": "1912", "caption": "开滦矿务局成立"},
-    {"url": "/images/cities/tangshan-1976.jpg", "year": "1976", "caption": "唐山大地震"},
-    {"url": "/images/cities/tangshan-1986.jpg", "year": "1986", "caption": "震后重建的唐山"},
-    {"url": "/images/cities/tangshan-1990.jpg", "year": "1990", "caption": "联合国人居荣誉奖"},
-    {"url": "/images/cities/tangshan-2016.jpg", "year": "2016", "caption": "唐山世园会"},
-    {"url": "/images/cities/tangshan.jpg", "year": "2024", "caption": "现代化唐山城市风貌"}
+    {
+      "url": "/images/cities/tangshan-645.jpg",
+      "year": "645",
+      "caption": "唐太宗东征途经唐山"
+    },
+    {
+      "url": "/images/cities/tangshan-1878.jpg",
+      "year": "1878",
+      "caption": "开平煤矿创办"
+    },
+    {
+      "url": "/images/cities/tangshan-1881.jpg",
+      "year": "1881",
+      "caption": "唐胥铁路通车"
+    },
+    {
+      "url": "/images/cities/tangshan-1889.jpg",
+      "year": "1889",
+      "caption": "启新洋灰公司"
+    },
+    {
+      "url": "/images/cities/tangshan-1912.jpg",
+      "year": "1912",
+      "caption": "开滦矿务局成立"
+    },
+    {
+      "url": "/images/cities/tangshan-1976.jpg",
+      "year": "1976",
+      "caption": "唐山大地震"
+    },
+    {
+      "url": "/images/cities/tangshan-1986.jpg",
+      "year": "1986",
+      "caption": "震后重建的唐山"
+    },
+    {
+      "url": "/images/cities/tangshan-1990.jpg",
+      "year": "1990",
+      "caption": "联合国人居荣誉奖"
+    },
+    {
+      "url": "/images/cities/tangshan-2016.jpg",
+      "year": "2016",
+      "caption": "唐山世园会"
+    },
+    {
+      "url": "/images/cities/tangshan.jpg",
+      "year": "2024",
+      "caption": "现代化唐山城市风貌"
+    }
   ],
-  "relatedCities": ["baoding", "tianjin", "qinhuangdao", "shijiazhuang", "xian", "nanjing"],
-  "relatedLocations": ["forbidden-city", "great-wall"]
+  "relatedCities": [
+    "baoding",
+    "tianjin",
+    "qinhuangdao",
+    "shijiazhuang",
+    "xian",
+    "nanjing"
+  ],
+  "relatedLocations": [
+    "forbidden-city",
+    "great-wall"
+  ],
+  "routes": []
 }

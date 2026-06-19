@@ -1,4 +1,4 @@
-import { City, CitySummary } from "@/types";
+import { City, CitySummary, Route } from "@/types";
 import { readFileSync, readdirSync } from "fs";
 import { join } from "path";
 
@@ -59,4 +59,21 @@ export function getAdjacentCities(currentId: string): {
     prev: { id: cities[prevIndex].id, name: cities[prevIndex].name, nameLocal: cities[prevIndex].nameLocal ?? "" },
     next: { id: cities[nextIndex].id, name: cities[nextIndex].name, nameLocal: cities[nextIndex].nameLocal ?? "" },
   };
+}
+
+/**
+ * 获取所有历史通道（服务端使用）
+ */
+export function getAllRoutesSync(): Route[] {
+  const filePath = join(process.cwd(), "public", "data", "routes.json");
+  const content = readFileSync(filePath, "utf-8");
+  return JSON.parse(content);
+}
+
+/**
+ * 获取城市所属的历史通道（服务端使用）
+ */
+export function getRoutesForCity(cityId: string): Route[] {
+  const routes = getAllRoutesSync();
+  return routes.filter((route) => route.cities.includes(cityId));
 }

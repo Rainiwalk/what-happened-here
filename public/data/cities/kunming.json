@@ -191,5 +191,12 @@
     }
   ],
   "images": [],
-  "relatedCities": ["chengdu", "chongqing", "lasa"]
+  "relatedCities": [
+    "chengdu",
+    "chongqing",
+    "lasa"
+  ],
+  "routes": [
+    "tea-horse-road"
+  ]
 }

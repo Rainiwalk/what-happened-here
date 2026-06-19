@@ -197,17 +197,68 @@
     }
   ],
   "images": [
-    {"url": "/images/cities/baoding-ancient.jpg", "year": "1213", "caption": "元代保定古城复原图"},
-    {"url": "/images/cities/baoding-lotus.jpg", "year": "1227", "caption": "古莲花池八百年历史遗迹"},
-    {"url": "/images/cities/baoding-governor.jpg", "year": "1669", "caption": "直隶总督署旧址"},
-    {"url": "/images/cities/baoding-academy.jpg", "year": "1903", "caption": "保定陆军军官学校校门"},
-    {"url": "/images/cities/baoding-baigandian.jpg", "year": "1938", "caption": "白洋淀抗日根据地"},
-    {"url": "/images/cities/baoding-liberation.jpg", "year": "1948", "caption": "保定解放时的欢庆场景"},
-    {"url": "/images/cities/baoding-capital.jpg", "year": "1949", "caption": "新中国成立初期的保定城"},
-    {"url": "/images/cities/baoding-solar.jpg", "year": "2005", "caption": "保定中国电谷太阳能产业基地"},
-    {"url": "/images/cities/baoding-xiongan.jpg", "year": "2017", "caption": "雄安新区规划示意图"},
-    {"url": "/images/cities/baoding-modern.jpg", "year": "2025", "caption": "保定现代化城市新貌"}
+    {
+      "url": "/images/cities/baoding-ancient.jpg",
+      "year": "1213",
+      "caption": "元代保定古城复原图"
+    },
+    {
+      "url": "/images/cities/baoding-lotus.jpg",
+      "year": "1227",
+      "caption": "古莲花池八百年历史遗迹"
+    },
+    {
+      "url": "/images/cities/baoding-governor.jpg",
+      "year": "1669",
+      "caption": "直隶总督署旧址"
+    },
+    {
+      "url": "/images/cities/baoding-academy.jpg",
+      "year": "1903",
+      "caption": "保定陆军军官学校校门"
+    },
+    {
+      "url": "/images/cities/baoding-baigandian.jpg",
+      "year": "1938",
+      "caption": "白洋淀抗日根据地"
+    },
+    {
+      "url": "/images/cities/baoding-liberation.jpg",
+      "year": "1948",
+      "caption": "保定解放时的欢庆场景"
+    },
+    {
+      "url": "/images/cities/baoding-capital.jpg",
+      "year": "1949",
+      "caption": "新中国成立初期的保定城"
+    },
+    {
+      "url": "/images/cities/baoding-solar.jpg",
+      "year": "2005",
+      "caption": "保定中国电谷太阳能产业基地"
+    },
+    {
+      "url": "/images/cities/baoding-xiongan.jpg",
+      "year": "2017",
+      "caption": "雄安新区规划示意图"
+    },
+    {
+      "url": "/images/cities/baoding-modern.jpg",
+      "year": "2025",
+      "caption": "保定现代化城市新貌"
+    }
   ],
-  "relatedCities": ["tangshan", "tianjin", "shijiazhuang", "beijing", "luoyang", "xian"],
-  "relatedLocations": ["forbidden-city", "xiongan-new-area"]
+  "relatedCities": [
+    "tangshan",
+    "tianjin",
+    "shijiazhuang",
+    "beijing",
+    "luoyang",
+    "xian"
+  ],
+  "relatedLocations": [
+    "forbidden-city",
+    "xiongan-new-area"
+  ],
+  "routes": []
 }

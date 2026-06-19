@@ -1,0 +1,44 @@
+[
+  {
+    "id": "silk-road",
+    "name": "丝绸之路",
+    "icon": "🐫",
+    "description": "连接中国与中亚、西亚的古代贸易通道，以丝绸、瓷器、茶叶贸易闻名于世。从长安出发，经河西走廊，穿越塔克拉玛干沙漠，直达地中海沿岸。",
+    "cities": ["xian", "dunhuang", "kashi"]
+  },
+  {
+    "id": "grand-canal",
+    "name": "大运河",
+    "icon": "🚢",
+    "description": "世界最长的人工运河，始建于春秋时期，隋代大规模扩建，贯通中国南北经济命脉。沿线城市因运河而兴，见证了千年的漕运繁华。",
+    "cities": ["beijing", "tianjin", "yangzhou", "hangzhou"]
+  },
+  {
+    "id": "maritime-silk-road",
+    "name": "海上丝绸之路",
+    "icon": "⛵",
+    "description": "古代中国与海外贸易的海上通道，从东南沿海出发，经南海通往东南亚、印度洋、波斯湾和东非。瓷器、丝绸、茶叶从这里走向世界。",
+    "cities": ["guangzhou", "quanzhou", "shanghai"]
+  },
+  {
+    "id": "capital-migration",
+    "name": "首都迁移线",
+    "icon": "🏛️",
+    "description": "中国历代政治中心的迁移轨迹。从西周镐京到元明清北京，都城的东移北迁反映了经济重心南移和军事形势的变化。",
+    "cities": ["xian", "luoyang", "kaifeng", "nanjing", "beijing"]
+  },
+  {
+    "id": "tea-horse-road",
+    "name": "茶马古道",
+    "icon": "🍵",
+    "description": "以茶马贸易为主的西南地区交通网络，连接川滇藏地区。藏区的马匹与云南的茶叶在这条古道上交换，促进了民族交融。",
+    "cities": ["chengdu", "kunming", "lasa"]
+  },
+  {
+    "id": "yangtze-river",
+    "name": "长江文明带",
+    "icon": "🌊",
+    "description": "沿长江流域形成的城市文明带，从巴蜀到江南，长江串联起中国南方最重要的城市。水运促进了文化传播和经济交流。",
+    "cities": ["chongqing", "wuhan", "nanjing", "shanghai"]
+  }
+]

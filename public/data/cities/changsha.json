@@ -191,5 +191,10 @@
     }
   ],
   "images": [],
-  "relatedCities": ["wuhan", "guangzhou", "nanjing"]
+  "relatedCities": [
+    "wuhan",
+    "guangzhou",
+    "nanjing"
+  ],
+  "routes": []
 }

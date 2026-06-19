@@ -161,5 +161,10 @@
     }
   ],
   "images": [],
-  "relatedCities": ["kaifeng", "luoyang", "xian"]
+  "relatedCities": [
+    "kaifeng",
+    "luoyang",
+    "xian"
+  ],
+  "routes": []
 }

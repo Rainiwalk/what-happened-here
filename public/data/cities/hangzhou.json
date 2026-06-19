@@ -179,16 +179,64 @@
     }
   ],
   "images": [
-    {"url": "/images/cities/hangzhou-589.jpg", "year": "589", "caption": "隋代杭州"},
-    {"url": "/images/cities/hangzhou-781.jpg", "year": "781", "caption": "白居易治理西湖"},
-    {"url": "/images/cities/hangzhou-907.jpg", "year": "907", "caption": "吴越国杭州"},
-    {"url": "/images/cities/hangzhou-1127.jpg", "year": "1127", "caption": "南宋临安"},
-    {"url": "/images/cities/hangzhou-1929.jpg", "year": "1929", "caption": "西湖博览会"},
-    {"url": "/images/cities/hangzhou-2011.jpg", "year": "2011", "caption": "西湖申遗成功"},
-    {"url": "/images/cities/hangzhou-2016.jpg", "year": "2016", "caption": "G20峰会"},
-    {"url": "/images/cities/hangzhou-2022.jpg", "year": "2022", "caption": "杭州亚运会"},
-    {"url": "/images/cities/hangzhou.jpg", "year": "2024", "caption": "现代杭州城市风貌"}
+    {
+      "url": "/images/cities/hangzhou-589.jpg",
+      "year": "589",
+      "caption": "隋代杭州"
+    },
+    {
+      "url": "/images/cities/hangzhou-781.jpg",
+      "year": "781",
+      "caption": "白居易治理西湖"
+    },
+    {
+      "url": "/images/cities/hangzhou-907.jpg",
+      "year": "907",
+      "caption": "吴越国杭州"
+    },
+    {
+      "url": "/images/cities/hangzhou-1127.jpg",
+      "year": "1127",
+      "caption": "南宋临安"
+    },
+    {
+      "url": "/images/cities/hangzhou-1929.jpg",
+      "year": "1929",
+      "caption": "西湖博览会"
+    },
+    {
+      "url": "/images/cities/hangzhou-2011.jpg",
+      "year": "2011",
+      "caption": "西湖申遗成功"
+    },
+    {
+      "url": "/images/cities/hangzhou-2016.jpg",
+      "year": "2016",
+      "caption": "G20峰会"
+    },
+    {
+      "url": "/images/cities/hangzhou-2022.jpg",
+      "year": "2022",
+      "caption": "杭州亚运会"
+    },
+    {
+      "url": "/images/cities/hangzhou.jpg",
+      "year": "2024",
+      "caption": "现代杭州城市风貌"
+    }
   ],
-  "relatedCities": ["nanjing", "xian", "chengdu", "luoyang", "tianjin"],
-  "relatedLocations": ["west-lake", "forbidden-city"]
+  "relatedCities": [
+    "nanjing",
+    "xian",
+    "chengdu",
+    "luoyang",
+    "tianjin"
+  ],
+  "relatedLocations": [
+    "west-lake",
+    "forbidden-city"
+  ],
+  "routes": [
+    "grand-canal"
+  ]
 }

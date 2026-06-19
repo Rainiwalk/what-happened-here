@@ -197,5 +197,12 @@
     }
   ],
   "images": [],
-  "relatedCities": ["xian", "lanzhou", "urumqi"]
+  "relatedCities": [
+    "xian",
+    "lanzhou",
+    "urumqi"
+  ],
+  "routes": [
+    "silk-road"
+  ]
 }

@@ -54,6 +54,7 @@ what-happened-here/
 │   │   ├── CityTimeline.tsx       # City timeline with era filter
 │   │   ├── CityNavigation.tsx     # Left/right city navigation
 │   │   ├── RelatedCities.tsx      # Related cities
+│   │   ├── HistoricalRoutes.tsx   # Historical route visualization
 │   │   ├── ImageGallery.tsx       # Photo gallery with lightbox
 │   │   └── MapView.tsx            # Leaflet map component
 │   ├── lib/
@@ -114,6 +115,33 @@ what-happened-here/
 
 **Era types:** `ancient` (古代), `modern` (近代 1800-1949), `contemporary` (现代 1949+)
 
+**Routes field:** Each city JSON includes an optional `routes` array listing the historical route IDs the city belongs to (e.g., `"routes": ["silk-road", "capital-migration"]`).
+
+### Historical Routes (`public/data/routes.json`)
+
+```json
+[
+  {
+    "id": "silk-road",
+    "name": "丝绸之路",
+    "icon": "🐫",
+    "description": "连接中国与中亚、西亚的古代贸易通道...",
+    "cities": ["xian", "dunhuang", "kashi"]
+  }
+]
+```
+
+### Route Definitions
+
+| Route | Cities |
+|-------|--------|
+| `silk-road` | xian → dunhuang → kashi |
+| `grand-canal` | beijing → tianjin → yangzhou → hangzhou |
+| `maritime-silk-road` | guangzhou → quanzhou → shanghai |
+| `capital-migration` | xian → luoyang → kaifeng → nanjing → beijing |
+| `tea-horse-road` | chengdu → kunming → lasa |
+| `yangtze-river` | chongqing → wuhan → nanjing → shanghai |
+
 ## Key Implementation Details
 
 ### City Navigation
@@ -123,6 +151,18 @@ what-happened-here/
 - Only visible on medium screens and above (`hidden md:block`)
 - Shows when hovering over bottom-left/right corners
 - Uses `getAdjacentCities()` from `server-city-data.ts`
+
+### Historical Routes
+
+- City detail pages show historical routes the city belongs to
+- Displayed between MapView and RelatedCities sections
+- Route visualization: horizontal on desktop, vertical on mobile
+- Current city is highlighted with amber border and checkmark
+- Other cities are clickable links to their detail pages
+- Cities with no routes don't show the section
+- Data: `public/data/routes.json` defines routes, city JSON files have `routes` field
+- Server-side: `getRoutesForCity()` in `server-city-data.ts`
+- Client-side: `getRoutesForCity()` in `city-data.ts`
 
 ### Static Site Generation (SSG)
 

@@ -185,5 +185,10 @@
     }
   ],
   "images": [],
-  "relatedCities": ["beijing", "xian", "luoyang"]
+  "relatedCities": [
+    "beijing",
+    "xian",
+    "luoyang"
+  ],
+  "routes": []
 }

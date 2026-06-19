@@ -191,16 +191,64 @@
     }
   ],
   "images": [
-    {"url": "/images/cities/luoyang-2070.jpg", "year": "2070", "caption": "夏朝二里头遗址"},
-    {"url": "/images/cities/luoyang-68.jpg", "year": "68", "caption": "白马寺"},
-    {"url": "/images/cities/luoyang-493.jpg", "year": "493", "caption": "北魏洛阳城"},
-    {"url": "/images/cities/luoyang-495.jpg", "year": "495", "caption": "龙门石窟"},
-    {"url": "/images/cities/luoyang-690.jpg", "year": "690", "caption": "武则天神都"},
-    {"url": "/images/cities/luoyang-1882.jpg", "year": "1882", "caption": "洛阳牡丹"},
-    {"url": "/images/cities/luoyang-2000.jpg", "year": "2000", "caption": "龙门石窟申遗成功"},
-    {"url": "/images/cities/luoyang-2023.jpg", "year": "2023", "caption": "洛阳汉服文化"},
-    {"url": "/images/cities/luoyang.jpg", "year": "2024", "caption": "现代洛阳城市风貌"}
+    {
+      "url": "/images/cities/luoyang-2070.jpg",
+      "year": "2070",
+      "caption": "夏朝二里头遗址"
+    },
+    {
+      "url": "/images/cities/luoyang-68.jpg",
+      "year": "68",
+      "caption": "白马寺"
+    },
+    {
+      "url": "/images/cities/luoyang-493.jpg",
+      "year": "493",
+      "caption": "北魏洛阳城"
+    },
+    {
+      "url": "/images/cities/luoyang-495.jpg",
+      "year": "495",
+      "caption": "龙门石窟"
+    },
+    {
+      "url": "/images/cities/luoyang-690.jpg",
+      "year": "690",
+      "caption": "武则天神都"
+    },
+    {
+      "url": "/images/cities/luoyang-1882.jpg",
+      "year": "1882",
+      "caption": "洛阳牡丹"
+    },
+    {
+      "url": "/images/cities/luoyang-2000.jpg",
+      "year": "2000",
+      "caption": "龙门石窟申遗成功"
+    },
+    {
+      "url": "/images/cities/luoyang-2023.jpg",
+      "year": "2023",
+      "caption": "洛阳汉服文化"
+    },
+    {
+      "url": "/images/cities/luoyang.jpg",
+      "year": "2024",
+      "caption": "现代洛阳城市风貌"
+    }
   ],
-  "relatedCities": ["xian", "nanjing", "hangzhou", "chengdu", "baoding"],
-  "relatedLocations": ["forbidden-city", "longmen-grottoes"]
+  "relatedCities": [
+    "xian",
+    "nanjing",
+    "hangzhou",
+    "chengdu",
+    "baoding"
+  ],
+  "relatedLocations": [
+    "forbidden-city",
+    "longmen-grottoes"
+  ],
+  "routes": [
+    "capital-migration"
+  ]
 }

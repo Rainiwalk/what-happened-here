@@ -191,17 +191,70 @@
     }
   ],
   "images": [
-    {"url": "/images/cities/xian-221.jpg", "year": "221", "caption": "秦统一六国"},
-    {"url": "/images/cities/xian-138.jpg", "year": "138", "caption": "张骞出使西域"},
-    {"url": "/images/cities/xian-618.jpg", "year": "618", "caption": "唐代长安城"},
-    {"url": "/images/cities/xian-652.jpg", "year": "652", "caption": "大雁塔"},
-    {"url": "/images/cities/xian-712.jpg", "year": "712", "caption": "开元盛世长安"},
-    {"url": "/images/cities/xian-1369.jpg", "year": "1369", "caption": "明代西安城墙"},
-    {"url": "/images/cities/xian-1936.jpg", "year": "1936", "caption": "西安事变"},
-    {"url": "/images/cities/xian-1974.jpg", "year": "1974", "caption": "秦始皇兵马俑"},
-    {"url": "/images/cities/xian-2014.jpg", "year": "2014", "caption": "丝绸之路申遗成功"},
-    {"url": "/images/cities/xian.jpg", "year": "2024", "caption": "现代西安城市风貌"}
+    {
+      "url": "/images/cities/xian-221.jpg",
+      "year": "221",
+      "caption": "秦统一六国"
+    },
+    {
+      "url": "/images/cities/xian-138.jpg",
+      "year": "138",
+      "caption": "张骞出使西域"
+    },
+    {
+      "url": "/images/cities/xian-618.jpg",
+      "year": "618",
+      "caption": "唐代长安城"
+    },
+    {
+      "url": "/images/cities/xian-652.jpg",
+      "year": "652",
+      "caption": "大雁塔"
+    },
+    {
+      "url": "/images/cities/xian-712.jpg",
+      "year": "712",
+      "caption": "开元盛世长安"
+    },
+    {
+      "url": "/images/cities/xian-1369.jpg",
+      "year": "1369",
+      "caption": "明代西安城墙"
+    },
+    {
+      "url": "/images/cities/xian-1936.jpg",
+      "year": "1936",
+      "caption": "西安事变"
+    },
+    {
+      "url": "/images/cities/xian-1974.jpg",
+      "year": "1974",
+      "caption": "秦始皇兵马俑"
+    },
+    {
+      "url": "/images/cities/xian-2014.jpg",
+      "year": "2014",
+      "caption": "丝绸之路申遗成功"
+    },
+    {
+      "url": "/images/cities/xian.jpg",
+      "year": "2024",
+      "caption": "现代西安城市风貌"
+    }
   ],
-  "relatedCities": ["nanjing", "luoyang", "hangzhou", "chengdu", "tangshan"],
-  "relatedLocations": ["terracotta-warriors", "great-wall"]
+  "relatedCities": [
+    "nanjing",
+    "luoyang",
+    "hangzhou",
+    "chengdu",
+    "tangshan"
+  ],
+  "relatedLocations": [
+    "terracotta-warriors",
+    "great-wall"
+  ],
+  "routes": [
+    "silk-road",
+    "capital-migration"
+  ]
 }

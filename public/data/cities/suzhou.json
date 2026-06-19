@@ -191,5 +191,10 @@
     }
   ],
   "images": [],
-  "relatedCities": ["hangzhou", "nanjing", "shanghai"]
+  "relatedCities": [
+    "hangzhou",
+    "nanjing",
+    "shanghai"
+  ],
+  "routes": []
 }

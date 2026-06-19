@@ -38,3 +38,12 @@ export interface CitySummary {
   coverImage: string;
   summary: string;
 }
+
+// 历史通道相关类型
+export interface Route {
+  id: string;
+  name: string;
+  icon: string;
+  description: string;
+  cities: string[];
+}

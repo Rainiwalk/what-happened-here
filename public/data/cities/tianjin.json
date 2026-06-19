@@ -4,7 +4,7 @@
   "nameLocal": "天津",
   "province": "Tianjin",
   "lat": 39.0842,
-  "lng": 117.2010,
+  "lng": 117.201,
   "summary": "天津，中国四大直辖市之一，地处华北平原东北部，海河流域下游，东临渤海，北依燕山，是中国北方最大的沿海开放城市。天津因明朝永乐帝\"天子渡津\"而得名，自古便是京畿门户和军事重镇，近代更因开埠通商成为中国最早接触西方文明的城市之一。",
   "description": "天津是中国历史文化名城，拥有六百余年的建城史。隋朝大运河的开通使天津成为南北交通要冲；明代设卫筑城，奠定了城市格局；清代开埠后，九国租界并存，中西文化在此交融碰撞，形成了独特的天津城市风貌。天津是中国近代工业的发祥地之一，诞生了中国第一所现代大学、第一条标准轨距铁路、第一家近代邮政机构。如今，天津作为京津冀协同发展的重要节点城市，滨海新区的开发建设使其成为环渤海经济圈的核心引擎。天津的相声、杨柳青年画、泥人张彩塑等非物质文化遗产享誉全国，狗不理包子、耳朵眼炸糕、十八街麻花被誉为\"天津三绝\"。",
   "coverImage": "/images/cities/tianjin.jpg",
@@ -228,19 +228,81 @@
     }
   ],
   "images": [
-    {"url": "/images/cities/tianjin-608.jpg", "year": "608", "caption": "隋朝永济渠开凿，奠定天津水运枢纽地位"},
-    {"url": "/images/cities/tianjin-1153.jpg", "year": "1153", "caption": "金朝设置直沽寨，天津最早的军事建制"},
-    {"url": "/images/cities/tianjin-1404.jpg", "year": "1404", "caption": "永乐帝赐名天津，取\"天子渡津\"之意"},
-    {"url": "/images/cities/tianjin-1860.jpg", "year": "1860", "caption": "天津开埠通商，九国租界格局逐步形成"},
-    {"url": "/images/cities/tianjin-1870.jpg", "year": "1870", "caption": "天津教案，望海楼教堂事件震惊中外"},
-    {"url": "/images/cities/tianjin-1895.jpg", "year": "1895", "caption": "北洋大学堂创办，中国第一所现代大学"},
-    {"url": "/images/cities/tianjin-1900.jpg", "year": "1900", "caption": "八国联军占领天津，设立都统衙门"},
-    {"url": "/images/cities/tianjin-1949.jpg", "year": "1949", "caption": "天津解放，城市获得新生"},
-    {"url": "/images/cities/tianjin-1976.jpg", "year": "1976", "caption": "唐山大地震波及天津，城市重建"},
-    {"url": "/images/cities/tianjin-2008.jpg", "year": "2008", "caption": "京津城际高铁开通，中国高铁时代来临"},
-    {"url": "/images/cities/tianjin-2015.jpg", "year": "2015", "caption": "天津港\"8·12\"特大爆炸事故"},
-    {"url": "/images/cities/tianjin-2024.jpg", "year": "2024", "caption": "京津冀协同发展深入推进"}
+    {
+      "url": "/images/cities/tianjin-608.jpg",
+      "year": "608",
+      "caption": "隋朝永济渠开凿，奠定天津水运枢纽地位"
+    },
+    {
+      "url": "/images/cities/tianjin-1153.jpg",
+      "year": "1153",
+      "caption": "金朝设置直沽寨，天津最早的军事建制"
+    },
+    {
+      "url": "/images/cities/tianjin-1404.jpg",
+      "year": "1404",
+      "caption": "永乐帝赐名天津，取\"天子渡津\"之意"
+    },
+    {
+      "url": "/images/cities/tianjin-1860.jpg",
+      "year": "1860",
+      "caption": "天津开埠通商，九国租界格局逐步形成"
+    },
+    {
+      "url": "/images/cities/tianjin-1870.jpg",
+      "year": "1870",
+      "caption": "天津教案，望海楼教堂事件震惊中外"
+    },
+    {
+      "url": "/images/cities/tianjin-1895.jpg",
+      "year": "1895",
+      "caption": "北洋大学堂创办，中国第一所现代大学"
+    },
+    {
+      "url": "/images/cities/tianjin-1900.jpg",
+      "year": "1900",
+      "caption": "八国联军占领天津，设立都统衙门"
+    },
+    {
+      "url": "/images/cities/tianjin-1949.jpg",
+      "year": "1949",
+      "caption": "天津解放，城市获得新生"
+    },
+    {
+      "url": "/images/cities/tianjin-1976.jpg",
+      "year": "1976",
+      "caption": "唐山大地震波及天津，城市重建"
+    },
+    {
+      "url": "/images/cities/tianjin-2008.jpg",
+      "year": "2008",
+      "caption": "京津城际高铁开通，中国高铁时代来临"
+    },
+    {
+      "url": "/images/cities/tianjin-2015.jpg",
+      "year": "2015",
+      "caption": "天津港\"8·12\"特大爆炸事故"
+    },
+    {
+      "url": "/images/cities/tianjin-2024.jpg",
+      "year": "2024",
+      "caption": "京津冀协同发展深入推进"
+    }
   ],
-  "relatedCities": ["tangshan", "baoding", "beijing", "shijiazhuang", "nanjing", "hangzhou"],
-  "relatedLocations": ["forbidden-city", "temple-of-heaven", "great-wall"]
+  "relatedCities": [
+    "tangshan",
+    "baoding",
+    "beijing",
+    "shijiazhuang",
+    "nanjing",
+    "hangzhou"
+  ],
+  "relatedLocations": [
+    "forbidden-city",
+    "temple-of-heaven",
+    "great-wall"
+  ],
+  "routes": [
+    "grand-canal"
+  ]
 }
