@@ -80,30 +80,6 @@ npm run dev
 | [Framer Motion](https://www.framer.com/motion/) | 动画效果 |
 | [Leaflet](https://leafletjs.com/) + [OpenStreetMap](https://www.openstreetmap.org/) | 地图展示 |
 
-## 📦 部署到 GitHub Pages
-
-### 前置条件
-
-1. 将代码推送到 GitHub 仓库 `what-happened-here`
-2. 进入仓库 Settings → Pages
-3. Source 选择 "GitHub Actions"
-
-### 自动部署
-
-推送代码到 `main` 分支后，GitHub Actions 会自动构建并部署。
-
-部署后访问：`https://your-username.github.io/what-happened-here`
-
-### 本地预览
-
-```bash
-# 构建静态文件
-npm run build
-
-# 本地预览（使用 serve）
-npx serve out
-```
-
 ## ➕ 添加新城市
 
 1. 在 `public/data/cities/` 下创建 `{city-id}.json`
