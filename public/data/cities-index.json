@@ -108,7 +108,7 @@
     "name": "Suzhou",
     "nameLocal": "苏州",
     "province": "江苏",
-    "coverImage": "/images/cities/suzhou.jpg",
+    "coverImage": "/images/cities/suzhou.webp",
     "summary": "苏州古称姑苏、吴中，是吴文化发祥地，素有「人间天堂」「园林之城」美誉。两千五百余年的建城史孕育了精致典雅的园林艺术与温婉细腻的江南文脉。"
   },
   {
@@ -156,7 +156,7 @@
     "name": "Yangzhou",
     "nameLocal": "扬州",
     "province": "江苏",
-    "coverImage": "/images/cities/yangzhou.jpg",
+    "coverImage": "/images/cities/yangzhou.webp",
     "summary": "古称广陵、江都，位于长江与京杭大运河交汇处，「烟花三月下扬州」闻名天下，运河文化与盐商文化交相辉映。"
   },
   {
