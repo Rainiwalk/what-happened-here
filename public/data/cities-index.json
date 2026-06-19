@@ -102,5 +102,85 @@
     "province": "重庆",
     "coverImage": "/images/cities/chongqing.jpg",
     "summary": "中国最年轻的直辖市，山城、雾都、火锅之都，抗战时期的陪都，长江上游的经济中心。"
+  },
+  {
+    "id": "suzhou",
+    "name": "Suzhou",
+    "nameLocal": "苏州",
+    "province": "江苏",
+    "coverImage": "/images/cities/suzhou.jpg",
+    "summary": "苏州古称姑苏、吴中，是吴文化发祥地，素有「人间天堂」「园林之城」美誉。两千五百余年的建城史孕育了精致典雅的园林艺术与温婉细腻的江南文脉。"
+  },
+  {
+    "id": "wuhan",
+    "name": "Wuhan",
+    "nameLocal": "武汉",
+    "province": "湖北",
+    "coverImage": "/images/cities/wuhan.jpg",
+    "summary": "九省通衢，辛亥首义之城，长江中游的千年重镇。武汉三镇合璧，黄鹤楼千古传唱，见证了中国近现代历史的重大转折。"
+  },
+  {
+    "id": "changsha",
+    "name": "Changsha",
+    "nameLocal": "长沙",
+    "province": "湖南",
+    "coverImage": "/images/cities/changsha.jpg",
+    "summary": "长沙是楚汉名城、湖湘文化之都，岳麓书院弦歌千年不绝，橘子洲头激扬文字，近代更以「敢为天下先」的精神书写了波澜壮阔的革命篇章。"
+  },
+  {
+    "id": "harbin",
+    "name": "Harbin",
+    "nameLocal": "哈尔滨",
+    "province": "黑龙江",
+    "coverImage": "/images/cities/harbin.jpg",
+    "summary": "哈尔滨被誉为「冰城」和「东方莫斯科」，融合了中西方文化，以其独特的冰雪文化、丰富的历史底蕴和多元的建筑风格闻名于世。"
+  },
+  {
+    "id": "kaifeng",
+    "name": "Kaifeng",
+    "nameLocal": "开封",
+    "province": "河南",
+    "coverImage": "/images/cities/kaifeng.jpg",
+    "summary": "八朝古都，北宋东京汴梁，曾是世界上最繁华的城市之一，因《清明上河图》名扬天下。"
+  },
+  {
+    "id": "quanzhou",
+    "name": "Quanzhou",
+    "nameLocal": "泉州",
+    "province": "福建",
+    "coverImage": "/images/cities/quanzhou.jpg",
+    "summary": "古代海上丝绸之路的起点，宋元时期被誉为「东方第一大港」，世界宗教博物馆，2021年列入世界文化遗产。"
+  },
+  {
+    "id": "yangzhou",
+    "name": "Yangzhou",
+    "nameLocal": "扬州",
+    "province": "江苏",
+    "coverImage": "/images/cities/yangzhou.jpg",
+    "summary": "古称广陵、江都，位于长江与京杭大运河交汇处，「烟花三月下扬州」闻名天下，运河文化与盐商文化交相辉映。"
+  },
+  {
+    "id": "qingdao",
+    "name": "Qingdao",
+    "nameLocal": "青岛",
+    "province": "山东",
+    "coverImage": "/images/cities/qingdao.jpg",
+    "summary": "因海而生、因港而兴，从齐国即墨重镇到近代欧韵港城，再到现代帆船之都与啤酒之城，海洋文明与时代浪潮交织的传奇城市。"
+  },
+  {
+    "id": "lasa",
+    "name": "Lhasa",
+    "nameLocal": "拉萨",
+    "province": "西藏",
+    "coverImage": "/images/cities/lasa.jpg",
+    "summary": "西藏自治区首府，被誉为「日光城」，藏传佛教圣地，拥有1300多年建城史，布达拉宫举世闻名。"
+  },
+  {
+    "id": "dunhuang",
+    "name": "Dunhuang",
+    "nameLocal": "敦煌",
+    "province": "甘肃",
+    "coverImage": "/images/cities/dunhuang.jpg",
+    "summary": "古称沙洲，丝绸之路上的璀璨明珠，以莫高窟壁画和飞天艺术享誉世界，自汉代设郡以来便是东西方文明交汇的重要枢纽。"
   }
 ]

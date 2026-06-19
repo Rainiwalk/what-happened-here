@@ -170,7 +170,7 @@ npm run lint     # Run ESLint
 - **Image paths:** All image paths in JSON data files are relative (e.g., `/images/cities/xxx.jpg`), components use `getPath()` from `@/lib/utils` to add the basePath prefix.
 - **JSON format:** City JSON files contain Chinese text. Ensure Chinese quotes use proper Unicode characters (`"..."`) not ASCII double quotes (`"..."`) inside string values.
 
-## Current Cities (13 total)
+## Current Cities (23 total)
 
 - `tangshan` - 唐山, 河北 (30 events: ancient → modern)
 - `baoding` - 保定, 河北 (30 events: ancient → modern)
@@ -185,6 +185,16 @@ npm run lint     # Run ESLint
 - `guangzhou` - 广州, 广东 (30 events: ancient → modern)
 - `shenzhen` - 深圳, 广东 (30 events: ancient → modern)
 - `chongqing` - 重庆, 重庆 (30 events: ancient → modern)
+- `suzhou` - 苏州, 江苏 (30 events: ancient → modern)
+- `wuhan` - 武汉, 湖北 (30 events: ancient → modern)
+- `changsha` - 长沙, 湖南 (30 events: ancient → modern)
+- `harbin` - 哈尔滨, 黑龙江 (30 events: ancient → modern)
+- `kaifeng` - 开封, 河南 (30 events: ancient → modern)
+- `quanzhou` - 泉州, 福建 (30 events: ancient → modern)
+- `yangzhou` - 扬州, 江苏 (30 events: ancient → modern)
+- `qingdao` - 青岛, 山东 (30 events: ancient → modern)
+- `lasa` - 拉萨, 西藏 (30 events: ancient → modern)
+- `dunhuang` - 敦煌, 甘肃 (30 events: ancient → modern)
 
 ## Privacy Rule
 
