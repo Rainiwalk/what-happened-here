@@ -1,5 +1,29 @@
 [
   {
+    "id": "xian",
+    "name": "Xi'an",
+    "nameLocal": "西安",
+    "province": "陕西",
+    "coverImage": "/images/cities/xian.webp",
+    "summary": "古称长安，十三朝古都，丝绸之路的起点，秦始皇兵马俑所在地，中华文明的重要发祥地。"
+  },
+  {
+    "id": "nanjing",
+    "name": "Nanjing",
+    "nameLocal": "南京",
+    "province": "江苏",
+    "coverImage": "/images/cities/nanjing.webp",
+    "summary": "六朝古都、十朝都会，民国首都，见证了中国近现代历史的重大转折。"
+  },
+  {
+    "id": "hangzhou",
+    "name": "Hangzhou",
+    "nameLocal": "杭州",
+    "province": "浙江",
+    "coverImage": "/images/cities/hangzhou.webp",
+    "summary": "南宋都城，西湖所在地，'上有天堂，下有苏杭'，数字经济领先全国的创新之城。"
+  },
+  {
     "id": "tangshan",
     "name": "Tangshan",
     "nameLocal": "唐山",
@@ -24,36 +48,12 @@
     "summary": "天津因天子渡津而得名，近代开埠后成为九国租界，中西文化交融，是近代中国工业化的先驱城市。"
   },
   {
-    "id": "xian",
-    "name": "Xi'an",
-    "nameLocal": "西安",
-    "province": "陕西",
-    "coverImage": "/images/cities/xian.webp",
-    "summary": "古称长安，十三朝古都，丝绸之路的起点，秦始皇兵马俑所在地，中华文明的重要发祥地。"
-  },
-  {
-    "id": "nanjing",
-    "name": "Nanjing",
-    "nameLocal": "南京",
-    "province": "江苏",
-    "coverImage": "/images/cities/nanjing.webp",
-    "summary": "六朝古都、十朝都会，民国首都，见证了中国近现代历史的重大转折。"
-  },
-  {
     "id": "chengdu",
     "name": "Chengdu",
     "nameLocal": "成都",
     "province": "四川",
     "coverImage": "/images/cities/chengdu.webp",
     "summary": "天府之国的核心，三国蜀汉都城，大熊猫故乡，联合国授予的'美食之都'。"
-  },
-  {
-    "id": "hangzhou",
-    "name": "Hangzhou",
-    "nameLocal": "杭州",
-    "province": "浙江",
-    "coverImage": "/images/cities/hangzhou.webp",
-    "summary": "南宋都城，西湖所在地，'上有天堂，下有苏杭'，数字经济领先全国的创新之城。"
   },
   {
     "id": "luoyang",
