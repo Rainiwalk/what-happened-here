@@ -238,5 +238,77 @@
     "province": "陕西",
     "coverImage": "/images/cities/yanan.webp",
     "summary": "中国革命圣地，黄帝陵所在地，延安精神的发源地，从红色热土到现代化城市的蜕变。"
+  },
+  {
+    "id": "shijiazhuang",
+    "name": "Shijiazhuang",
+    "nameLocal": "石家庄",
+    "province": "河北",
+    "coverImage": "/images/cities/shijiazhuang.webp",
+    "summary": "河北省会，因正太铁路而兴的年轻城市，正定古城所在地，华北重要的交通枢纽和生物医药产业基地。"
+  },
+  {
+    "id": "handan",
+    "name": "Handan",
+    "nameLocal": "邯郸",
+    "province": "河北",
+    "coverImage": "/images/cities/handan.webp",
+    "summary": "赵国古都，中国成语典故之都，三千年建城史从未改名，磁州窑和响堂山石窟见证千年文化传承。"
+  },
+  {
+    "id": "chengde",
+    "name": "Chengde",
+    "nameLocal": "承德",
+    "province": "河北",
+    "coverImage": "/images/cities/chengde.webp",
+    "summary": "清代夏都，避暑山庄和外八庙所在地，世界文化遗产城市，多民族融合的历史见证。"
+  },
+  {
+    "id": "qinhuangdao",
+    "name": "Qinhuangdao",
+    "nameLocal": "秦皇岛",
+    "province": "河北",
+    "coverImage": "/images/cities/qinhuangdao.webp",
+    "summary": "秦始皇东巡求仙之地，山海关天下第一关，长城入海处老龙头，北戴河避暑胜地。"
+  },
+  {
+    "id": "zhangjiakou",
+    "name": "Zhangjiakou",
+    "nameLocal": "张家口",
+    "province": "河北",
+    "coverImage": "/images/cities/zhangjiakou.webp",
+    "summary": "长城要塞，蒙汉通商口岸，京张铁路终点，2022年冬奥会举办地，从军事重镇到冰雪之城。"
+  },
+  {
+    "id": "cangzhou",
+    "name": "Cangzhou",
+    "nameLocal": "沧州",
+    "province": "河北",
+    "coverImage": "/images/cities/cangzhou.webp",
+    "summary": "武术之乡，铁狮子故里，吴桥杂技名扬天下，大运河畔的千年古城。"
+  },
+  {
+    "id": "langfang",
+    "name": "Langfang",
+    "nameLocal": "廊坊",
+    "province": "河北",
+    "coverImage": "/images/cities/langfang.webp",
+    "summary": "京津走廊，义和团廊坊大捷发生地，京津冀协同发展的前沿阵地。"
+  },
+  {
+    "id": "hengshui",
+    "name": "Hengshui",
+    "nameLocal": "衡水",
+    "province": "河北",
+    "coverImage": "/images/cities/hengshui.webp",
+    "summary": "冀州古地，九州之首，衡水湖国家级自然保护区，衡水老白干酒香飘千年。"
+  },
+  {
+    "id": "xingtai",
+    "name": "Xingtai",
+    "nameLocal": "邢台",
+    "province": "河北",
+    "coverImage": "/images/cities/xingtai.webp",
+    "summary": "商代古都，五朝定都之地，三千年建城史，郭守敬故里，邢窑白瓷名扬天下。"
   }
 ]
