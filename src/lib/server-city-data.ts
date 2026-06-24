@@ -12,6 +12,13 @@ export function getAllCitiesSync(): CitySummary[] {
 }
 
 /**
+ * 获取精选城市列表（首页展示）
+ */
+export function getFeaturedCitiesSync(): CitySummary[] {
+  return getAllCitiesSync().filter((city) => city.featured);
+}
+
+/**
  * 根据 ID 获取城市详情（服务端使用）
  */
 export function getCityByIdSync(id: string): City {

@@ -30,10 +30,10 @@ export default function Header() {
               首页
             </Link>
             <Link
-              href="/#cities"
+              href="/cities"
               className="text-sm text-amber-600 hover:text-amber-700 font-medium transition-colors"
             >
-              🏙️ 城市时间线
+              🏙️ 全部城市
             </Link>
             <a
               href="https://github.com/Rainiwalk/what-happened-here"

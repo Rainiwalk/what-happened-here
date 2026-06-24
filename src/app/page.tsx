@@ -1,14 +1,14 @@
 import HeroSection from "@/components/HeroSection";
 import FeaturedCities from "@/components/FeaturedCities";
-import { getAllCitiesSync } from "@/lib/server-city-data";
+import { getFeaturedCitiesSync } from "@/lib/server-city-data";
 
 export default function Home() {
-  const cities = getAllCitiesSync();
+  const featuredCities = getFeaturedCitiesSync();
 
   return (
     <>
-      <HeroSection cities={cities} />
-      <FeaturedCities cities={cities} />
+      <HeroSection cities={featuredCities} />
+      <FeaturedCities cities={featuredCities} />
     </>
   );
 }

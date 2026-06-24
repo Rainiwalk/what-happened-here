@@ -30,6 +30,7 @@ export interface CitySummary {
   province: string;
   coverImage: string;
   summary: string;
+  featured?: boolean;
 }
 
 // 历史通道相关类型
