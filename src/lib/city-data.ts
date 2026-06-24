@@ -51,21 +51,44 @@ export async function searchCities(query: string): Promise<CitySummary[]> {
 
 /**
  * 获取相关城市
+ * 优先使用 JSON 中指定的 relatedCities，不足 3 个时用同省份城市补充
  */
 export async function getRelatedCities(
   currentId: string,
-  province: string
+  province: string,
+  relatedIds?: string[]
 ): Promise<CitySummary[]> {
   const cities = await getAllCities();
+  const result: CitySummary[] = [];
 
-  return cities
-    .filter((city) => city.id !== currentId)
-    .sort((a, b) => {
-      if (a.province === province && b.province !== province) return -1;
-      if (a.province !== province && b.province === province) return 1;
-      return 0;
-    })
-    .slice(0, 3);
+  // 优先从 relatedCities 中取
+  if (relatedIds && relatedIds.length > 0) {
+    for (const rid of relatedIds) {
+      if (result.length >= 3) break;
+      const found = cities.find((c) => c.id === rid && c.id !== currentId);
+      if (found) result.push(found);
+    }
+  }
+
+  // 不足 3 个时用同省份城市补充
+  if (result.length < 3) {
+    const existingIds = new Set([currentId, ...result.map((c) => c.id)]);
+    const fillers = cities
+      .filter((c) => !existingIds.has(c.id) && c.province === province)
+      .slice(0, 3 - result.length);
+    result.push(...fillers);
+  }
+
+  // 还不够则用其他城市补充
+  if (result.length < 3) {
+    const existingIds = new Set([currentId, ...result.map((c) => c.id)]);
+    const fillers = cities
+      .filter((c) => !existingIds.has(c.id))
+      .slice(0, 3 - result.length);
+    result.push(...fillers);
+  }
+
+  return result;
 }
 
 // 客户端路由缓存

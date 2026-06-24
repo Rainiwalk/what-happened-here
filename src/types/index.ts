@@ -9,12 +9,6 @@ export interface CityTimelineEvent {
   image?: string;
 }
 
-export interface HistoricalImage {
-  url: string;
-  year: string;
-  caption?: string;
-}
-
 export interface City {
   id: string;
   name: string;
@@ -26,7 +20,6 @@ export interface City {
   description: string;
   coverImage: string;
   timeline: CityTimelineEvent[];
-  images: HistoricalImage[];
   relatedCities?: string[];
 }
 

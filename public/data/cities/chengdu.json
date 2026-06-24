@@ -190,53 +190,6 @@
       "description": "2023年成都世界大学生夏季运动会成功举办。成都向世界展示了现代化国际大都市的风采，大运村和场馆成为城市发展新地标。"
     }
   ],
-  "images": [
-    {
-      "url": "/images/cities/chengdu-316.webp",
-      "year": "316",
-      "caption": "秦国灭蜀"
-    },
-    {
-      "url": "/images/cities/chengdu-256.webp",
-      "year": "256",
-      "caption": "都江堰"
-    },
-    {
-      "url": "/images/cities/chengdu-221.webp",
-      "year": "221",
-      "caption": "蜀汉建立"
-    },
-    {
-      "url": "/images/cities/chengdu-759.webp",
-      "year": "759",
-      "caption": "杜甫草堂"
-    },
-    {
-      "url": "/images/cities/chengdu-1023.webp",
-      "year": "1023",
-      "caption": "交子诞生"
-    },
-    {
-      "url": "/images/cities/chengdu-1911.webp",
-      "year": "1911",
-      "caption": "保路运动"
-    },
-    {
-      "url": "/images/cities/chengdu-2001.webp",
-      "year": "2001",
-      "caption": "青城山—都江堰申遗成功"
-    },
-    {
-      "url": "/images/cities/chengdu-2010.webp",
-      "year": "2010",
-      "caption": "联合国美食之都"
-    },
-    {
-      "url": "/images/cities/chengdu.webp",
-      "year": "2024",
-      "caption": "现代成都城市风貌"
-    }
-  ],
   "relatedCities": [
     "xian",
     "nanjing",

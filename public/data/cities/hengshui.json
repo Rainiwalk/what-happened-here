@@ -3,7 +3,7 @@
   "name": "Hengshui",
   "nameLocal": "衡水",
   "province": "Hebei",
-  "lat": 37.7350,
+  "lat": 37.735,
   "lng": 115.6701,
   "summary": "冀州古地，衡水湖所在地，衡水老白干闻名",
   "description": "衡水地处河北省东南部，是古冀州的核心区域。冀州为古九州之首，文化底蕴极为深厚。汉代冀州治所即在今衡水一带，是华北地区的政治文化中心。衡水湖是华北平原最大的淡水湿地，被誉为\"京南第一湖\"。衡水老白干酿酒历史可追溯至汉代，明代已负盛名，是中华老字号品牌。近代以来，衡水以农业为主，土地肥沃，物产丰富。进入当代，衡水中学以卓越的教育质量闻名全国，衡水也大力发展生态经济，建设宜居宜业的现代化城市。",
@@ -188,58 +188,6 @@
       "era": "contemporary",
       "title": "衡水建设生态宜居现代化城市",
       "description": "衡水深入推进生态文明建设，衡水湖生态环境持续改善，城市基础设施不断完善。衡水正加快建设生态宜居的现代化城市，打造京津冀协同发展新高地。"
-    }
-  ],
-  "images": [
-    {
-      "url": "/images/cities/hengshui-ancient.webp",
-      "year": "前2200",
-      "caption": "古冀州九州之首示意图"
-    },
-    {
-      "url": "/images/cities/hengshui-han.webp",
-      "year": "前106",
-      "caption": "汉代冀州治所遗址"
-    },
-    {
-      "url": "/images/cities/hengshui-sui.webp",
-      "year": "596",
-      "caption": "隋代衡水县设立"
-    },
-    {
-      "url": "/images/cities/hengshui-brewing.webp",
-      "year": "1510",
-      "caption": "明代衡水老白干酿酒作坊"
-    },
-    {
-      "url": "/images/cities/hengshui-resistance.webp",
-      "year": "1938",
-      "caption": "冀南抗日根据地军民"
-    },
-    {
-      "url": "/images/cities/hengshui-lake.webp",
-      "year": "1970",
-      "caption": "衡水湖湿地蓄水建设"
-    },
-    {
-      "url": "/images/cities/hengshui-city.webp",
-      "year": "1996",
-      "caption": "衡水撤地设市庆祝大会"
-    },
-    {
-      "url": "/images/cities/hengshui-school.webp",
-      "year": "2000",
-      "caption": "衡水中学教学场景"
-    },
-    {
-      "url": "/images/cities/hengshui-marathon.webp",
-      "year": "2017",
-      "caption": "衡水湖国际马拉松赛"
-    },
-    {
-      "url": "/images/cities/hengshui-modern.webp",
-      "year": "2025",
-      "caption": "生态宜居的现代化衡水"
     }
   ],
   "relatedCities": [

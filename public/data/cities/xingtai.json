@@ -190,58 +190,6 @@
       "description": "邢台深入推进产业转型升级，加快城市基础设施建设，提升公共服务水平。邢台正加快建设\"太行泉城、美丽邢台\"，朝着现代化品质之城的目标迈进。"
     }
   ],
-  "images": [
-    {
-      "url": "/images/cities/xingtai-shang.webp",
-      "year": "前1388",
-      "caption": "商代祖乙迁都于邢"
-    },
-    {
-      "url": "/images/cities/xingtai-xingguo.webp",
-      "year": "前1046",
-      "caption": "周代邢国古城遗址"
-    },
-    {
-      "url": "/images/cities/xingtai-julu.webp",
-      "year": "前207",
-      "caption": "巨鹿之战古战场"
-    },
-    {
-      "url": "/images/cities/xingtai-porcelain.webp",
-      "year": "621",
-      "caption": "唐代邢窑白瓷器"
-    },
-    {
-      "url": "/images/cities/xingtai-guoshoujing.webp",
-      "year": "1232",
-      "caption": "元代科学家郭守敬塑像"
-    },
-    {
-      "url": "/images/cities/xingtai-ancient.webp",
-      "year": "1368",
-      "caption": "明代顺德府城门"
-    },
-    {
-      "url": "/images/cities/xingtai-resistance.webp",
-      "year": "1938",
-      "caption": "冀西抗日根据地军民"
-    },
-    {
-      "url": "/images/cities/xingtai-earthquake.webp",
-      "year": "1966",
-      "caption": "1966年邢台大地震"
-    },
-    {
-      "url": "/images/cities/xingtai-solar.webp",
-      "year": "2005",
-      "caption": "邢台光伏产业基地"
-    },
-    {
-      "url": "/images/cities/xingtai-modern.webp",
-      "year": "2025",
-      "caption": "现代化邢台城市风貌"
-    }
-  ],
   "relatedCities": [
     "tangshan",
     "baoding",

@@ -36,7 +36,7 @@ export default async function CityPage({ params }: CityPageProps) {
   const routes = getRoutesForCity(id);
   const forces = getForcesForCity(id);
   const allCities = getAllCitiesSync();
-  const relatedCities = getRelatedCitiesSync(id, city.province);
+  const relatedCities = getRelatedCitiesSync(id, city.province, city.relatedCities);
 
   // 只传递路线中涉及的城市，而非全部30个
   const routeCityIds = new Set(routes.flatMap((r) => r.cities));

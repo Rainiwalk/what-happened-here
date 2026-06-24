@@ -3,7 +3,7 @@
   "name": "Zhangjiakou",
   "nameLocal": "张家口",
   "province": "Hebei",
-  "lat": 40.7670,
+  "lat": 40.767,
   "lng": 114.8869,
   "summary": "长城要塞，蒙汉通商口岸，2022冬奥会举办地",
   "description": "张家口地处河北省西北部，北靠蒙古高原，南接华北平原，是连接中原与塞外的咽喉要地。自古以来，张家口就是汉族与北方游牧民族交往的重要通道和军事重镇。明代在此修筑张家口堡，成为长城九边重镇之一。清代张家口发展为蒙汉贸易的重要口岸，是北方著名的'陆路商埠'。詹天佑修建的京张铁路是中国第一条自主设计施工的铁路干线，彰显了中国人的智慧与志气。2022年，张家口与北京联合举办冬奥会，崇礼赛区成为世界瞩目的冰雪运动圣地，张家口由此走向世界舞台。",
@@ -188,58 +188,6 @@
       "era": "contemporary",
       "title": "北京冬奥会成功举办，张家口崇礼惊艳世界",
       "description": "2022年2月，北京冬奥会成功举办，张家口崇礼赛区承办了自由式滑雪、单板滑雪、冬季两项等多项赛事。崇礼的冰雪场馆和自然环境获得国际社会高度赞誉。"
-    }
-  ],
-  "images": [
-    {
-      "url": "/images/cities/zhangjiakou-1429.webp",
-      "year": "1429",
-      "caption": "张家口堡始建"
-    },
-    {
-      "url": "/images/cities/zhangjiakou-1571.webp",
-      "year": "1571",
-      "caption": "蒙汉茶马互市"
-    },
-    {
-      "url": "/images/cities/zhangjiakou-1909.webp",
-      "year": "1909",
-      "caption": "京张铁路建成通车"
-    },
-    {
-      "url": "/images/cities/zhangjiakou-renzigou.webp",
-      "year": "1909",
-      "caption": "詹天佑设计的人字形铁路"
-    },
-    {
-      "url": "/images/cities/zhangjiakou-1933.webp",
-      "year": "1933",
-      "caption": "察哈尔民众抗日同盟军"
-    },
-    {
-      "url": "/images/cities/zhangjiakou-1945.webp",
-      "year": "1945",
-      "caption": "八路军解放张家口"
-    },
-    {
-      "url": "/images/cities/zhangjiakou-chongli.webp",
-      "year": "2003",
-      "caption": "崇礼滑雪场建设"
-    },
-    {
-      "url": "/images/cities/zhangjiakou-2019.webp",
-      "year": "2019",
-      "caption": "京张高铁通车"
-    },
-    {
-      "url": "/images/cities/zhangjiakou-2022.webp",
-      "year": "2022",
-      "caption": "北京冬奥会崇礼赛区"
-    },
-    {
-      "url": "/images/cities/zhangjiakou-modern.webp",
-      "year": "2022",
-      "caption": "现代化张家口城市新貌"
     }
   ],
   "relatedCities": [

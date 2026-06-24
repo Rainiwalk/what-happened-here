@@ -178,53 +178,6 @@
       "description": "2023年杭州第19届亚洲运动会成功举办。杭州向世界展示了数字之城、创新之城的风采，亚运场馆和基础设施成为城市发展新动力。"
     }
   ],
-  "images": [
-    {
-      "url": "/images/cities/hangzhou-589.webp",
-      "year": "589",
-      "caption": "隋代杭州"
-    },
-    {
-      "url": "/images/cities/hangzhou-781.webp",
-      "year": "781",
-      "caption": "白居易治理西湖"
-    },
-    {
-      "url": "/images/cities/hangzhou-907.webp",
-      "year": "907",
-      "caption": "吴越国杭州"
-    },
-    {
-      "url": "/images/cities/hangzhou-1127.webp",
-      "year": "1127",
-      "caption": "南宋临安"
-    },
-    {
-      "url": "/images/cities/hangzhou-1929.webp",
-      "year": "1929",
-      "caption": "西湖博览会"
-    },
-    {
-      "url": "/images/cities/hangzhou-2011.webp",
-      "year": "2011",
-      "caption": "西湖申遗成功"
-    },
-    {
-      "url": "/images/cities/hangzhou-2016.webp",
-      "year": "2016",
-      "caption": "G20峰会"
-    },
-    {
-      "url": "/images/cities/hangzhou-2022.webp",
-      "year": "2022",
-      "caption": "杭州亚运会"
-    },
-    {
-      "url": "/images/cities/hangzhou.webp",
-      "year": "2024",
-      "caption": "现代杭州城市风貌"
-    }
-  ],
   "relatedCities": [
     "nanjing",
     "xian",

@@ -190,58 +190,6 @@
       "description": "2023年5月，中国—中亚峰会在西安成功举办。作为古丝绸之路的起点，西安再次成为中国与中亚国家交流合作的重要平台，续写丝路新篇章。"
     }
   ],
-  "images": [
-    {
-      "url": "/images/cities/xian-221.webp",
-      "year": "221",
-      "caption": "秦统一六国"
-    },
-    {
-      "url": "/images/cities/xian-138.webp",
-      "year": "138",
-      "caption": "张骞出使西域"
-    },
-    {
-      "url": "/images/cities/xian-618.webp",
-      "year": "618",
-      "caption": "唐代长安城"
-    },
-    {
-      "url": "/images/cities/xian-652.webp",
-      "year": "652",
-      "caption": "大雁塔"
-    },
-    {
-      "url": "/images/cities/xian-712.webp",
-      "year": "712",
-      "caption": "开元盛世长安"
-    },
-    {
-      "url": "/images/cities/xian-1369.webp",
-      "year": "1369",
-      "caption": "明代西安城墙"
-    },
-    {
-      "url": "/images/cities/xian-1936.webp",
-      "year": "1936",
-      "caption": "西安事变"
-    },
-    {
-      "url": "/images/cities/xian-1974.webp",
-      "year": "1974",
-      "caption": "秦始皇兵马俑"
-    },
-    {
-      "url": "/images/cities/xian-2014.webp",
-      "year": "2014",
-      "caption": "丝绸之路申遗成功"
-    },
-    {
-      "url": "/images/cities/xian.webp",
-      "year": "2024",
-      "caption": "现代西安城市风貌"
-    }
-  ],
   "relatedCities": [
     "nanjing",
     "luoyang",

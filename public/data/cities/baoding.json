@@ -196,58 +196,6 @@
       "description": "保定在京津冀协同发展战略引领下，产业转型升级加快，科技创新能力增强，城市综合竞争力不断提升，正朝着现代化品质生活之城的目标迈进。"
     }
   ],
-  "images": [
-    {
-      "url": "/images/cities/baoding-ancient.webp",
-      "year": "1213",
-      "caption": "元代保定古城复原图"
-    },
-    {
-      "url": "/images/cities/baoding-lotus.webp",
-      "year": "1227",
-      "caption": "古莲花池八百年历史遗迹"
-    },
-    {
-      "url": "/images/cities/baoding-governor.webp",
-      "year": "1669",
-      "caption": "直隶总督署旧址"
-    },
-    {
-      "url": "/images/cities/baoding-academy.webp",
-      "year": "1903",
-      "caption": "保定陆军军官学校校门"
-    },
-    {
-      "url": "/images/cities/baoding-baigandian.webp",
-      "year": "1938",
-      "caption": "白洋淀抗日根据地"
-    },
-    {
-      "url": "/images/cities/baoding-liberation.webp",
-      "year": "1948",
-      "caption": "保定解放时的欢庆场景"
-    },
-    {
-      "url": "/images/cities/baoding-capital.webp",
-      "year": "1949",
-      "caption": "新中国成立初期的保定城"
-    },
-    {
-      "url": "/images/cities/baoding-solar.webp",
-      "year": "2005",
-      "caption": "保定中国电谷太阳能产业基地"
-    },
-    {
-      "url": "/images/cities/baoding-xiongan.webp",
-      "year": "2017",
-      "caption": "雄安新区规划示意图"
-    },
-    {
-      "url": "/images/cities/baoding-modern.webp",
-      "year": "2025",
-      "caption": "保定现代化城市新貌"
-    }
-  ],
   "relatedCities": [
     "tangshan",
     "tianjin",
