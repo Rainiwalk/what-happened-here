@@ -54,14 +54,7 @@ export default function CitySearchBar() {
   return (
     <div ref={searchRef} className="relative w-full max-w-xl mx-auto">
       <div className="relative">
-        <input
-          type="text"
-          value={query}
-          onChange={(e) => setQuery(e.target.value)}
-          placeholder="搜索城市... (如：唐山、保定、天津)"
-          className="w-full px-5 py-4 text-lg rounded-full border-2 border-amber-200 focus:border-amber-500 focus:outline-none focus:ring-2 focus:ring-amber-200 transition-all shadow-sm"
-        />
-        <div className="absolute right-4 top-1/2 -translate-y-1/2 text-gray-400">
+        <div className="absolute left-5 top-1/2 -translate-y-1/2 text-gray-400">
           {isSearching ? (
             <motion.div
               animate={{ rotate: 360 }}
@@ -84,6 +77,13 @@ export default function CitySearchBar() {
             </svg>
           )}
         </div>
+        <input
+          type="text"
+          value={query}
+          onChange={(e) => setQuery(e.target.value)}
+          placeholder="搜索城市... (如：唐山、保定、天津)"
+          className="w-full pl-13 pr-5 py-4 text-lg rounded-2xl bg-white/60 backdrop-blur-md border border-white/80 shadow-lg shadow-amber-100/40 focus:bg-white/80 focus:outline-none focus:ring-2 focus:ring-amber-300/50 focus:shadow-xl transition-all"
+        />
       </div>
 
       <AnimatePresence>

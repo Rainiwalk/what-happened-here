@@ -11,7 +11,7 @@ interface HeroSectionProps {
 
 export default function HeroSection({ cities }: HeroSectionProps) {
   return (
-    <section className="relative min-h-[85vh] flex items-end justify-center bg-gradient-to-br from-amber-50 via-white to-orange-50 pt-20 pb-16">
+    <section className="relative min-h-[85vh] flex items-center justify-center bg-gradient-to-br from-amber-50 via-white to-orange-50 pt-20 pb-16">
       {/* Background decoration */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute -top-40 -right-40 w-80 h-80 bg-amber-100 rounded-full blur-3xl opacity-50" />
@@ -28,14 +28,11 @@ export default function HeroSection({ cities }: HeroSectionProps) {
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
             5分钟，了解一座城
           </h1>
-          <p className="mt-6 text-lg sm:text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed">
-            来到一座陌生城市，
-            <br />
-            为什么这里叫这个名字？
-            <br />
-            这座城市经历了什么才变成今天这样？
-            <br />
-            <span className="text-amber-600 font-medium">用5分钟时间线，看懂一座城市的前世今生。</span>
+          <p className="mt-6 text-lg sm:text-xl text-gray-600 max-w-2xl mx-auto space-y-3">
+            <span className="block">来到一座陌生城市，</span>
+            <span className="block">为什么这里叫这个名字？</span>
+            <span className="block">这座城市经历了什么才变成今天这样？</span>
+            <span className="block text-amber-600 font-medium">用5分钟时间线，看懂一座城市的前世今生。</span>
           </p>
         </motion.div>
 
